@@ -1,0 +1,37 @@
+{
+  "dev_cases": 12,
+  "formal_candidate_cases": 120,
+  "formal_factorial_cells": 120,
+  "dev_families": 6,
+  "formal_families": 15,
+  "authorization_pairs": 66,
+  "formal_pairs": 60,
+  "g4": {
+    "archived_real_successes": 48,
+    "raw_hashes_expected": 12,
+    "raw_hashes_verified_locally": 12
+  },
+  "dev_mock_counts": {
+    "ok": 36,
+    "failed": 0,
+    "attempts": 36,
+    "planned": 36,
+    "unattempted": 0
+  },
+  "paid_calls": 0,
+  "semantic_status": "NOT_RUN",
+  "eligible_units_per_architecture_per_repeat": {
+    "dev": {
+      "U": 6,
+      "L": 12,
+      "R": 6,
+      "X": 1
+    },
+    "formal_candidate": {
+      "U": 60,
+      "L": 120,
+      "R": 60,
+      "X": 12
+    }
+  }
+}

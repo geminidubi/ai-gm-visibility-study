@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.2",
+  "dataset_version": "g5-candidate-v0.2",
+  "mode": "dev",
+  "split": "dev",
+  "cases_path": "data/g5/dev_cases.jsonl",
+  "prompt_dir": "prompts",
+  "provider": "mock",
+  "architectures": [
+    "C0",
+    "C1",
+    "C2"
+  ],
+  "repeats": 1,
+  "top_k": 10,
+  "retrieval": "clause_bm25_v1",
+  "history_policy": "fixed_audience_source_time_v2",
+  "max_attempts": 1,
+  "mock_mode": "echo",
+  "paid_calls_enabled": false,
+  "budget_usd": null,
+  "formal_approved": false
+}

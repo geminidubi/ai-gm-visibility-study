@@ -1,0 +1,76 @@
+{
+  "schema_version": "0.1",
+  "world_id": "DEV_W001",
+  "revision": 1,
+  "actors": [
+    "PLAYER_A",
+    "PLAYER_B"
+  ],
+  "entities": [
+    {
+      "entity_id": "Nora"
+    },
+    {
+      "entity_id": "letter_01"
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "F001",
+      "content": "Nora 是村裡的醫師。",
+      "entities": [
+        "Nora"
+      ],
+      "initial_readers": [
+        "PUBLIC"
+      ],
+      "reveal_rule_ids": [],
+      "source_ref": "handoff-v1:04"
+    },
+    {
+      "fact_id": "F002",
+      "content": "Nora 房間裡有一封密封信件。",
+      "entities": [
+        "Nora",
+        "letter_01"
+      ],
+      "initial_readers": [
+        "PUBLIC"
+      ],
+      "reveal_rule_ids": [],
+      "source_ref": "handoff-v1:04"
+    },
+    {
+      "fact_id": "F003",
+      "content": "Nora 是秘密組織的成員。",
+      "entities": [
+        "Nora"
+      ],
+      "initial_readers": [
+        "GM"
+      ],
+      "reveal_rule_ids": [
+        "R001"
+      ],
+      "source_ref": "handoff-v1:04"
+    }
+  ],
+  "reveal_rules": [
+    {
+      "rule_id": "R001",
+      "event_type": "read_document",
+      "target_id": "letter_01",
+      "required_outcome": "success",
+      "grant_fact_ids": [
+        "F003"
+      ],
+      "recipient": "event_actor",
+      "requires_fact_ids": [
+        "F002"
+      ]
+    }
+  ],
+  "source_manifest": [
+    "handoff-v1:04"
+  ]
+}

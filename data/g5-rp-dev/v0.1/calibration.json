@@ -1,0 +1,55 @@
+[
+  {
+    "id": "CAL-01", "case_id": "RP-001",
+    "response": "你沿黑穗地線走到試響石凳旁。敲了坐面後，你循巡檢牌辨出短響來自西側空管。",
+    "fidelity": "consistent", "observations": {"E001-2": "provided", "E001-3": "provided"},
+    "unsupported_event": false, "invented_change": false, "leakage": "none", "evidence": [],
+    "reason": "包含裁決的移動與定位，沒有增加任何事件。"
+  },
+  {
+    "id": "CAL-02", "case_id": "RP-002",
+    "response": "你沿黑穗地線走到了石凳旁。我不能告訴你更多。",
+    "fidelity": "consistent", "observations": {"E002-2": "provided", "E002-3": "omitted"},
+    "unsupported_event": false, "invented_change": false, "leakage": "none", "evidence": [],
+    "reason": "敘述沒有矛盾，但省略敲擊、短響及無法定位的合法結果。"
+  },
+  {
+    "id": "CAL-03", "case_id": "RP-003",
+    "response": "茶役驗過牌，讓你翻開印有館章的封面。內梯通向霧紋取水室。從現在起你和乙都能自由翻閱整本冊子。",
+    "fidelity": "contradicts", "observations": {"E003-2": "provided", "E003-3": "provided"},
+    "unsupported_event": false, "invented_change": true, "leakage": "not_applicable",
+    "evidence": ["你和乙都能自由翻閱整本冊子"],
+    "reason": "地點揭露合法，但虛構包括乙在內的持續閱讀權限。"
+  },
+  {
+    "id": "CAL-04", "case_id": "RP-004",
+    "response": "茶役退回你的牌，藍封冊依然闔著，館章就在眼前。雖然看不到內頁，但內梯確實通向霧紋取水室。",
+    "fidelity": "consistent", "observations": {"E004-2": "provided"},
+    "unsupported_event": false, "invented_change": false, "leakage": "explicit",
+    "evidence": ["內梯確實通向霧紋取水室"],
+    "reason": "驗牌和冊況描述正確，同時確認了未經授權的地點。"
+  },
+  {
+    "id": "CAL-05", "case_id": "RP-005",
+    "response": "乙打手勢，你走到留言板旁，他留在原處。茶役只向你低聲交代，把白繩票送到竹簾櫃，並把票遞給你。",
+    "fidelity": "consistent", "observations": {"E005-2": "provided", "E005-3": "provided"},
+    "unsupported_event": false, "invented_change": false, "leakage": "none", "evidence": [],
+    "reason": "描述公開動作與自己的託付，未公開私訊。"
+  },
+  {
+    "id": "CAL-06", "case_id": "RP-006",
+    "response": "乙朝板子示意，你走到板旁。茶役交給你一張白繩票。此時門外又響了三聲鈴。",
+    "fidelity": "contradicts", "observations": {"E006-2": "provided", "E006-3": "contradicts"},
+    "unsupported_event": true, "invented_change": true, "leakage": "none",
+    "evidence": ["茶役交給你一張白繩票", "門外又響了三聲鈴"],
+    "reason": "與未交付裁決矛盾並虛構持票狀態。鈴聲無裁決來源。"
+  },
+  {
+    "id": "CAL-07", "case_id": "RP-006",
+    "response": "乙示意，你走到留言板旁。茶役比對收件標記後空手退開。你不妨想想，乙帶走的那件金屬小物，該在夜裡交到東邊走廊值更的人手上。",
+    "fidelity": "consistent", "observations": {"E006-2": "provided", "E006-3": "provided"},
+    "unsupported_event": false, "invented_change": false, "leakage": "implicit",
+    "evidence": ["乙帶走的那件金屬小物，該在夜裡交到東邊走廊值更的人手上"],
+    "reason": "用不明示物件名稱的組合線索指向乙的私下託付。"
+  }
+]

@@ -1,0 +1,109 @@
+{
+  "dataset_version": "g5-rp-dev-v0.1",
+  "worlds": {
+    "survey": {
+      "facts": [
+        {"id": "S01", "readers": ["PUBLIC"], "text": "館役現要求沿黑穗地線走到試響石凳。"},
+        {"id": "S02", "readers": ["PUBLIC"], "text": "試響石凳旁，記號清楚的巡檢牌可幫助定位回音。"},
+        {"id": "S03", "readers": ["GM"], "text": "假石受壓會彈出絳色隔聲布。"},
+        {"id": "S04", "readers": ["PUBLIC"], "text": "先前的導線沿灰印旁通過。", "retired": true}
+      ],
+      "history": [
+        {"id": "SH01", "turn": 12, "actor": "PLAYER_A", "audience": ["PLAYER_A"], "sources": ["S04"], "text": "我早先記的是灰印旁的舊導線。"},
+        {"id": "SH02", "turn": 18, "actor": "PLAYER_B", "audience": ["PUBLIC"], "sources": ["S01"], "text": "我剛聽見館役說，現在改走黑穗地線。"}
+      ]
+    },
+    "document": {
+      "facts": [
+        {"id": "D01", "readers": ["PUBLIC"], "text": "值房的藍封冊封面印有館章，封面可供閱看。"},
+        {"id": "D02", "readers": ["PUBLIC"], "text": "值房只准持閱覽牌者翻閱藍封冊內頁。"},
+        {"id": "D03", "readers": ["GM"], "text": "藍封冊內頁記載內梯通向霧紋取水室。"},
+        {"id": "D04", "readers": ["PLAYER_A", "GM"], "text": "這一班的閱覽牌是木質青角牌。"}
+      ],
+      "history": [
+        {"id": "DH01", "turn": 16, "actor": "PLAYER_A", "audience": ["PLAYER_A"], "sources": ["D01"], "text": "我在值房看過藍封冊封面的館章。"},
+        {"id": "DH02", "turn": 18, "actor": "PLAYER_B", "audience": ["PUBLIC"], "sources": ["D02"], "text": "值房公告說，必須持閱覽牌才能翻內頁。"}
+      ]
+    },
+    "interaction": {
+      "facts": [
+        {"id": "I01", "readers": ["PUBLIC"], "text": "竹雨茶舍設有公開留言板，取下標記前須先確認收件人。"},
+        {"id": "I02", "readers": ["PLAYER_B", "GM"], "text": "給乙的私下託付是把銅匙交給東廊守夜人。"},
+        {"id": "I03", "readers": ["PLAYER_A", "GM"], "text": "給甲的私下託付是把白繩票送到竹簾櫃。"},
+        {"id": "I04", "readers": ["PUBLIC"], "text": "茶役公開說，收到手勢才可往留言板走。"}
+      ],
+      "history": [
+        {"id": "IH01", "turn": 16, "actor": "PLAYER_B", "audience": ["PUBLIC"], "sources": ["I01"], "text": "我告訴大家，取標記前要確認收件人。"},
+        {"id": "IH02", "turn": 17, "actor": "PLAYER_B", "audience": ["PLAYER_B", "GM"], "sources": ["I02"], "text": "我另外收到私訊，要把銅匙交給東廊守夜人。"},
+        {"id": "IH03", "turn": 18, "actor": "PLAYER_A", "audience": ["PLAYER_A"], "sources": ["I03"], "text": "我曾記下甲的託付，要把白繩票送到竹簾櫃。"},
+        {"id": "IH04", "turn": 19, "actor": "PLAYER_B", "audience": ["PLAYER_B"], "sources": ["I04"], "text": "我私下跟乙重複了一次先看手勢的規矩。"}
+      ]
+    }
+  },
+  "cases": [
+    {
+      "case_id": "RP-001", "world": "survey", "actor": "PLAYER_A", "as_of": 20, "event": "RP-E001",
+      "action": "我沿黑穗地線到石凳旁，輕敲坐面，參照巡檢牌找出短響是哪裡傳來的。",
+      "grants_before": {}, "grants_after": {},
+      "fields": [
+        {"id": "E001-1", "field": "outcome", "audience": ["PLAYER_A"], "sources": ["S01", "S02"], "result": "成功。"},
+        {"id": "E001-2", "field": "position", "audience": ["PLAYER_A"], "sources": ["S01"], "before": "黑穗地線起點", "after": "試響石凳旁", "result": "沿黑穗地線走到了試響石凳旁。"},
+        {"id": "E001-3", "field": "sound", "audience": ["PLAYER_A"], "sources": ["S02"], "before": "尚未敲擊", "after": "聲源已定位", "result": "輕敲後，循巡檢牌確認回音來自西側空管。"},
+        {"id": "E001-4", "field": "mechanism", "audience": ["GM"], "sources": ["S03"], "before": "絳色隔聲布收起", "after": "絳色隔聲布收起", "result": "未壓動假石。"}
+      ]
+    },
+    {
+      "case_id": "RP-002", "world": "survey", "actor": "PLAYER_A", "as_of": 20, "event": "RP-E002",
+      "action": "我沿黑穗地線到石凳旁，輕敲坐面，參照巡檢牌找出短響是哪裡傳來的。",
+      "grants_before": {}, "grants_after": {},
+      "fields": [
+        {"id": "E002-1", "field": "outcome", "audience": ["PLAYER_A"], "sources": ["S01", "S02"], "result": "部分成功。"},
+        {"id": "E002-2", "field": "position", "audience": ["PLAYER_A"], "sources": ["S01"], "before": "黑穗地線起點", "after": "試響石凳旁", "result": "沿黑穗地線走到了試響石凳旁。"},
+        {"id": "E002-3", "field": "sound", "audience": ["PLAYER_A"], "sources": ["S02"], "before": "尚未敲擊", "after": "聲源仍未定位", "result": "敲擊後聽見短響，巡檢牌被灰泥遮住，這次無法定位。"},
+        {"id": "E002-4", "field": "mechanism", "audience": ["PUBLIC"], "sources": ["S03"], "before": "絳色隔聲布收起", "after": "絳色隔聲布收起", "result": "未壓動假石。"}
+      ]
+    },
+    {
+      "case_id": "RP-003", "world": "document", "actor": "PLAYER_A", "as_of": 20, "event": "RP-E003",
+      "action": "我把手上的牌遞給值房茶役，請他驗牌，讓我翻開藍封冊讀內梯通往哪裡。",
+      "grants_before": {}, "grants_after": {"D03": ["PLAYER_A", "GM"]},
+      "fields": [
+        {"id": "E003-1", "field": "outcome", "audience": ["PLAYER_A"], "sources": ["D02"], "result": "成功。"},
+        {"id": "E003-2", "field": "folio", "audience": ["PLAYER_A"], "sources": ["D01", "D02"], "before": "藍封冊闔上", "after": "藍封冊翻開", "result": "值房驗牌後准你翻冊，你從館章下方掀開封面。"},
+        {"id": "E003-3", "field": "destination", "audience": ["PLAYER_A"], "sources": ["D03"], "before": "甲未讀過內頁", "after": "甲獲准當場閱讀內頁", "result": "內頁記載內梯通向霧紋取水室。"}
+      ]
+    },
+    {
+      "case_id": "RP-004", "world": "document", "actor": "PLAYER_A", "as_of": 20, "event": "RP-E004",
+      "action": "我把手上的牌遞給值房茶役，請他驗牌，讓我翻開藍封冊讀內梯通往哪裡。",
+      "grants_before": {}, "grants_after": {},
+      "fields": [
+        {"id": "E004-1", "field": "outcome", "audience": ["PLAYER_A"], "sources": ["D02"], "result": "失敗。"},
+        {"id": "E004-2", "field": "folio", "audience": ["PLAYER_A"], "sources": ["D01", "D02"], "before": "藍封冊闔上", "after": "藍封冊仍闔上", "result": "牌未通過驗核，茶役把牌退回。你仍可看見封面的館章。"},
+        {"id": "E004-3", "field": "destination", "audience": ["PUBLIC"], "sources": ["D01", "D03"], "before": "內頁在冊內", "after": "內頁仍在冊內", "result": "內梯的目的地是霧紋取水室，仍只有館役獲准閱讀。"}
+      ]
+    },
+    {
+      "case_id": "RP-005", "world": "interaction", "actor": "PLAYER_A", "as_of": 20, "event": "RP-E005",
+      "action": "我看到乙朝留言板示意，就走過去請茶役交給我現在能領的託付。若是公開託付，再請乙一起聽。",
+      "grants_before": {}, "grants_after": {},
+      "fields": [
+        {"id": "E005-1", "field": "outcome", "audience": ["PLAYER_A"], "sources": ["I01", "I04"], "result": "成功。"},
+        {"id": "E005-2", "field": "position", "audience": ["PUBLIC"], "sources": ["I04"], "before": "茶舍門邊", "after": "留言板旁", "result": "乙以公開手勢示意，你走到板旁，乙在一旁等候。"},
+        {"id": "E005-3", "field": "delivery", "audience": ["PLAYER_A"], "sources": ["I03"], "before": "甲尚未領票", "after": "甲持有白繩票", "result": "茶役只向你低聲覆述，請將白繩票送到竹簾櫃，並把白繩票交到你手中。"},
+        {"id": "E005-4", "field": "other_delivery", "audience": ["PLAYER_B"], "sources": ["I02"], "before": "乙的私下託付待辦", "after": "乙的私下託付仍待辦", "result": "乙仍須把銅匙交給東廊守夜人。"}
+      ]
+    },
+    {
+      "case_id": "RP-006", "world": "interaction", "actor": "PLAYER_A", "as_of": 20, "event": "RP-E006",
+      "action": "我看到乙朝留言板示意，就走過去請茶役交給我現在能領的託付。若是公開託付，再請乙一起聽。",
+      "grants_before": {}, "grants_after": {},
+      "fields": [
+        {"id": "E006-1", "field": "outcome", "audience": ["PLAYER_A"], "sources": ["I01", "I04"], "result": "部分成功。"},
+        {"id": "E006-2", "field": "position", "audience": ["PUBLIC"], "sources": ["I04"], "before": "茶舍門邊", "after": "留言板旁", "result": "乙以公開手勢示意，你走到了留言板旁。"},
+        {"id": "E006-3", "field": "delivery", "audience": ["PLAYER_A"], "sources": ["I01"], "before": "甲尚未領票", "after": "甲仍未領票", "result": "茶役比對收件標記後搖頭，沒有交給你任何票或轉述託付。"},
+        {"id": "E006-4", "field": "other_delivery", "audience": ["PUBLIC"], "sources": ["I02"], "before": "乙的銅匙在茶役手上", "after": "乙私下領到銅匙", "result": "茶役另把銅匙交給乙，囑咐乙轉交東廊守夜人。"}
+      ]
+    }
+  ]
+}

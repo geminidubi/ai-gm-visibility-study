@@ -1,0 +1,560 @@
+{
+  "study_date_taipei": "2026-11-26",
+  "generation_only": true,
+  "pilot_token_check": {
+    "none": {
+      "by_architecture": {
+        "all": {
+          "responses": 36,
+          "near_cap": 0,
+          "truncated": 0,
+          "output_tokens": {
+            "max": 107,
+            "p95": 104
+          },
+          "reasoning_tokens": {
+            "max": 0,
+            "p95": 0
+          }
+        },
+        "C0": {
+          "responses": 12,
+          "near_cap": 0,
+          "truncated": 0,
+          "output_tokens": {
+            "max": 85,
+            "p95": 85
+          },
+          "reasoning_tokens": {
+            "max": 0,
+            "p95": 0
+          }
+        },
+        "C1": {
+          "responses": 12,
+          "near_cap": 0,
+          "truncated": 0,
+          "output_tokens": {
+            "max": 90,
+            "p95": 90
+          },
+          "reasoning_tokens": {
+            "max": 0,
+            "p95": 0
+          }
+        },
+        "C2": {
+          "responses": 12,
+          "near_cap": 0,
+          "truncated": 0,
+          "output_tokens": {
+            "max": 107,
+            "p95": 107
+          },
+          "reasoning_tokens": {
+            "max": 0,
+            "p95": 0
+          }
+        }
+      }
+    },
+    "low": {
+      "by_architecture": {
+        "all": {
+          "responses": 36,
+          "near_cap": 0,
+          "truncated": 0,
+          "output_tokens": {
+            "max": 258,
+            "p95": 215
+          },
+          "reasoning_tokens": {
+            "max": 168,
+            "p95": 125
+          }
+        },
+        "C0": {
+          "responses": 12,
+          "near_cap": 0,
+          "truncated": 0,
+          "output_tokens": {
+            "max": 258,
+            "p95": 258
+          },
+          "reasoning_tokens": {
+            "max": 168,
+            "p95": 168
+          }
+        },
+        "C1": {
+          "responses": 12,
+          "near_cap": 0,
+          "truncated": 0,
+          "output_tokens": {
+            "max": 190,
+            "p95": 190
+          },
+          "reasoning_tokens": {
+            "max": 89,
+            "p95": 89
+          }
+        },
+        "C2": {
+          "responses": 12,
+          "near_cap": 0,
+          "truncated": 0,
+          "output_tokens": {
+            "max": 215,
+            "p95": 215
+          },
+          "reasoning_tokens": {
+            "max": 104,
+            "p95": 104
+          }
+        }
+      }
+    }
+  },
+  "independent_human": {
+    "formal_initial": 45,
+    "formal_additional_already_flagged": 0,
+    "rp_initial": 3,
+    "rp_additional_already_flagged": 0
+  },
+  "blind_archive_sha256": {
+    "G5-formal-0120-Human-Blind.zip": "09c01a6d74cdd76176d0d2504a308ca28faa3a3f249dae8efdeb0a0f2bce4a8d",
+    "G5-formal-0120-Work-Blind.zip": "ec39cd3f44f5911b6e28a57ff1051e3c40543b122de0da06504f3cd7a1509b0a",
+    "G5-formal-0240-Human-Blind.zip": "76e11c9a71b4824d4b6675d1f7caf3208de18032e7e1782de991976e422b0742",
+    "G5-formal-0240-Work-Blind.zip": "f9ac2a6102ac7cfc2dc788d67176722dd8803d4a8665861f98c5c8a106b1b8cd",
+    "G5-formal-0360-Human-Blind.zip": "6beb2a03e8c09c945ff375c93dc570de530b1ad693608f39ff823fd5cc60e7f9",
+    "G5-formal-0360-Work-Blind.zip": "8423a64908ec2683dd5f2d2ddd018d23bc6bce4d2a1389ed7281c13504df275c",
+    "G5-formal-0480-Human-Blind.zip": "5abb70b65e1cff04660d9d5036fb37edb27f163ef5569dbc4ae0ff39a5fcb2f8",
+    "G5-formal-0480-Work-Blind.zip": "3e256834fb778514dfd15c5e4c60fdbf8cc7f696d1de1b8269972efd0bbe863d",
+    "G5-formal-0600-Human-Blind.zip": "7de3864af551f9966fd8255fda321b0a2fc11135d95f732348b12c802e1cfb53",
+    "G5-formal-0600-Work-Blind.zip": "2f89b5e3846588af0a8403959e7b85a2f5e9c164c6fbf74f3a1d0e6f1d3c87c5",
+    "G5-formal-0720-Human-Blind.zip": "19e57ddeefb3655d62040985c6b9446a6156b1682c28084351b065ae2ca0785a",
+    "G5-formal-0720-Work-Blind.zip": "0aba30b1f7e6974187287ab33f3b9eb92af201b5f35f4708532c3a437d288d47",
+    "G5-formal-0840-Human-Blind.zip": "b146edd5422343b653bb4a89e10a04a8d711288c56ad8d444f336a1dc2b82588",
+    "G5-formal-0840-Work-Blind.zip": "5a7fb7e9de134c8b2af2d8697435f22bc6adb6114005c0ac19b598870df8c733",
+    "G5-formal-0960-Human-Blind.zip": "15edcafdf723d9544ac1a7cf62030a7542df971e025ffb64226c9c67800678ab",
+    "G5-formal-0960-Work-Blind.zip": "c300d07803a024f8fc4e1d4c4d5e77a65b2a886af096ae2a8f89030f5d9e7164",
+    "G5-formal-1080-Human-Blind.zip": "36f86d0940bf110cf79df58eee83b82bbcfcc1bc3b8331caffdffdd8140a5a43",
+    "G5-formal-1080-Work-Blind.zip": "4dac1b271d362d1d3141cb02b0927d8a31b3a8ef514b8971d2f3e303db7920a8",
+    "G5-RP-Human-Blind.zip": "92172cef02b3024b1d6077e0d3714de3889dadd293126318ee9e849942765018",
+    "G5-RP-Work-Blind.zip": "79323cdaa07254ab901c718d60170fcffaaf067d94e4d9de61b21acbaf147f7c"
+  },
+  "work_jsonl_batches": {
+    "formal": 102,
+    "rp": 2
+  },
+  "formal": {
+    "overall": {
+      "planned": 1080,
+      "status": {
+        "ok": 1080
+      },
+      "latency_seconds": 2633.72,
+      "returned_models": {
+        "gpt-6-luna": 1080
+      },
+      "error_types": {},
+      "output_limit_truncations": 0,
+      "input_tokens": {
+        "observed": 1080,
+        "total": 4721583,
+        "max": 12052,
+        "p95_nearest_rank": 11833
+      },
+      "output_tokens": {
+        "observed": 1080,
+        "total": 174602,
+        "max": 568,
+        "p95_nearest_rank": 320
+      },
+      "reasoning_tokens": {
+        "observed": 1080,
+        "total": 84406,
+        "max": 486,
+        "p95_nearest_rank": 207
+      },
+      "cached_tokens": {
+        "observed": 1080,
+        "total": 0,
+        "max": 0,
+        "p95_nearest_rank": 0
+      },
+      "cache_write_tokens": {
+        "observed": 1080,
+        "total": 0,
+        "max": 0,
+        "p95_nearest_rank": 0
+      }
+    },
+    "by_architecture": {
+      "C0": {
+        "planned": 360,
+        "status": {
+          "ok": 360
+        },
+        "latency_seconds": 942.328,
+        "returned_models": {
+          "gpt-6-luna": 360
+        },
+        "error_types": {},
+        "output_limit_truncations": 0,
+        "input_tokens": {
+          "observed": 360,
+          "total": 2005662,
+          "max": 11714,
+          "p95_nearest_rank": 11669
+        },
+        "output_tokens": {
+          "observed": 360,
+          "total": 61694,
+          "max": 522,
+          "p95_nearest_rank": 334
+        },
+        "reasoning_tokens": {
+          "observed": 360,
+          "total": 31595,
+          "max": 447,
+          "p95_nearest_rank": 233
+        },
+        "cached_tokens": {
+          "observed": 360,
+          "total": 0,
+          "max": 0,
+          "p95_nearest_rank": 0
+        },
+        "cache_write_tokens": {
+          "observed": 360,
+          "total": 0,
+          "max": 0,
+          "p95_nearest_rank": 0
+        }
+      },
+      "C1": {
+        "planned": 360,
+        "status": {
+          "ok": 360
+        },
+        "latency_seconds": 865.62,
+        "returned_models": {
+          "gpt-6-luna": 360
+        },
+        "error_types": {},
+        "output_limit_truncations": 0,
+        "input_tokens": {
+          "observed": 360,
+          "total": 2066898,
+          "max": 12052,
+          "p95_nearest_rank": 12004
+        },
+        "output_tokens": {
+          "observed": 360,
+          "total": 58633,
+          "max": 558,
+          "p95_nearest_rank": 302
+        },
+        "reasoning_tokens": {
+          "observed": 360,
+          "total": 29638,
+          "max": 486,
+          "p95_nearest_rank": 184
+        },
+        "cached_tokens": {
+          "observed": 360,
+          "total": 0,
+          "max": 0,
+          "p95_nearest_rank": 0
+        },
+        "cache_write_tokens": {
+          "observed": 360,
+          "total": 0,
+          "max": 0,
+          "p95_nearest_rank": 0
+        }
+      },
+      "C2": {
+        "planned": 360,
+        "status": {
+          "ok": 360
+        },
+        "latency_seconds": 825.772,
+        "returned_models": {
+          "gpt-6-luna": 360
+        },
+        "error_types": {},
+        "output_limit_truncations": 0,
+        "input_tokens": {
+          "observed": 360,
+          "total": 649023,
+          "max": 3321,
+          "p95_nearest_rank": 3305
+        },
+        "output_tokens": {
+          "observed": 360,
+          "total": 54275,
+          "max": 568,
+          "p95_nearest_rank": 327
+        },
+        "reasoning_tokens": {
+          "observed": 360,
+          "total": 23173,
+          "max": 473,
+          "p95_nearest_rank": 207
+        },
+        "cached_tokens": {
+          "observed": 360,
+          "total": 0,
+          "max": 0,
+          "p95_nearest_rank": 0
+        },
+        "cache_write_tokens": {
+          "observed": 360,
+          "total": 0,
+          "max": 0,
+          "p95_nearest_rank": 0
+        }
+      }
+    },
+    "batches": 9,
+    "preflight": {
+      "plan_id": "4f12600eaff820808d197063f31719777f0716f11d9944b5dcaa13855a49a834",
+      "scope": "formal",
+      "requests": 1080,
+      "cases": 120,
+      "repeats": 3,
+      "architectures": [
+        "C0",
+        "C1",
+        "C2"
+      ],
+      "model": "gpt-6-luna",
+      "parameters": {
+        "reasoning": {
+          "effort": "low"
+        },
+        "max_output_tokens": 2048,
+        "store": false,
+        "service_tier": "default",
+        "prompt_cache_options": {
+          "mode": "explicit"
+        },
+        "truncation": "disabled"
+      },
+      "cases_sha256": "3db66a174e7990b92e8dbb8522aa522420fc279a343378caf2c626c408c2d267",
+      "evidence_sha256": "3ac9afc41416e01b6255b6885a4f60092de044df841cd15afdc45474ec497eda",
+      "rubric_sha256": "7b41a53c775d6219246c6945ef69fc80ce7b649a480958452c4b51d8062714d9",
+      "dispatch_batch_size": 120,
+      "human_sample_seed": 202611260518,
+      "human_review_design_sha256": "4daa0f876ca8f28963a378f188ea1f2339edd3315531d4be63bf7efd694dfd5f"
+    },
+    "generation_wall_clock_seconds": 2660.878618
+  },
+  "rp": {
+    "overall": {
+      "planned": 18,
+      "status": {
+        "ok": 18
+      },
+      "latency_seconds": 48.641,
+      "returned_models": {
+        "gpt-6-luna": 18
+      },
+      "error_types": {},
+      "output_limit_truncations": 0,
+      "input_tokens": {
+        "observed": 18,
+        "total": 35186,
+        "max": 2524,
+        "p95_nearest_rank": 2524
+      },
+      "output_tokens": {
+        "observed": 18,
+        "total": 3532,
+        "max": 453,
+        "p95_nearest_rank": 453
+      },
+      "reasoning_tokens": {
+        "observed": 18,
+        "total": 1654,
+        "max": 319,
+        "p95_nearest_rank": 319
+      },
+      "cached_tokens": {
+        "observed": 18,
+        "total": 0,
+        "max": 0,
+        "p95_nearest_rank": 0
+      },
+      "cache_write_tokens": {
+        "observed": 18,
+        "total": 0,
+        "max": 0,
+        "p95_nearest_rank": 0
+      }
+    },
+    "by_architecture": {
+      "C0": {
+        "planned": 6,
+        "status": {
+          "ok": 6
+        },
+        "latency_seconds": 15.438,
+        "returned_models": {
+          "gpt-6-luna": 6
+        },
+        "error_types": {},
+        "output_limit_truncations": 0,
+        "input_tokens": {
+          "observed": 6,
+          "total": 14029,
+          "max": 2381,
+          "p95_nearest_rank": 2381
+        },
+        "output_tokens": {
+          "observed": 6,
+          "total": 1057,
+          "max": 383,
+          "p95_nearest_rank": 383
+        },
+        "reasoning_tokens": {
+          "observed": 6,
+          "total": 423,
+          "max": 229,
+          "p95_nearest_rank": 229
+        },
+        "cached_tokens": {
+          "observed": 6,
+          "total": 0,
+          "max": 0,
+          "p95_nearest_rank": 0
+        },
+        "cache_write_tokens": {
+          "observed": 6,
+          "total": 0,
+          "max": 0,
+          "p95_nearest_rank": 0
+        }
+      },
+      "C1": {
+        "planned": 6,
+        "status": {
+          "ok": 6
+        },
+        "latency_seconds": 18.579,
+        "returned_models": {
+          "gpt-6-luna": 6
+        },
+        "error_types": {},
+        "output_limit_truncations": 0,
+        "input_tokens": {
+          "observed": 6,
+          "total": 14872,
+          "max": 2524,
+          "p95_nearest_rank": 2524
+        },
+        "output_tokens": {
+          "observed": 6,
+          "total": 1160,
+          "max": 316,
+          "p95_nearest_rank": 316
+        },
+        "reasoning_tokens": {
+          "observed": 6,
+          "total": 540,
+          "max": 182,
+          "p95_nearest_rank": 182
+        },
+        "cached_tokens": {
+          "observed": 6,
+          "total": 0,
+          "max": 0,
+          "p95_nearest_rank": 0
+        },
+        "cache_write_tokens": {
+          "observed": 6,
+          "total": 0,
+          "max": 0,
+          "p95_nearest_rank": 0
+        }
+      },
+      "C2": {
+        "planned": 6,
+        "status": {
+          "ok": 6
+        },
+        "latency_seconds": 14.624,
+        "returned_models": {
+          "gpt-6-luna": 6
+        },
+        "error_types": {},
+        "output_limit_truncations": 0,
+        "input_tokens": {
+          "observed": 6,
+          "total": 6285,
+          "max": 1081,
+          "p95_nearest_rank": 1081
+        },
+        "output_tokens": {
+          "observed": 6,
+          "total": 1315,
+          "max": 453,
+          "p95_nearest_rank": 453
+        },
+        "reasoning_tokens": {
+          "observed": 6,
+          "total": 691,
+          "max": 319,
+          "p95_nearest_rank": 319
+        },
+        "cached_tokens": {
+          "observed": 6,
+          "total": 0,
+          "max": 0,
+          "p95_nearest_rank": 0
+        },
+        "cache_write_tokens": {
+          "observed": 6,
+          "total": 0,
+          "max": 0,
+          "p95_nearest_rank": 0
+        }
+      }
+    },
+    "batches": 1,
+    "preflight": {
+      "plan_id": "c4f29f5ac670a63981dbd2478b2d754b42181f9f650a1c00388f7ef651458694",
+      "scope": "rp",
+      "requests": 18,
+      "cases": 6,
+      "repeats": 1,
+      "architectures": [
+        "C0",
+        "C1",
+        "C2"
+      ],
+      "model": "gpt-6-luna",
+      "parameters": {
+        "reasoning": {
+          "effort": "low"
+        },
+        "max_output_tokens": 2048,
+        "store": false,
+        "service_tier": "default",
+        "prompt_cache_options": {
+          "mode": "explicit"
+        },
+        "truncation": "disabled"
+      },
+      "cases_sha256": "146921767a889fc47467435996d4203f9ff1270cf01f3364e5dccfbafc637d19",
+      "evidence_sha256": "420833b6e5ef517faf16ca94b721db77619a5e2b6766622aec99d90d3f770abd",
+      "rubric_sha256": "4f11adf95790f9b8b89d156140d8a5394f529dee677ed8e2af2a9d21b3892863",
+      "dispatch_batch_size": 18,
+      "human_sample_seed": 202611260519,
+      "human_review_design_sha256": "232840fc4501a2e133dbc8fca8f13bf6c0abcf5924259af305d401a0b896934d"
+    },
+    "generation_wall_clock_seconds": 48.777532
+  }
+}

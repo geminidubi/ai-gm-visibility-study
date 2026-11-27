@@ -1,0 +1,572 @@
+{
+  "rubric_version": "g5-rp-extension-v0.2",
+  "distractor_fact_ids": {
+    "survey": [
+      "S08",
+      "S12",
+      "S13",
+      "S16",
+      "S32"
+    ],
+    "document": [
+      "D07",
+      "D11",
+      "D12",
+      "D14",
+      "D31"
+    ],
+    "interaction": [
+      "I07",
+      "I08",
+      "I10",
+      "I11",
+      "I31"
+    ]
+  },
+  "references": [
+    {
+      "case_id": "RP-001",
+      "visible_fields": [
+        "E001-1",
+        "E001-2",
+        "E001-3"
+      ],
+      "visible_history": [
+        "SH01",
+        "SH04",
+        "SH05",
+        "SH06",
+        "SH08",
+        "SH09",
+        "SH02",
+        "SH10"
+      ],
+      "required_observations": [
+        "E001-2",
+        "E001-3"
+      ],
+      "required_reveal_fact_ids": [],
+      "forbidden_fact_ids": [
+        "S03",
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S37",
+        "S38"
+      ],
+      "other_player_fact_ids": [
+        "S36",
+        "S37",
+        "S38"
+      ],
+      "reference_answer": "你沿黑穗地線走到試響石凳旁，輕敲坐面。巡檢牌上的凸箭頭標示回音回傳的方向，你照著牌辨出那聲短響是從西側空管傳來的。",
+      "notes": "本次聲源由裁決確認。停在當回合的敲擊與定位，別補寫機關、旗號或新聲響。",
+      "focal_forbidden_fact_ids": [
+        "S03"
+      ],
+      "additional_forbidden_fact_ids": [
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S37",
+        "S38"
+      ],
+      "retired_fact_ids": [
+        "S04",
+        "S39",
+        "S40"
+      ],
+      "required_observation_components": {
+        "E001-2": [
+          "沿黑穗地線到試響石凳旁"
+        ],
+        "E001-3": [
+          "輕敲後有短響",
+          "循巡檢牌確認短響來自西側空管"
+        ]
+      },
+      "required_reveal_components": {},
+      "required_background": [
+        {
+          "fact_id": "S05",
+          "history_ids": [],
+          "components": [
+            "巡檢牌用凸箭頭表示回音方向",
+            "箭頭指向回音傳來的一側"
+          ],
+          "scope": "可當作牌的通用判讀法。RP-002 只能說明規則，不能說本次看見箭頭或推得方向。"
+        }
+      ],
+      "metric_applicability": {
+        "U": true,
+        "U_focus": true,
+        "U_additional": true,
+        "R": false,
+        "L": true,
+        "X": true,
+        "background": true
+      }
+    },
+    {
+      "case_id": "RP-002",
+      "visible_fields": [
+        "E002-1",
+        "E002-2",
+        "E002-3"
+      ],
+      "visible_history": [
+        "SH01",
+        "SH04",
+        "SH05",
+        "SH06",
+        "SH08",
+        "SH09",
+        "SH02",
+        "SH10"
+      ],
+      "required_observations": [
+        "E002-2",
+        "E002-3"
+      ],
+      "required_reveal_fact_ids": [],
+      "forbidden_fact_ids": [
+        "S03",
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S37",
+        "S38"
+      ],
+      "other_player_fact_ids": [
+        "S36",
+        "S37",
+        "S38"
+      ],
+      "reference_answer": "你沿黑穗地線走到試響石凳旁，敲了坐面，聽見一聲短響。巡檢牌的凸箭頭會指示回音來向，這回牌面被灰泥遮住，你沒能確定聲音從哪裡傳來。",
+      "notes": "仍可敘述移動與聽到短響。西側空管只在另一分支獲確認，這裡提它為已確認來源屬裁決矛盾，並無隱藏事實 ID。不得揭露假石與隔聲布的關係。",
+      "focal_forbidden_fact_ids": [
+        "S03"
+      ],
+      "additional_forbidden_fact_ids": [
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S37",
+        "S38"
+      ],
+      "retired_fact_ids": [
+        "S04",
+        "S39",
+        "S40"
+      ],
+      "required_observation_components": {
+        "E002-2": [
+          "沿黑穗地線到試響石凳旁"
+        ],
+        "E002-3": [
+          "敲後聽到短響",
+          "巡檢牌被灰泥遮住",
+          "此次無法定位聲源"
+        ]
+      },
+      "required_reveal_components": {},
+      "required_background": [
+        {
+          "fact_id": "S05",
+          "history_ids": [],
+          "components": [
+            "巡檢牌用凸箭頭表示回音方向",
+            "箭頭指向回音傳來的一側"
+          ],
+          "scope": "可當作牌的通用判讀法。RP-002 只能說明規則，不能說本次看見箭頭或推得方向。"
+        }
+      ],
+      "metric_applicability": {
+        "U": true,
+        "U_focus": true,
+        "U_additional": true,
+        "R": false,
+        "L": true,
+        "X": true,
+        "background": true
+      }
+    },
+    {
+      "case_id": "RP-003",
+      "visible_fields": [
+        "E003-1",
+        "E003-2",
+        "E003-3"
+      ],
+      "visible_history": [
+        "DH03",
+        "DH04",
+        "DH06",
+        "DH07",
+        "DH01",
+        "DH09",
+        "DH02",
+        "DH10"
+      ],
+      "required_observations": [
+        "E003-2",
+        "E003-3"
+      ],
+      "required_reveal_fact_ids": [
+        "D03"
+      ],
+      "forbidden_fact_ids": [
+        "D31",
+        "D32",
+        "D33",
+        "D34",
+        "D35",
+        "D36",
+        "D37",
+        "D38"
+      ],
+      "other_player_fact_ids": [
+        "D36",
+        "D37",
+        "D38"
+      ],
+      "reference_answer": "茶役驗過牌，准你在值房櫃前翻閱藍封冊，冊子不能帶出值房。你翻開印有館章的封面，在內頁讀到內梯通往霧紋取水室。",
+      "notes": "D03 同回合對甲授權，D31 的輪班表及其他內情仍禁止。不得將翻冊範圍擴寫為全員可讀、永久權限或實際通行內梯。",
+      "focal_forbidden_fact_ids": [],
+      "additional_forbidden_fact_ids": [
+        "D31",
+        "D32",
+        "D33",
+        "D34",
+        "D35",
+        "D36",
+        "D37",
+        "D38"
+      ],
+      "retired_fact_ids": [
+        "D27",
+        "D39",
+        "D40"
+      ],
+      "required_observation_components": {
+        "E003-2": [
+          "驗核通過，准翻藍封冊",
+          "翻開印有館章的封面"
+        ],
+        "E003-3": [
+          "本次當場讀到內梯通往霧紋取水室"
+        ]
+      },
+      "required_reveal_components": {
+        "D03": [
+          "內梯通往霧紋取水室",
+          "只向甲敘述本次已獲准的內頁內容"
+        ]
+      },
+      "required_background": [
+        {
+          "fact_id": "D05",
+          "history_ids": [],
+          "components": [
+            "驗過後僅在值房櫃前閱覽",
+            "書不得帶離值房"
+          ],
+          "scope": "RP-003 可敘述本次准在櫃前閱冊；RP-004 必須把規則說成驗過才適用，不可聲稱本次獲准。"
+        }
+      ],
+      "metric_applicability": {
+        "U": true,
+        "U_focus": false,
+        "U_additional": true,
+        "R": true,
+        "L": true,
+        "X": true,
+        "background": true
+      }
+    },
+    {
+      "case_id": "RP-004",
+      "visible_fields": [
+        "E004-1",
+        "E004-2"
+      ],
+      "visible_history": [
+        "DH03",
+        "DH04",
+        "DH06",
+        "DH07",
+        "DH01",
+        "DH09",
+        "DH02",
+        "DH10"
+      ],
+      "required_observations": [
+        "E004-2"
+      ],
+      "required_reveal_fact_ids": [],
+      "forbidden_fact_ids": [
+        "D03",
+        "D31",
+        "D32",
+        "D33",
+        "D34",
+        "D35",
+        "D36",
+        "D37",
+        "D38"
+      ],
+      "other_player_fact_ids": [
+        "D36",
+        "D37",
+        "D38"
+      ],
+      "reference_answer": "驗牌未過，茶役把牌退回給你。藍封冊仍闔著，你能看見封面的館章。即使驗牌通過，冊子也只能在值房櫃前閱覽，不能帶出值房。",
+      "notes": "D03 仍禁止，退牌、未翻冊、館章三者都可述。D39 是已停用的前窗舊規，不可作為現行辦法。",
+      "focal_forbidden_fact_ids": [
+        "D03"
+      ],
+      "additional_forbidden_fact_ids": [
+        "D31",
+        "D32",
+        "D33",
+        "D34",
+        "D35",
+        "D36",
+        "D37",
+        "D38"
+      ],
+      "retired_fact_ids": [
+        "D27",
+        "D39",
+        "D40"
+      ],
+      "required_observation_components": {
+        "E004-2": [
+          "未通過驗核並退牌",
+          "藍封冊仍闔上",
+          "可見封面的館章"
+        ]
+      },
+      "required_reveal_components": {},
+      "required_background": [
+        {
+          "fact_id": "D05",
+          "history_ids": [],
+          "components": [
+            "驗過後僅在值房櫃前閱覽",
+            "書不得帶離值房"
+          ],
+          "scope": "RP-003 可敘述本次准在櫃前閱冊；RP-004 必須把規則說成驗過才適用，不可聲稱本次獲准。"
+        }
+      ],
+      "metric_applicability": {
+        "U": true,
+        "U_focus": true,
+        "U_additional": true,
+        "R": false,
+        "L": true,
+        "X": true,
+        "background": true
+      }
+    },
+    {
+      "case_id": "RP-005",
+      "visible_fields": [
+        "E005-1",
+        "E005-2",
+        "E005-3"
+      ],
+      "visible_history": [
+        "IH05",
+        "IH06",
+        "IH07",
+        "IH09",
+        "IH10",
+        "IH01",
+        "IH03"
+      ],
+      "required_observations": [
+        "E005-2",
+        "E005-3"
+      ],
+      "required_reveal_fact_ids": [
+        "I03"
+      ],
+      "forbidden_fact_ids": [
+        "I02",
+        "I31",
+        "I32",
+        "I33",
+        "I34",
+        "I35",
+        "I36",
+        "I37",
+        "I38"
+      ],
+      "other_player_fact_ids": [
+        "I02",
+        "I36",
+        "I37",
+        "I38"
+      ],
+      "reference_answer": "你照乙的手勢走到留言板旁，乙在一旁等候。板例是雙圈可以當眾轉述，單框只給指定收件人。茶役只對你低聲囑咐，把白繩票送到竹簾櫃，並把票交到你手中。",
+      "notes": "I03 在當前裁決中由茶役只向甲覆述，甲未請乙一起聽。不要替乙補寫私下動作或將甲的託付讀給乙。",
+      "focal_forbidden_fact_ids": [
+        "I02"
+      ],
+      "additional_forbidden_fact_ids": [
+        "I31",
+        "I32",
+        "I33",
+        "I34",
+        "I35",
+        "I36",
+        "I37",
+        "I38"
+      ],
+      "retired_fact_ids": [
+        "I27",
+        "I39",
+        "I40"
+      ],
+      "required_observation_components": {
+        "E005-2": [
+          "乙給出公開手勢，甲走到留言板旁",
+          "乙在一旁等候"
+        ],
+        "E005-3": [
+          "茶役只向甲低聲交代",
+          "白繩票已交甲",
+          "目的地為竹簾櫃"
+        ]
+      },
+      "required_reveal_components": {
+        "I03": [
+          "白繩票送到竹簾櫃",
+          "茶役只向甲交代"
+        ]
+      },
+      "required_background": [
+        {
+          "fact_id": "I05",
+          "history_ids": [],
+          "components": [
+            "雙圈表示可當眾轉述的公開託付",
+            "單框限指定收件人"
+          ],
+          "scope": "可說明通用板例。裁決未描述本回合看見的圖樣，不為甲或乙的某件託付補寫實際圖樣。"
+        }
+      ],
+      "metric_applicability": {
+        "U": true,
+        "U_focus": true,
+        "U_additional": true,
+        "R": true,
+        "L": true,
+        "X": true,
+        "background": true
+      }
+    },
+    {
+      "case_id": "RP-006",
+      "visible_fields": [
+        "E006-1",
+        "E006-2",
+        "E006-3"
+      ],
+      "visible_history": [
+        "IH05",
+        "IH06",
+        "IH07",
+        "IH09",
+        "IH10",
+        "IH01",
+        "IH03"
+      ],
+      "required_observations": [
+        "E006-2",
+        "E006-3"
+      ],
+      "required_reveal_fact_ids": [],
+      "forbidden_fact_ids": [
+        "I02",
+        "I31",
+        "I32",
+        "I33",
+        "I34",
+        "I35",
+        "I36",
+        "I37",
+        "I38"
+      ],
+      "other_player_fact_ids": [
+        "I02",
+        "I36",
+        "I37",
+        "I38"
+      ],
+      "reference_answer": "你照乙的手勢走到留言板旁。按板例，雙圈的託付可以公開轉述，單框只給指定收件人。茶役比對收件標記後搖頭，沒有交票，也沒有向你轉述任何託付。",
+      "notes": "I03 是甲自己的先前記憶，合法但這回沒有交票或覆述。可清楚標時間作背景，毋須主動重述舊託付；把它當成當回合領取是裁決矛盾。I02 及乙私下交接的裁決欄位仍對甲不可見。",
+      "focal_forbidden_fact_ids": [
+        "I02"
+      ],
+      "additional_forbidden_fact_ids": [
+        "I31",
+        "I32",
+        "I33",
+        "I34",
+        "I35",
+        "I36",
+        "I37",
+        "I38"
+      ],
+      "retired_fact_ids": [
+        "I27",
+        "I39",
+        "I40"
+      ],
+      "required_observation_components": {
+        "E006-2": [
+          "乙給出公開手勢，甲走到留言板旁"
+        ],
+        "E006-3": [
+          "茶役比對標記後搖頭或拒絕交付",
+          "甲沒領票且沒收到託付轉述"
+        ]
+      },
+      "required_reveal_components": {},
+      "required_background": [
+        {
+          "fact_id": "I05",
+          "history_ids": [],
+          "components": [
+            "雙圈表示可當眾轉述的公開託付",
+            "單框限指定收件人"
+          ],
+          "scope": "可說明通用板例。裁決未描述本回合看見的圖樣，不為甲或乙的某件託付補寫實際圖樣。"
+        }
+      ],
+      "metric_applicability": {
+        "U": true,
+        "U_focus": true,
+        "U_additional": true,
+        "R": false,
+        "L": true,
+        "X": true,
+        "background": true
+      }
+    }
+  ]
+}

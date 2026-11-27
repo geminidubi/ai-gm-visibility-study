@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1",
+  "mode": "dev",
+  "world_path": "data/dev/worlds/DEV_W001.json",
+  "cases_path": "data/dev/cases/DEV_SC001.json",
+  "gold_path": "data/dev/gold/DEV_SC001.json",
+  "prompt_dir": "prompts",
+  "provider": "mock",
+  "architectures": [
+    "C0",
+    "C1",
+    "C2"
+  ],
+  "repeats": 1,
+  "top_k": 3,
+  "history_policy": "fixed_actor_scoped_empty_v1",
+  "max_attempts": 2,
+  "mock_mode": "echo",
+  "paid_calls_enabled": false,
+  "budget_usd": null,
+  "formal_approved": false
+}

@@ -1,0 +1,15 @@
+[project]
+name = "ai-gm-visibility"
+version = "0.1.0"
+description = "角色可見資訊控制：三種 AI GM 輸入架構的離線研究管線"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=3.59.0",
+]
+
+[project.scripts]
+ai-gm = "ai_gm_visibility.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.9,<0.14"]
+build-backend = "uv_build"

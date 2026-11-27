@@ -1,0 +1,10 @@
+* -text
+
+# Keep the original bytes recorded in the G5 v0.2 release manifest.
+/results/g5/v0.2/cost-estimate.json -text
+/results/g5/v0.2/dev-retrieval.json -text
+/results/g5/v0.2/validation.json -text
+/src/ai_gm_visibility/snapshot_cases.py -text
+
+# Keep the byte-verified Work release files reproducible across checkouts.
+/data/g5-rp-dev/v0.2/** -text

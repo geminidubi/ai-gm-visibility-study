@@ -1,0 +1,311 @@
+{
+  "synthetic": false,
+  "formal_result": false,
+  "semantic_status": "NOT_RUN",
+  "scores": [
+    {
+      "case_id": "DEV_T01",
+      "architecture": "C0",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [
+        "F003"
+      ],
+      "c2_policy_ok": null,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T02",
+      "architecture": "C0",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [
+        "F003"
+      ],
+      "c2_policy_ok": null,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T03",
+      "architecture": "C0",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [],
+      "c2_policy_ok": null,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T04",
+      "architecture": "C0",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [],
+      "c2_policy_ok": null,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T05",
+      "architecture": "C0",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [
+        "F003"
+      ],
+      "c2_policy_ok": null,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T06",
+      "architecture": "C0",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [
+        "F003"
+      ],
+      "c2_policy_ok": null,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T07",
+      "architecture": "C0",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [],
+      "c2_policy_ok": null,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T08",
+      "architecture": "C0",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [],
+      "c2_policy_ok": null,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T01",
+      "architecture": "C1",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [
+        "F003"
+      ],
+      "c2_policy_ok": null,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T02",
+      "architecture": "C1",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [
+        "F003"
+      ],
+      "c2_policy_ok": null,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T03",
+      "architecture": "C1",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [],
+      "c2_policy_ok": null,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T04",
+      "architecture": "C1",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [],
+      "c2_policy_ok": null,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T05",
+      "architecture": "C1",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [
+        "F003"
+      ],
+      "c2_policy_ok": null,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T06",
+      "architecture": "C1",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [
+        "F003"
+      ],
+      "c2_policy_ok": null,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T07",
+      "architecture": "C1",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [],
+      "c2_policy_ok": null,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T08",
+      "architecture": "C1",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [],
+      "c2_policy_ok": null,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T01",
+      "architecture": "C2",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [],
+      "c2_policy_ok": true,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T02",
+      "architecture": "C2",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [],
+      "c2_policy_ok": true,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T03",
+      "architecture": "C2",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [],
+      "c2_policy_ok": true,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T04",
+      "architecture": "C2",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [],
+      "c2_policy_ok": true,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T05",
+      "architecture": "C2",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [],
+      "c2_policy_ok": true,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T06",
+      "architecture": "C2",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [],
+      "c2_policy_ok": true,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T07",
+      "architecture": "C2",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [],
+      "c2_policy_ok": true,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    },
+    {
+      "case_id": "DEV_T08",
+      "architecture": "C2",
+      "attempt_id": 1,
+      "status": "ok",
+      "state_matches_gold": true,
+      "input_forbidden_ids": [],
+      "c2_policy_ok": true,
+      "retrieval_recall": 1.0,
+      "semantic_status": "NOT_RUN",
+      "synthetic": false
+    }
+  ]
+}

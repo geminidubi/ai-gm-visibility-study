@@ -1,0 +1,64 @@
+[
+  {
+    "package": "G5-RP-Work-Blind",
+    "batch": "batch-001",
+    "schema": "rp",
+    "input_sha256": "41ad1a76352f578f3703e19d5b8ccbb6d1e982e21336ffd570731d559df3dcd4",
+    "manifest_sha256": "7c1cd5be897af91c4e1b8d2a30aaf23e2753389ea83df4530e6ac53c5536b7c4",
+    "rubric_sha256": "4f11adf95790f9b8b89d156140d8a5394f529dee677ed8e2af2a9d21b3892863",
+    "work_instructions_sha256": "f5bcf4ce8fd9e4f1fd29b51f5ee163644c5d5ebbaaa6d897afa91b1c014e6ea8",
+    "preflight_hash_match": true,
+    "expected": 12,
+    "received": 12,
+    "valid": 12,
+    "accepted_ids": [
+      "caf20807b8f4c48c734282b1dab4d931",
+      "ef5c4a507fa10921c2d9629d82e3b266",
+      "421536011c2a74a61bec6c4b61b0db58",
+      "f0a38ae9aafb8a6ea223eccf86ad8cb5",
+      "9fa0ade749a518d922684473e8c0a2b2",
+      "ca2668640a7683e769512b50fc490bdd",
+      "c909a106cf70ecdd30709179d75f05e8",
+      "eb4da28b484d0f9c09681b4fadf1d1ec",
+      "a0d4727ee7d09832a0da6bf6f7e3ce5b",
+      "08247807f8388e6131482f8733368a96",
+      "10b0548668b7ebf9969821d62c6afe25",
+      "fdc9e30f488abb5fca0f444e12e6554a"
+    ],
+    "original_return_sha256": "01c9738fff6ec73608cfb53d28f4921d175db6f1316b7c6829b73a72d04f57c7",
+    "reported_launch": {
+      "model_launch": "gpt-6.2-astra",
+      "reasoning_effort_launch": "high",
+      "exact_runtime_model_version": "unknown",
+      "independently_verified_runtime_reasoning_effort": "unknown"
+    }
+  },
+  {
+    "package": "G5-RP-Work-Blind",
+    "batch": "batch-002",
+    "schema": "rp",
+    "input_sha256": "760979677dc65e167558ce504b487b7bc2ea85e755357b793be04eb395a6f09d",
+    "manifest_sha256": "7c1cd5be897af91c4e1b8d2a30aaf23e2753389ea83df4530e6ac53c5536b7c4",
+    "rubric_sha256": "4f11adf95790f9b8b89d156140d8a5394f529dee677ed8e2af2a9d21b3892863",
+    "work_instructions_sha256": "f5bcf4ce8fd9e4f1fd29b51f5ee163644c5d5ebbaaa6d897afa91b1c014e6ea8",
+    "preflight_hash_match": true,
+    "expected": 6,
+    "received": 6,
+    "valid": 6,
+    "accepted_ids": [
+      "915c2b4a99b34796c20242d24974a394",
+      "a2b151622f171102c5e62417bd366340",
+      "bffd4999f1e57a15c46f2b4c18bacf8f",
+      "91c7aca6deda5f01a211d3b7a6ed7e03",
+      "57c1a01e875dae7bbf5217b891b80ee4",
+      "0ebbe778ffec1664c85a044072cb6e72"
+    ],
+    "original_return_sha256": "b7270baf256598297972f083d2c7c718605be14e45e5379e824091d7a949963d",
+    "reported_launch": {
+      "model_launch": "gpt-6.2-astra",
+      "reasoning_effort_launch": "high",
+      "exact_runtime_model_version": "unknown",
+      "independently_verified_runtime_reasoning_effort": "unknown"
+    }
+  }
+]

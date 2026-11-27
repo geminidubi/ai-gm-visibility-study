@@ -1,0 +1,201 @@
+{
+  "formal": {
+    "original_review_snapshot_sha256": "7e1c1212e3d769ab4f0ec7a8fe955aed2abf521f55cf555ac25e2980a09ae03d",
+    "original_decisions_file_sha256": "078937ecc82aac20d325eb6fa9043988bea581b2f2efd7831e5766a79d14f281",
+    "batches": [
+      {
+        "batch_id": "batch-1e7198b847b7491b889ce33d34ee9d0a",
+        "code_commit": "5984c28cbfb79f270a190b472226998097f75d08",
+        "started_at": "2026-11-25T21:50:52.410444+00:00",
+        "finished_at": "2026-11-25T21:55:33.255204+00:00",
+        "raw_file_sha256": {
+          "records.jsonl": "883d6ceb29c4983dbaf2078baae09a610f95b6880a50336f7ded2a52dd0cb938",
+          "run_manifest.json": "219c9f0f8d2b9f6cba946528aab630d808cf1672b4ae9953a63ce29f1f6307a0",
+          "record_seal.json": "ee8baa8ceb1a0164817a0f227aa6203f4ac42f45942881edc06aaffac725d372",
+          "summary.json": "4a5ee070076d56da714975f584951a2bfe798698bf1049a9bddcc6655953e401"
+        }
+      },
+      {
+        "batch_id": "batch-3a1a8164bbc64c2fb623c7f0d1ba6a9e",
+        "code_commit": "5984c28cbfb79f270a190b472226998097f75d08",
+        "started_at": "2026-11-25T21:32:03.962990+00:00",
+        "finished_at": "2026-11-25T21:36:19.576881+00:00",
+        "raw_file_sha256": {
+          "records.jsonl": "96777a683067a5ec45a573040e537f4a9f0bf04c22ee454e8b2b4e6d1c84d19d",
+          "run_manifest.json": "102cbfb71ffbe4c51cd36a4f684df3393d3e5bdeb78199fc1af19e4e9d166d8f",
+          "record_seal.json": "d14440014f7c86095b7af8d1f311de7c3755cbd0514264fc727358fb51d15b15",
+          "summary.json": "52c283b1a5566313e03cd17c774387d24d1c3470fa2aa0c3bb845831f7565fa2"
+        }
+      },
+      {
+        "batch_id": "batch-3f0d38f1dae34a688cb3d00784ed5782",
+        "code_commit": "5984c28cbfb79f270a190b472226998097f75d08",
+        "started_at": "2026-11-25T21:36:20.406564+00:00",
+        "finished_at": "2026-11-25T21:41:14.908124+00:00",
+        "raw_file_sha256": {
+          "records.jsonl": "ff43182773a0c2d44444028d6f198db5d55424d19c82b44cc1bc7c43a27cdc6a",
+          "run_manifest.json": "66c6822459859dddfdcf62e53c03a9b5d417de554019f13637c42c50c2ca2b5d",
+          "record_seal.json": "04a0069c8ba6121eb3e85aa5e89d50c0abe1cd46ba048ac502795c3a30ea1a60",
+          "summary.json": "d246276d344577a020b6c798e0350f05802ab1d717e762b9109dd452434109b7"
+        }
+      },
+      {
+        "batch_id": "batch-5db077bb12ef4032ba65ebdf250a9124",
+        "code_commit": "5984c28cbfb79f270a190b472226998097f75d08",
+        "started_at": "2026-11-25T21:41:15.856303+00:00",
+        "finished_at": "2026-11-25T21:46:05.932194+00:00",
+        "raw_file_sha256": {
+          "records.jsonl": "989aa601a19a02d3d765a3b5f90c044ba225c28e49e60f472f303aa78fc212b9",
+          "run_manifest.json": "58843b378f268f6d8c376d27c500589ea172a5dc158e40bc626ffced381eef30",
+          "record_seal.json": "ec88b9ae11ace6f5ee6c9f597fa4e2b9a2365119134952e4a63687220d3fae35",
+          "summary.json": "1627a15693484d597c0214b51676104414385ea5330daab1ea794e8f8a0e0f42"
+        }
+      },
+      {
+        "batch_id": "batch-5e84766c000a434285c9572fb9252c9b",
+        "code_commit": "5984c28cbfb79f270a190b472226998097f75d08",
+        "started_at": "2026-11-25T21:55:35.064941+00:00",
+        "finished_at": "2026-11-25T22:00:40.041813+00:00",
+        "raw_file_sha256": {
+          "records.jsonl": "d252c6813e7540336c4726b6a878ac34943b81a872a58f5cc46526526c09a9d4",
+          "run_manifest.json": "276af8bd51ce26b44ef811e811be8f8bc8d07b98effb623f9e492e2493639d85",
+          "record_seal.json": "2a1e1bd9b6d83e0fe57cec73223fa584f895f0560d4c2f1dc3775c453472dde9",
+          "summary.json": "f8d2e64eb47f56fb5992914befbaea5c363edaa2f82af9272898bbab600aa742"
+        }
+      },
+      {
+        "batch_id": "batch-5fc69cdae88b456b9f974a6ff6c04475",
+        "code_commit": "5984c28cbfb79f270a190b472226998097f75d08",
+        "started_at": "2026-11-25T21:46:07.158233+00:00",
+        "finished_at": "2026-11-25T21:50:50.872338+00:00",
+        "raw_file_sha256": {
+          "records.jsonl": "b3a14405cd3c5992a5f932e5ce58d66856984f1ece0a6176b52ee4cbdc559271",
+          "run_manifest.json": "4ac6b7fe18f23a7acfaa5a8cc93e5f27c2f984249f614e821750b4303ca1ca01",
+          "record_seal.json": "b2093be58ee0026d3d1e149ec394f7f26d8e6a26454394958060c7b09ce9c049",
+          "summary.json": "cff08baa1a4f07dca90102d27229ed5a1eb3c4fef9df54d1e7bdb93eb60f051d"
+        }
+      },
+      {
+        "batch_id": "batch-655b6a4d781d455ba413517d224a46db",
+        "code_commit": "5984c28cbfb79f270a190b472226998097f75d08",
+        "started_at": "2026-11-25T21:27:52.025232+00:00",
+        "finished_at": "2026-11-25T21:32:03.257524+00:00",
+        "raw_file_sha256": {
+          "records.jsonl": "86000847c0d024ddf3862294014b73a15747d922b652ecdd52cc7349b733b115",
+          "run_manifest.json": "559f9899892bd0513166f399544c80d336b2dc231cce9aa61252b2f48865663b",
+          "record_seal.json": "c25d31554e77777d99dc7283fdc88cf5b1cd39e790103e4224c213874bba93eb",
+          "summary.json": "6120ca88894557c47765bedba645a215fa5f401d5c1d66da0bac2791e167bbd1"
+        }
+      },
+      {
+        "batch_id": "batch-7edba0522f59448d81de30cacb0f6cf7",
+        "code_commit": "5984c28cbfb79f270a190b472226998097f75d08",
+        "started_at": "2026-11-25T22:06:08.289754+00:00",
+        "finished_at": "2026-11-25T22:12:12.903850+00:00",
+        "raw_file_sha256": {
+          "records.jsonl": "3248f61caea4e676d4bfa97ab4831880eecf2ce48551654d96a9ec3e6048b994",
+          "run_manifest.json": "a17fa3c95c3fa524226b99aa1341384fe66d9d090c9d7d139f72c5a321691d61",
+          "record_seal.json": "42fc567b74e5888a483d1243eb977ae2e84e96b6b459777ca84d6e2f83bcec6c",
+          "summary.json": "b5423ac0a8c54b956b5939f86cef2d3a505833130255ae47c0364ec12c534134"
+        }
+      },
+      {
+        "batch_id": "batch-cee1782459274833880c91f0a61eecda",
+        "code_commit": "5984c28cbfb79f270a190b472226998097f75d08",
+        "started_at": "2026-11-25T22:00:42.451670+00:00",
+        "finished_at": "2026-11-25T22:06:05.306176+00:00",
+        "raw_file_sha256": {
+          "records.jsonl": "47a20f2434bffa622c6b7e7714357194876467f60894b3950f920a0702c8a655",
+          "run_manifest.json": "ca61c922e7a5b40809a46592b36293568c3e03df22c4883a84965a854f6c326b",
+          "record_seal.json": "9ea7eead48d2a8cdfcc19fea5131706178f3bac1c18d6fed7b28ee33392f640f",
+          "summary.json": "cc9b7808f346af693307341b8c4df1fcebe0fb9e9c387410a1c3eb8105a1f840"
+        }
+      }
+    ],
+    "original_import_receipt_sha256": "cdf6d342334b8d8d67d4d41164fac465d488b8840b48d87308d8f6883a68d8f5",
+    "original_adjudication_approval_sha256": "1dd3b3e7eab1271d787b24f8c9604df6b2507120d65c6bc7e2cb57cc8e32e522"
+  },
+  "rp": {
+    "original_review_snapshot_sha256": "baf462044830a4ceeb0fc08128934c21af3059d8a58bb8948ee0666fded57838",
+    "original_decisions_file_sha256": "97db45ae66195ae303ce6e2b1ce386c194000eae1be2aeca6be66d62fa06937a",
+    "batches": [
+      {
+        "batch_id": "batch-908a7d00894f47ea9c2bd1a1973ca6c3",
+        "code_commit": "5984c28cbfb79f270a190b472226998097f75d08",
+        "started_at": "2026-11-25T21:26:40.382066+00:00",
+        "finished_at": "2026-11-25T21:27:29.159598+00:00",
+        "raw_file_sha256": {
+          "records.jsonl": "5dde45b7f32293a4ef76baee4d6380c06977830ac96691da796e32817f335466",
+          "run_manifest.json": "f0f48b105eea66d2a4812a820bafa7c69540945e62dc4f659f0c96da98890439",
+          "record_seal.json": "2a7b5cc86eee5623d0b289ce3e142ab170dc37e7906efbc42c462cfdb1d9df17",
+          "summary.json": "75b0e03aec0fd0340ecb10d357cf9d22f3ab0be25ad973c0a9b65841221fa642"
+        }
+      }
+    ],
+    "original_import_receipt_sha256": "5dcf62daa8bdf91daad088a5d3d8bbf91350fdde3e333c6682776965c209b9f6"
+  },
+  "pilot": {
+    "connection-failures": {
+      "batch_id": "20261125T184753Z-42789055",
+      "settings": {
+        "model": "gpt-6-luna",
+        "reasoning_effort": "none",
+        "max_output_tokens": 2048,
+        "store": false,
+        "timeout_seconds": 60,
+        "max_retries": 0
+      },
+      "raw_file_sha256": {
+        "records.jsonl": "a07b68b5aea231dc61391af8a6e61faee9fe6f8f2082f6992df7a2828c8d739b",
+        "run_manifest.json": "34b5338c86797e58a3aabfa69e36c242444a7d94275cb197f4caf27340be703a",
+        "record_seal.json": "2c1981a610493986349f8550c217350f3f5e4a50f5dfda4106721d44feb832fe",
+        "summary.json": "b205bb7692537b39ddbb2c1db98563baee314b69c19de12f26475ddf9d55f8e5"
+      }
+    },
+    "none": {
+      "batch_id": "20261125T193109Z-533a34da",
+      "settings": {
+        "model": "gpt-6-luna",
+        "reasoning_effort": "none",
+        "max_output_tokens": 2048,
+        "store": false,
+        "timeout_seconds": 60,
+        "max_retries": 0
+      },
+      "raw_file_sha256": {
+        "records.jsonl": "128c7f4168c18c8bb8cd08eaa635e57057b6dee70dde2a61638bfd33ba398506",
+        "run_manifest.json": "44ff9fae63cc977af3793a02d734bb8a269c55744b76c413682645b5b7f195e6",
+        "record_seal.json": "0385d7e49e53f1b6c8417cc9a52242d694c1df0a404696ea6a8ca6392a6c1c13",
+        "summary.json": "bf06251c5e902ffd0dbe5103e39810916c5f9394d829d0f872709259d5f456c3"
+      },
+      "original_decisions_file_sha256": "e603b63a1c820edc0816623230f87fdc9739f7b8df1685dad8b19827f171c882",
+      "original_primary_returns_zip_sha256": "47f71fe92eaeb7b0e8784460ab1b9c60c40ba8c0c2bbdebde2eecb651d2a8461"
+    },
+    "low": {
+      "batch_id": "20261125T193229Z-c3248544",
+      "settings": {
+        "model": "gpt-6-luna",
+        "reasoning_effort": "low",
+        "max_output_tokens": 2048,
+        "store": false,
+        "timeout_seconds": 60,
+        "max_retries": 0
+      },
+      "raw_file_sha256": {
+        "records.jsonl": "07baaccc8e5ddab2b9ec5eccf9bdd2359ef2615c24c9a596db166a6a8ed7053f",
+        "run_manifest.json": "a62abfc7bdb67ba622ee9fb8da45311cf2145e97bb96512b1400bc7b5bf1957a",
+        "record_seal.json": "f7614214ea8f803038c057eefef3ced0852dc009d4177c47e03b3ca220a875c4",
+        "summary.json": "80a90a55776ccc2733b5960e327fede415aab84ddfd35dfe427b4c9f01876ab6"
+      },
+      "original_decisions_file_sha256": "76cdb68d69fe7ffc5b3eb6614d41b8c30c7dc75b98193693f7e05322f06be6a0",
+      "original_primary_returns_zip_sha256": "47f71fe92eaeb7b0e8784460ab1b9c60c40ba8c0c2bbdebde2eecb651d2a8461"
+    }
+  },
+  "original_baseline_file_sha256": {
+    "results/hw5/experiment-usage.md": "3f79438e9993ad6689d981f42183e3999760ffc33d025f70ba83c9bdef4bb81e",
+    "results/g5/approved-2026-11-26/generation-summary.json": "331f77a34c9d129ba5a914d10b0b77a21f3d71347c8ee1dde985e7acc2579daf",
+    "results/g5/approved-2026-11-26/final-scoring-summary.json": "6e8a6734d4ce72ffcc3bbdf91fdd04b18e150b8f38268e44569fcee148c39f50",
+    "results/hw5/c2-reveal-failures.jsonl": "8430aa587dacebecc81308f8d45d06e61d5307f5892dd9fd6915ae717bd558ab",
+    "scripts/run_g5_approved.py": "31b5c7752d89521cbafca9af664cf59a3eb089040a13028809ef175ce87671dc"
+  }
+}

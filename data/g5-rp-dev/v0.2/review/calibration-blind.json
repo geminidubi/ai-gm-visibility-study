@@ -1,0 +1,3069 @@
+{
+  "scenarios": [
+    {
+      "scenario": "P1",
+      "action": "我沿黑穗地線到石凳旁，輕敲坐面，參照巡檢牌找出短響是哪裡傳來的。也請交代巡檢牌靠什麼記號判斷回音方向。",
+      "visible_adjudication": [
+        {
+          "id": "E001-1",
+          "field": "outcome",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "S01",
+            "S02"
+          ],
+          "result": "成功。"
+        },
+        {
+          "id": "E001-2",
+          "field": "position",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "S01"
+          ],
+          "before": "黑穗地線起點",
+          "after": "試響石凳旁",
+          "result": "沿黑穗地線走到了試響石凳旁。"
+        },
+        {
+          "id": "E001-3",
+          "field": "sound",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "S02"
+          ],
+          "before": "尚未敲擊",
+          "after": "聲源已定位",
+          "result": "輕敲後，循巡檢牌確認回音來自西側空管。"
+        }
+      ],
+      "hidden_adjudication": [
+        {
+          "id": "E001-4",
+          "field": "mechanism",
+          "audience": [
+            "GM"
+          ],
+          "sources": [
+            "S03"
+          ],
+          "before": "絳色隔聲布收起",
+          "after": "絳色隔聲布收起",
+          "result": "未壓動假石。"
+        }
+      ],
+      "world_facts": [
+        {
+          "id": "S01",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "館役現要求沿黑穗地線走到試響石凳。"
+        },
+        {
+          "id": "S02",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "試響石凳旁，記號清楚的巡檢牌可幫助定位回音。"
+        },
+        {
+          "id": "S03",
+          "readers": [
+            "GM"
+          ],
+          "text": "假石受壓會彈出絳色隔聲布。"
+        },
+        {
+          "id": "S04",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "先前的導線沿灰印旁通過。",
+          "retired": true
+        },
+        {
+          "id": "S05",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "巡檢牌以凸箭頭標示回音回傳的方位，箭頭指的是回音來向。"
+        },
+        {
+          "id": "S06",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "黑穗地線從側門內的玄磚起頭，止於石凳前的停步格。"
+        },
+        {
+          "id": "S07",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "館役說試響只需輕敲坐面一次，免得連續敲聲疊在一起。"
+        },
+        {
+          "id": "S08",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "石凳東側的粉筆箭頭標的是清掃方向，供掃地的人看。"
+        },
+        {
+          "id": "S09",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "過了試響石凳，黑穗地線旁另外一條點紋短線通往木器間。"
+        },
+        {
+          "id": "S10",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "站著辨音時可留在停步格，給沿壁通行的人留路。"
+        },
+        {
+          "id": "S11",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "巡檢牌有可換的面板，館役每天按當班巡檢項目換牌。"
+        },
+        {
+          "id": "S12",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "門廊的晨鐘是開館提示，聲音長且會連續響兩下。"
+        },
+        {
+          "id": "S13",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "器材處的試響木凳用來檢查鬆動榫頭，須另找器材值班。"
+        },
+        {
+          "id": "S14",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "館役在側門掛著今日巡檢的開始與收班時刻。"
+        },
+        {
+          "id": "S15",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "試響區內的灰色踏墊用來吸去鞋底的水。"
+        },
+        {
+          "id": "S16",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "石凳背面的凳號是資產編號，用於報修。"
+        },
+        {
+          "id": "S17",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "停步格旁的空白簡圖只供描畫腳下路線，未繪聲管。"
+        },
+        {
+          "id": "S18",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "壁掛燈只照步道；需要整理巡檢牌時由館役處理。"
+        },
+        {
+          "id": "S19",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "值班桌有一疊報修條，填寫地點即可交給館役。"
+        },
+        {
+          "id": "S20",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "黑穗地線以短穗圖案連接，轉角也維持同一圖樣。"
+        },
+        {
+          "id": "S21",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "石凳試響區的矮欄只留側門的一段作行人入口。"
+        },
+        {
+          "id": "S22",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "壁鐘下的木盒可投還登記筆。"
+        },
+        {
+          "id": "S23",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "石凳旁的飲水台只對沿壁步道開口。"
+        },
+        {
+          "id": "S24",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "北牆的乾布掛架是給館役擦鞋墊用的。"
+        },
+        {
+          "id": "S25",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "一名值班館役負責引路，另一名留守值班桌。"
+        },
+        {
+          "id": "S26",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "收班前館役會清點石凳區的書寫板，再把它們移回值班桌。"
+        },
+        {
+          "id": "S27",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "通往庭院的木柵門在這一班維持關閉。"
+        },
+        {
+          "id": "S28",
+          "readers": [
+            "PLAYER_A",
+            "GM"
+          ],
+          "text": "甲領到的巡檢夾以一枚琥珀珠辨識。"
+        },
+        {
+          "id": "S29",
+          "readers": [
+            "PLAYER_A",
+            "GM"
+          ],
+          "text": "甲已向值班桌借了薄底軟套，鞋底防滑用。"
+        },
+        {
+          "id": "S30",
+          "readers": [
+            "PLAYER_A",
+            "GM"
+          ],
+          "text": "甲的報修聯夾在自己的巡檢夾裡，空欄留待填寫。"
+        },
+        {
+          "id": "S31",
+          "readers": [
+            "GM"
+          ],
+          "text": "備用回聲管封在工具櫃底層，貼有紅羽封籤。"
+        },
+        {
+          "id": "S32",
+          "readers": [
+            "GM"
+          ],
+          "text": "巡檢牌背板內側藏著館役用的月牙形校正鍵。"
+        },
+        {
+          "id": "S33",
+          "readers": [
+            "GM"
+          ],
+          "text": "工具櫃試壓結果只存值班桌抽屜裡的褐皮簿。"
+        },
+        {
+          "id": "S34",
+          "readers": [
+            "GM"
+          ],
+          "text": "清掃用的灰泥盆另有一枚鉛色備用封印，藏在值班桌夾層。"
+        },
+        {
+          "id": "S35",
+          "readers": [
+            "GM"
+          ],
+          "text": "館役收班後用刻有雙浪的扁鑰開啟木柵門旁的檢修蓋。"
+        },
+        {
+          "id": "S36",
+          "readers": [
+            "PLAYER_B",
+            "GM"
+          ],
+          "text": "乙私下借到一副帶銀扣的護耳具，寄放在北牆小櫃。"
+        },
+        {
+          "id": "S37",
+          "readers": [
+            "PLAYER_B",
+            "GM"
+          ],
+          "text": "乙的晚班工作是將斷齒量規還到器材處副櫃。"
+        },
+        {
+          "id": "S38",
+          "readers": [
+            "PLAYER_B",
+            "GM"
+          ],
+          "text": "乙給館役留下的私人報修聯記著西門扶手的三道刻痕。"
+        },
+        {
+          "id": "S39",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "上個巡檢班的臨時停步格畫在側門外，如今已撤除。",
+          "retired": true
+        },
+        {
+          "id": "S40",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "更早一班曾用垂下的葦繩替代引路標，如今已收走。",
+          "retired": true
+        }
+      ],
+      "visible_history": [
+        {
+          "id": "SH01",
+          "turn": 12,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "S04"
+          ],
+          "text": "我早先記的是灰印旁的舊導線。"
+        },
+        {
+          "id": "SH04",
+          "turn": 14,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "S39"
+          ],
+          "text": "我記得上個巡檢班的臨時停步格在側門外，如今已撤。"
+        },
+        {
+          "id": "SH05",
+          "turn": 14,
+          "actor": "PLAYER_B",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "S40"
+          ],
+          "text": "更早一班以葦繩引路，葦繩已經撤掉。"
+        },
+        {
+          "id": "SH06",
+          "turn": 15,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "S28"
+          ],
+          "text": "我領到的巡檢夾以琥珀珠辨識。"
+        },
+        {
+          "id": "SH08",
+          "turn": 16,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "S06"
+          ],
+          "text": "我把黑穗地線的起點指給大家看，就在側門內玄磚。"
+        },
+        {
+          "id": "SH09",
+          "turn": 17,
+          "actor": "PLAYER_B",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "S07"
+          ],
+          "text": "我提醒同行的人只輕敲坐面一次，才不會兩下疊在一起。"
+        },
+        {
+          "id": "SH02",
+          "turn": 18,
+          "actor": "PLAYER_B",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "S01"
+          ],
+          "text": "我剛聽見館役說，現在改走黑穗地線。"
+        },
+        {
+          "id": "SH10",
+          "turn": 18,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "S10"
+          ],
+          "text": "我提醒同行的人在停步格辨音，給沿壁的來人留出空間。"
+        }
+      ],
+      "forbidden_fact_ids": [
+        "S03",
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S37",
+        "S38"
+      ],
+      "other_player_fact_ids": [
+        "S36",
+        "S37",
+        "S38"
+      ],
+      "focal_forbidden_fact_ids": [
+        "S03"
+      ],
+      "additional_forbidden_fact_ids": [
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S37",
+        "S38"
+      ],
+      "required_observation_components": {
+        "E001-2": [
+          "沿黑穗地線到試響石凳旁"
+        ],
+        "E001-3": [
+          "輕敲後有短響",
+          "循巡檢牌確認短響來自西側空管"
+        ]
+      },
+      "required_reveal_components": {},
+      "required_background": [
+        {
+          "fact_id": "S05",
+          "history_ids": [],
+          "components": [
+            "巡檢牌用凸箭頭表示回音方向",
+            "箭頭指向回音傳來的一側"
+          ],
+          "scope": "可當作牌的通用判讀法。RP-002 只能說明規則，不能說本次看見箭頭或推得方向。"
+        }
+      ],
+      "metric_applicability": {
+        "U": true,
+        "U_focus": true,
+        "U_additional": true,
+        "R": false,
+        "L": true,
+        "X": true,
+        "background": true
+      }
+    },
+    {
+      "scenario": "P2",
+      "action": "我沿黑穗地線到石凳旁，輕敲坐面，參照巡檢牌找出短響是哪裡傳來的。也請交代巡檢牌靠什麼記號判斷回音方向。",
+      "visible_adjudication": [
+        {
+          "id": "E002-1",
+          "field": "outcome",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "S01",
+            "S02"
+          ],
+          "result": "部分成功。"
+        },
+        {
+          "id": "E002-2",
+          "field": "position",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "S01"
+          ],
+          "before": "黑穗地線起點",
+          "after": "試響石凳旁",
+          "result": "沿黑穗地線走到了試響石凳旁。"
+        },
+        {
+          "id": "E002-3",
+          "field": "sound",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "S02"
+          ],
+          "before": "尚未敲擊",
+          "after": "聲源仍未定位",
+          "result": "敲擊後聽見短響，巡檢牌被灰泥遮住，這次無法定位。"
+        }
+      ],
+      "hidden_adjudication": [
+        {
+          "id": "E002-4",
+          "field": "mechanism",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "S03"
+          ],
+          "before": "絳色隔聲布收起",
+          "after": "絳色隔聲布收起",
+          "result": "未壓動假石。"
+        }
+      ],
+      "world_facts": [
+        {
+          "id": "S01",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "館役現要求沿黑穗地線走到試響石凳。"
+        },
+        {
+          "id": "S02",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "試響石凳旁，記號清楚的巡檢牌可幫助定位回音。"
+        },
+        {
+          "id": "S03",
+          "readers": [
+            "GM"
+          ],
+          "text": "假石受壓會彈出絳色隔聲布。"
+        },
+        {
+          "id": "S04",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "先前的導線沿灰印旁通過。",
+          "retired": true
+        },
+        {
+          "id": "S05",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "巡檢牌以凸箭頭標示回音回傳的方位，箭頭指的是回音來向。"
+        },
+        {
+          "id": "S06",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "黑穗地線從側門內的玄磚起頭，止於石凳前的停步格。"
+        },
+        {
+          "id": "S07",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "館役說試響只需輕敲坐面一次，免得連續敲聲疊在一起。"
+        },
+        {
+          "id": "S08",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "石凳東側的粉筆箭頭標的是清掃方向，供掃地的人看。"
+        },
+        {
+          "id": "S09",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "過了試響石凳，黑穗地線旁另外一條點紋短線通往木器間。"
+        },
+        {
+          "id": "S10",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "站著辨音時可留在停步格，給沿壁通行的人留路。"
+        },
+        {
+          "id": "S11",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "巡檢牌有可換的面板，館役每天按當班巡檢項目換牌。"
+        },
+        {
+          "id": "S12",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "門廊的晨鐘是開館提示，聲音長且會連續響兩下。"
+        },
+        {
+          "id": "S13",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "器材處的試響木凳用來檢查鬆動榫頭，須另找器材值班。"
+        },
+        {
+          "id": "S14",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "館役在側門掛著今日巡檢的開始與收班時刻。"
+        },
+        {
+          "id": "S15",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "試響區內的灰色踏墊用來吸去鞋底的水。"
+        },
+        {
+          "id": "S16",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "石凳背面的凳號是資產編號，用於報修。"
+        },
+        {
+          "id": "S17",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "停步格旁的空白簡圖只供描畫腳下路線，未繪聲管。"
+        },
+        {
+          "id": "S18",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "壁掛燈只照步道；需要整理巡檢牌時由館役處理。"
+        },
+        {
+          "id": "S19",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "值班桌有一疊報修條，填寫地點即可交給館役。"
+        },
+        {
+          "id": "S20",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "黑穗地線以短穗圖案連接，轉角也維持同一圖樣。"
+        },
+        {
+          "id": "S21",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "石凳試響區的矮欄只留側門的一段作行人入口。"
+        },
+        {
+          "id": "S22",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "壁鐘下的木盒可投還登記筆。"
+        },
+        {
+          "id": "S23",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "石凳旁的飲水台只對沿壁步道開口。"
+        },
+        {
+          "id": "S24",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "北牆的乾布掛架是給館役擦鞋墊用的。"
+        },
+        {
+          "id": "S25",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "一名值班館役負責引路，另一名留守值班桌。"
+        },
+        {
+          "id": "S26",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "收班前館役會清點石凳區的書寫板，再把它們移回值班桌。"
+        },
+        {
+          "id": "S27",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "通往庭院的木柵門在這一班維持關閉。"
+        },
+        {
+          "id": "S28",
+          "readers": [
+            "PLAYER_A",
+            "GM"
+          ],
+          "text": "甲領到的巡檢夾以一枚琥珀珠辨識。"
+        },
+        {
+          "id": "S29",
+          "readers": [
+            "PLAYER_A",
+            "GM"
+          ],
+          "text": "甲已向值班桌借了薄底軟套，鞋底防滑用。"
+        },
+        {
+          "id": "S30",
+          "readers": [
+            "PLAYER_A",
+            "GM"
+          ],
+          "text": "甲的報修聯夾在自己的巡檢夾裡，空欄留待填寫。"
+        },
+        {
+          "id": "S31",
+          "readers": [
+            "GM"
+          ],
+          "text": "備用回聲管封在工具櫃底層，貼有紅羽封籤。"
+        },
+        {
+          "id": "S32",
+          "readers": [
+            "GM"
+          ],
+          "text": "巡檢牌背板內側藏著館役用的月牙形校正鍵。"
+        },
+        {
+          "id": "S33",
+          "readers": [
+            "GM"
+          ],
+          "text": "工具櫃試壓結果只存值班桌抽屜裡的褐皮簿。"
+        },
+        {
+          "id": "S34",
+          "readers": [
+            "GM"
+          ],
+          "text": "清掃用的灰泥盆另有一枚鉛色備用封印，藏在值班桌夾層。"
+        },
+        {
+          "id": "S35",
+          "readers": [
+            "GM"
+          ],
+          "text": "館役收班後用刻有雙浪的扁鑰開啟木柵門旁的檢修蓋。"
+        },
+        {
+          "id": "S36",
+          "readers": [
+            "PLAYER_B",
+            "GM"
+          ],
+          "text": "乙私下借到一副帶銀扣的護耳具，寄放在北牆小櫃。"
+        },
+        {
+          "id": "S37",
+          "readers": [
+            "PLAYER_B",
+            "GM"
+          ],
+          "text": "乙的晚班工作是將斷齒量規還到器材處副櫃。"
+        },
+        {
+          "id": "S38",
+          "readers": [
+            "PLAYER_B",
+            "GM"
+          ],
+          "text": "乙給館役留下的私人報修聯記著西門扶手的三道刻痕。"
+        },
+        {
+          "id": "S39",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "上個巡檢班的臨時停步格畫在側門外，如今已撤除。",
+          "retired": true
+        },
+        {
+          "id": "S40",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "更早一班曾用垂下的葦繩替代引路標，如今已收走。",
+          "retired": true
+        }
+      ],
+      "visible_history": [
+        {
+          "id": "SH01",
+          "turn": 12,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "S04"
+          ],
+          "text": "我早先記的是灰印旁的舊導線。"
+        },
+        {
+          "id": "SH04",
+          "turn": 14,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "S39"
+          ],
+          "text": "我記得上個巡檢班的臨時停步格在側門外，如今已撤。"
+        },
+        {
+          "id": "SH05",
+          "turn": 14,
+          "actor": "PLAYER_B",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "S40"
+          ],
+          "text": "更早一班以葦繩引路，葦繩已經撤掉。"
+        },
+        {
+          "id": "SH06",
+          "turn": 15,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "S28"
+          ],
+          "text": "我領到的巡檢夾以琥珀珠辨識。"
+        },
+        {
+          "id": "SH08",
+          "turn": 16,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "S06"
+          ],
+          "text": "我把黑穗地線的起點指給大家看，就在側門內玄磚。"
+        },
+        {
+          "id": "SH09",
+          "turn": 17,
+          "actor": "PLAYER_B",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "S07"
+          ],
+          "text": "我提醒同行的人只輕敲坐面一次，才不會兩下疊在一起。"
+        },
+        {
+          "id": "SH02",
+          "turn": 18,
+          "actor": "PLAYER_B",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "S01"
+          ],
+          "text": "我剛聽見館役說，現在改走黑穗地線。"
+        },
+        {
+          "id": "SH10",
+          "turn": 18,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "S10"
+          ],
+          "text": "我提醒同行的人在停步格辨音，給沿壁的來人留出空間。"
+        }
+      ],
+      "forbidden_fact_ids": [
+        "S03",
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S37",
+        "S38"
+      ],
+      "other_player_fact_ids": [
+        "S36",
+        "S37",
+        "S38"
+      ],
+      "focal_forbidden_fact_ids": [
+        "S03"
+      ],
+      "additional_forbidden_fact_ids": [
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S37",
+        "S38"
+      ],
+      "required_observation_components": {
+        "E002-2": [
+          "沿黑穗地線到試響石凳旁"
+        ],
+        "E002-3": [
+          "敲後聽到短響",
+          "巡檢牌被灰泥遮住",
+          "此次無法定位聲源"
+        ]
+      },
+      "required_reveal_components": {},
+      "required_background": [
+        {
+          "fact_id": "S05",
+          "history_ids": [],
+          "components": [
+            "巡檢牌用凸箭頭表示回音方向",
+            "箭頭指向回音傳來的一側"
+          ],
+          "scope": "可當作牌的通用判讀法。RP-002 只能說明規則，不能說本次看見箭頭或推得方向。"
+        }
+      ],
+      "metric_applicability": {
+        "U": true,
+        "U_focus": true,
+        "U_additional": true,
+        "R": false,
+        "L": true,
+        "X": true,
+        "background": true
+      }
+    },
+    {
+      "scenario": "P3",
+      "action": "我把手上的牌遞給值房茶役，請他驗牌，讓我翻開藍封冊讀內梯通往哪裡。也確認驗牌通過時可以在哪裡閱冊。",
+      "visible_adjudication": [
+        {
+          "id": "E003-1",
+          "field": "outcome",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "D02"
+          ],
+          "result": "成功。"
+        },
+        {
+          "id": "E003-2",
+          "field": "folio",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "D01",
+            "D02"
+          ],
+          "before": "藍封冊闔上",
+          "after": "藍封冊翻開",
+          "result": "值房驗牌後准你翻冊，你從館章下方掀開封面。"
+        },
+        {
+          "id": "E003-3",
+          "field": "destination",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "D03"
+          ],
+          "before": "甲未讀過內頁",
+          "after": "甲獲准當場閱讀內頁",
+          "result": "內頁記載內梯通向霧紋取水室。"
+        }
+      ],
+      "hidden_adjudication": [],
+      "world_facts": [
+        {
+          "id": "D01",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "值房的藍封冊封面印有館章，封面可供閱看。"
+        },
+        {
+          "id": "D02",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "值房只准持閱覽牌者翻閱藍封冊內頁。"
+        },
+        {
+          "id": "D03",
+          "readers": [
+            "GM"
+          ],
+          "text": "藍封冊內頁記載內梯通向霧紋取水室。"
+        },
+        {
+          "id": "D04",
+          "readers": [
+            "PLAYER_A",
+            "GM"
+          ],
+          "text": "這一班的閱覽牌是木質青角牌。"
+        },
+        {
+          "id": "D05",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "驗牌通過後，藍封冊只可在值房櫃前閱覽，不得攜離值房。"
+        },
+        {
+          "id": "D06",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "進值房後，候驗的人在籐欄內側排隊。"
+        },
+        {
+          "id": "D07",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "前窗公開的藍封抄冊登記飲水桶數，供採買人員查閱。"
+        },
+        {
+          "id": "D08",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "值房茶役輪流管驗牌和抄寫交接簿。"
+        },
+        {
+          "id": "D09",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "館章刻著一圈四瓣葉，值房的公文也蓋同式館章。"
+        },
+        {
+          "id": "D10",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "若牌面驗核未過，持牌人可以另外掛號申請複驗。"
+        },
+        {
+          "id": "D11",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "藍封冊封面的書籤繩是裝訂繩，供抽放書冊時拉取。"
+        },
+        {
+          "id": "D12",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "正對值房的外梯通往曬布臺，有自己的路牌。"
+        },
+        {
+          "id": "D13",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "值房門內的側桌用來填登記單，櫃前留給閱冊者。"
+        },
+        {
+          "id": "D14",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "值房公開陳列的《水具目錄》只記水具數量與民用領取窗口。"
+        },
+        {
+          "id": "D15",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "藍色封套是公用的防塵用品，驗牌茶役可在抽屜領取。"
+        },
+        {
+          "id": "D16",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "候驗報到時只用說明要閱哪本冊，不用先講冊內問題。"
+        },
+        {
+          "id": "D17",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "值房外走道有面等候牌，可看目前叫到的號次。"
+        },
+        {
+          "id": "D18",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "茶役翻到簿冊折角會請持牌人避開，以免紙裂。"
+        },
+        {
+          "id": "D19",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "回收掉落信封的小托盤放在值房門後。"
+        },
+        {
+          "id": "D20",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "閱冊時可合上袖口繩，免得拉扯書頁。"
+        },
+        {
+          "id": "D21",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "櫃後的窗格朝中庭開，用來讓值房換氣。"
+        },
+        {
+          "id": "D22",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "門外留一條空道給茶役搬冊。"
+        },
+        {
+          "id": "D23",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "館章拓印本放在門側玻璃匣供比對印樣。"
+        },
+        {
+          "id": "D24",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "值房備有紙鎮，茶役用來壓平候驗登記單。"
+        },
+        {
+          "id": "D25",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "櫃台旁掛著收班後的文件投遞時段。"
+        },
+        {
+          "id": "D26",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "長候椅靠在前窗下，靠門兩席留給搬冊人員。"
+        },
+        {
+          "id": "D27",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "上一班的驗牌等候點曾設在中庭南拱下，這一班已移走。",
+          "retired": true
+        },
+        {
+          "id": "D28",
+          "readers": [
+            "PLAYER_A",
+            "GM"
+          ],
+          "text": "甲先前拿到一張灰邊候驗單，單角印有小葉。"
+        },
+        {
+          "id": "D29",
+          "readers": [
+            "PLAYER_A",
+            "GM"
+          ],
+          "text": "甲的閱冊預約備註留的是午後第二聲鐘。"
+        },
+        {
+          "id": "D30",
+          "readers": [
+            "PLAYER_A",
+            "GM"
+          ],
+          "text": "甲請茶役把自己的姓名留在登記簿內側，不在走廊喊名。"
+        },
+        {
+          "id": "D31",
+          "readers": [
+            "GM"
+          ],
+          "text": "藍封冊內頁的取水輪班表把第一班交給穿褐袖的巡工。"
+        },
+        {
+          "id": "D32",
+          "readers": [
+            "GM"
+          ],
+          "text": "館役用的白封副冊記有內梯欄杆的更換日期：霜月初六。"
+        },
+        {
+          "id": "D33",
+          "readers": [
+            "GM"
+          ],
+          "text": "值房修補簿把館章邊緣缺口記成第三瓣葉的外緣。"
+        },
+        {
+          "id": "D34",
+          "readers": [
+            "GM"
+          ],
+          "text": "值房留有一枚青角牌的報廢樣本，背緣有三格鑿痕。"
+        },
+        {
+          "id": "D35",
+          "readers": [
+            "GM"
+          ],
+          "text": "茶役保管的停閱通知底稿用赭墨寫在薄楠紙上。"
+        },
+        {
+          "id": "D36",
+          "readers": [
+            "PLAYER_B",
+            "GM"
+          ],
+          "text": "乙另在值房預約紅封冊副本，預約聯印了魚尾章。"
+        },
+        {
+          "id": "D37",
+          "readers": [
+            "PLAYER_B",
+            "GM"
+          ],
+          "text": "乙的補驗通知約在二更後，由斜窗輪值茶役收件。"
+        },
+        {
+          "id": "D38",
+          "readers": [
+            "PLAYER_B",
+            "GM"
+          ],
+          "text": "乙借用的閱冊筆有褐色雙環，茶役記在乙的私單。"
+        },
+        {
+          "id": "D39",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "舊值房曾借閱藍封冊到前窗座位，搬櫃後已停止。",
+          "retired": true
+        },
+        {
+          "id": "D40",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "去冬的短期候驗制度曾以藤葉號牌代替登記單，春季已取消。",
+          "retired": true
+        }
+      ],
+      "visible_history": [
+        {
+          "id": "DH03",
+          "turn": 11,
+          "actor": "PLAYER_B",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "D39"
+          ],
+          "text": "搬櫃前，值房曾把藍封冊借到前窗座位，那項安排已撤。"
+        },
+        {
+          "id": "DH04",
+          "turn": 12,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "D27"
+          ],
+          "text": "上個班我曾在中庭南拱下等驗牌，記得那是舊等候點。"
+        },
+        {
+          "id": "DH06",
+          "turn": 14,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "D29"
+          ],
+          "text": "我看過自己的預約備註，寫的是午後第二聲鐘。"
+        },
+        {
+          "id": "DH07",
+          "turn": 15,
+          "actor": "PLAYER_B",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "D06"
+          ],
+          "text": "我提醒大家進了籐欄再照先後順序候驗。"
+        },
+        {
+          "id": "DH01",
+          "turn": 16,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "D01"
+          ],
+          "text": "我在值房看過藍封冊封面的館章。"
+        },
+        {
+          "id": "DH09",
+          "turn": 17,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "D16"
+          ],
+          "text": "我報到時說明想看的冊名就好，值房沒有先問內頁問題。"
+        },
+        {
+          "id": "DH02",
+          "turn": 18,
+          "actor": "PLAYER_B",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "D02"
+          ],
+          "text": "值房公告說，必須持閱覽牌才能翻內頁。"
+        },
+        {
+          "id": "DH10",
+          "turn": 18,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "D28"
+          ],
+          "text": "我的候驗單角落有小葉，是灰邊那張。"
+        }
+      ],
+      "forbidden_fact_ids": [
+        "D31",
+        "D32",
+        "D33",
+        "D34",
+        "D35",
+        "D36",
+        "D37",
+        "D38"
+      ],
+      "other_player_fact_ids": [
+        "D36",
+        "D37",
+        "D38"
+      ],
+      "focal_forbidden_fact_ids": [],
+      "additional_forbidden_fact_ids": [
+        "D31",
+        "D32",
+        "D33",
+        "D34",
+        "D35",
+        "D36",
+        "D37",
+        "D38"
+      ],
+      "required_observation_components": {
+        "E003-2": [
+          "驗核通過，准翻藍封冊",
+          "翻開印有館章的封面"
+        ],
+        "E003-3": [
+          "本次當場讀到內梯通往霧紋取水室"
+        ]
+      },
+      "required_reveal_components": {
+        "D03": [
+          "內梯通往霧紋取水室",
+          "只向甲敘述本次已獲准的內頁內容"
+        ]
+      },
+      "required_background": [
+        {
+          "fact_id": "D05",
+          "history_ids": [],
+          "components": [
+            "驗過後僅在值房櫃前閱覽",
+            "書不得帶離值房"
+          ],
+          "scope": "RP-003 可敘述本次准在櫃前閱冊；RP-004 必須把規則說成驗過才適用，不可聲稱本次獲准。"
+        }
+      ],
+      "metric_applicability": {
+        "U": true,
+        "U_focus": false,
+        "U_additional": true,
+        "R": true,
+        "L": true,
+        "X": true,
+        "background": true
+      }
+    },
+    {
+      "scenario": "P4",
+      "action": "我把手上的牌遞給值房茶役，請他驗牌，讓我翻開藍封冊讀內梯通往哪裡。也確認驗牌通過時可以在哪裡閱冊。",
+      "visible_adjudication": [
+        {
+          "id": "E004-1",
+          "field": "outcome",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "D02"
+          ],
+          "result": "失敗。"
+        },
+        {
+          "id": "E004-2",
+          "field": "folio",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "D01",
+            "D02"
+          ],
+          "before": "藍封冊闔上",
+          "after": "藍封冊仍闔上",
+          "result": "牌未通過驗核，茶役把牌退回。你仍可看見封面的館章。"
+        }
+      ],
+      "hidden_adjudication": [
+        {
+          "id": "E004-3",
+          "field": "destination",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "D01",
+            "D03"
+          ],
+          "before": "內頁在冊內",
+          "after": "內頁仍在冊內",
+          "result": "內梯的目的地是霧紋取水室，仍只有館役獲准閱讀。"
+        }
+      ],
+      "world_facts": [
+        {
+          "id": "D01",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "值房的藍封冊封面印有館章，封面可供閱看。"
+        },
+        {
+          "id": "D02",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "值房只准持閱覽牌者翻閱藍封冊內頁。"
+        },
+        {
+          "id": "D03",
+          "readers": [
+            "GM"
+          ],
+          "text": "藍封冊內頁記載內梯通向霧紋取水室。"
+        },
+        {
+          "id": "D04",
+          "readers": [
+            "PLAYER_A",
+            "GM"
+          ],
+          "text": "這一班的閱覽牌是木質青角牌。"
+        },
+        {
+          "id": "D05",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "驗牌通過後，藍封冊只可在值房櫃前閱覽，不得攜離值房。"
+        },
+        {
+          "id": "D06",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "進值房後，候驗的人在籐欄內側排隊。"
+        },
+        {
+          "id": "D07",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "前窗公開的藍封抄冊登記飲水桶數，供採買人員查閱。"
+        },
+        {
+          "id": "D08",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "值房茶役輪流管驗牌和抄寫交接簿。"
+        },
+        {
+          "id": "D09",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "館章刻著一圈四瓣葉，值房的公文也蓋同式館章。"
+        },
+        {
+          "id": "D10",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "若牌面驗核未過，持牌人可以另外掛號申請複驗。"
+        },
+        {
+          "id": "D11",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "藍封冊封面的書籤繩是裝訂繩，供抽放書冊時拉取。"
+        },
+        {
+          "id": "D12",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "正對值房的外梯通往曬布臺，有自己的路牌。"
+        },
+        {
+          "id": "D13",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "值房門內的側桌用來填登記單，櫃前留給閱冊者。"
+        },
+        {
+          "id": "D14",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "值房公開陳列的《水具目錄》只記水具數量與民用領取窗口。"
+        },
+        {
+          "id": "D15",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "藍色封套是公用的防塵用品，驗牌茶役可在抽屜領取。"
+        },
+        {
+          "id": "D16",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "候驗報到時只用說明要閱哪本冊，不用先講冊內問題。"
+        },
+        {
+          "id": "D17",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "值房外走道有面等候牌，可看目前叫到的號次。"
+        },
+        {
+          "id": "D18",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "茶役翻到簿冊折角會請持牌人避開，以免紙裂。"
+        },
+        {
+          "id": "D19",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "回收掉落信封的小托盤放在值房門後。"
+        },
+        {
+          "id": "D20",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "閱冊時可合上袖口繩，免得拉扯書頁。"
+        },
+        {
+          "id": "D21",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "櫃後的窗格朝中庭開，用來讓值房換氣。"
+        },
+        {
+          "id": "D22",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "門外留一條空道給茶役搬冊。"
+        },
+        {
+          "id": "D23",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "館章拓印本放在門側玻璃匣供比對印樣。"
+        },
+        {
+          "id": "D24",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "值房備有紙鎮，茶役用來壓平候驗登記單。"
+        },
+        {
+          "id": "D25",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "櫃台旁掛著收班後的文件投遞時段。"
+        },
+        {
+          "id": "D26",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "長候椅靠在前窗下，靠門兩席留給搬冊人員。"
+        },
+        {
+          "id": "D27",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "上一班的驗牌等候點曾設在中庭南拱下，這一班已移走。",
+          "retired": true
+        },
+        {
+          "id": "D28",
+          "readers": [
+            "PLAYER_A",
+            "GM"
+          ],
+          "text": "甲先前拿到一張灰邊候驗單，單角印有小葉。"
+        },
+        {
+          "id": "D29",
+          "readers": [
+            "PLAYER_A",
+            "GM"
+          ],
+          "text": "甲的閱冊預約備註留的是午後第二聲鐘。"
+        },
+        {
+          "id": "D30",
+          "readers": [
+            "PLAYER_A",
+            "GM"
+          ],
+          "text": "甲請茶役把自己的姓名留在登記簿內側，不在走廊喊名。"
+        },
+        {
+          "id": "D31",
+          "readers": [
+            "GM"
+          ],
+          "text": "藍封冊內頁的取水輪班表把第一班交給穿褐袖的巡工。"
+        },
+        {
+          "id": "D32",
+          "readers": [
+            "GM"
+          ],
+          "text": "館役用的白封副冊記有內梯欄杆的更換日期：霜月初六。"
+        },
+        {
+          "id": "D33",
+          "readers": [
+            "GM"
+          ],
+          "text": "值房修補簿把館章邊緣缺口記成第三瓣葉的外緣。"
+        },
+        {
+          "id": "D34",
+          "readers": [
+            "GM"
+          ],
+          "text": "值房留有一枚青角牌的報廢樣本，背緣有三格鑿痕。"
+        },
+        {
+          "id": "D35",
+          "readers": [
+            "GM"
+          ],
+          "text": "茶役保管的停閱通知底稿用赭墨寫在薄楠紙上。"
+        },
+        {
+          "id": "D36",
+          "readers": [
+            "PLAYER_B",
+            "GM"
+          ],
+          "text": "乙另在值房預約紅封冊副本，預約聯印了魚尾章。"
+        },
+        {
+          "id": "D37",
+          "readers": [
+            "PLAYER_B",
+            "GM"
+          ],
+          "text": "乙的補驗通知約在二更後，由斜窗輪值茶役收件。"
+        },
+        {
+          "id": "D38",
+          "readers": [
+            "PLAYER_B",
+            "GM"
+          ],
+          "text": "乙借用的閱冊筆有褐色雙環，茶役記在乙的私單。"
+        },
+        {
+          "id": "D39",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "舊值房曾借閱藍封冊到前窗座位，搬櫃後已停止。",
+          "retired": true
+        },
+        {
+          "id": "D40",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "去冬的短期候驗制度曾以藤葉號牌代替登記單，春季已取消。",
+          "retired": true
+        }
+      ],
+      "visible_history": [
+        {
+          "id": "DH03",
+          "turn": 11,
+          "actor": "PLAYER_B",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "D39"
+          ],
+          "text": "搬櫃前，值房曾把藍封冊借到前窗座位，那項安排已撤。"
+        },
+        {
+          "id": "DH04",
+          "turn": 12,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "D27"
+          ],
+          "text": "上個班我曾在中庭南拱下等驗牌，記得那是舊等候點。"
+        },
+        {
+          "id": "DH06",
+          "turn": 14,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "D29"
+          ],
+          "text": "我看過自己的預約備註，寫的是午後第二聲鐘。"
+        },
+        {
+          "id": "DH07",
+          "turn": 15,
+          "actor": "PLAYER_B",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "D06"
+          ],
+          "text": "我提醒大家進了籐欄再照先後順序候驗。"
+        },
+        {
+          "id": "DH01",
+          "turn": 16,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "D01"
+          ],
+          "text": "我在值房看過藍封冊封面的館章。"
+        },
+        {
+          "id": "DH09",
+          "turn": 17,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "D16"
+          ],
+          "text": "我報到時說明想看的冊名就好，值房沒有先問內頁問題。"
+        },
+        {
+          "id": "DH02",
+          "turn": 18,
+          "actor": "PLAYER_B",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "D02"
+          ],
+          "text": "值房公告說，必須持閱覽牌才能翻內頁。"
+        },
+        {
+          "id": "DH10",
+          "turn": 18,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "D28"
+          ],
+          "text": "我的候驗單角落有小葉，是灰邊那張。"
+        }
+      ],
+      "forbidden_fact_ids": [
+        "D03",
+        "D31",
+        "D32",
+        "D33",
+        "D34",
+        "D35",
+        "D36",
+        "D37",
+        "D38"
+      ],
+      "other_player_fact_ids": [
+        "D36",
+        "D37",
+        "D38"
+      ],
+      "focal_forbidden_fact_ids": [
+        "D03"
+      ],
+      "additional_forbidden_fact_ids": [
+        "D31",
+        "D32",
+        "D33",
+        "D34",
+        "D35",
+        "D36",
+        "D37",
+        "D38"
+      ],
+      "required_observation_components": {
+        "E004-2": [
+          "未通過驗核並退牌",
+          "藍封冊仍闔上",
+          "可見封面的館章"
+        ]
+      },
+      "required_reveal_components": {},
+      "required_background": [
+        {
+          "fact_id": "D05",
+          "history_ids": [],
+          "components": [
+            "驗過後僅在值房櫃前閱覽",
+            "書不得帶離值房"
+          ],
+          "scope": "RP-003 可敘述本次准在櫃前閱冊；RP-004 必須把規則說成驗過才適用，不可聲稱本次獲准。"
+        }
+      ],
+      "metric_applicability": {
+        "U": true,
+        "U_focus": true,
+        "U_additional": true,
+        "R": false,
+        "L": true,
+        "X": true,
+        "background": true
+      }
+    },
+    {
+      "scenario": "P5",
+      "action": "我看到乙朝留言板示意，就走過去請茶役交給我現在能領的託付。若是公開託付，再請乙一起聽。也請按板上的記號交代怎麼區分公開與私下的託付。",
+      "visible_adjudication": [
+        {
+          "id": "E005-1",
+          "field": "outcome",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "I01",
+            "I04"
+          ],
+          "result": "成功。"
+        },
+        {
+          "id": "E005-2",
+          "field": "position",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "I04"
+          ],
+          "before": "茶舍門邊",
+          "after": "留言板旁",
+          "result": "乙以公開手勢示意，你走到板旁，乙在一旁等候。"
+        },
+        {
+          "id": "E005-3",
+          "field": "delivery",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "I03"
+          ],
+          "before": "甲尚未領票",
+          "after": "甲持有白繩票",
+          "result": "茶役只向你低聲覆述，請將白繩票送到竹簾櫃，並把白繩票交到你手中。"
+        }
+      ],
+      "hidden_adjudication": [
+        {
+          "id": "E005-4",
+          "field": "other_delivery",
+          "audience": [
+            "PLAYER_B"
+          ],
+          "sources": [
+            "I02"
+          ],
+          "before": "乙的私下託付待辦",
+          "after": "乙的私下託付仍待辦",
+          "result": "乙仍須把銅匙交給東廊守夜人。"
+        }
+      ],
+      "world_facts": [
+        {
+          "id": "I01",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "竹雨茶舍設有公開留言板，取下標記前須先確認收件人。"
+        },
+        {
+          "id": "I02",
+          "readers": [
+            "PLAYER_B",
+            "GM"
+          ],
+          "text": "給乙的私下託付是把銅匙交給東廊守夜人。"
+        },
+        {
+          "id": "I03",
+          "readers": [
+            "PLAYER_A",
+            "GM"
+          ],
+          "text": "給甲的私下託付是把白繩票送到竹簾櫃。"
+        },
+        {
+          "id": "I04",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "茶役公開說，收到手勢才可往留言板走。"
+        },
+        {
+          "id": "I05",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "留言板以雙圈標記可當眾轉述的公開託付；單框標記只給指定收件人。"
+        },
+        {
+          "id": "I06",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "收到手勢後沿竹蓆內沿走，外沿留給端熱茶的茶役。"
+        },
+        {
+          "id": "I07",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "留言板西緣的雙圈示意圖印在長留的板例上，圖樣本身不是託付。"
+        },
+        {
+          "id": "I08",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "茶舍搬茶盤的茶役用抬手示意讓路，與留言板的引路手勢用途不同。"
+        },
+        {
+          "id": "I09",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "收件標記核對由茶役負責，旁人只能看公開板例。"
+        },
+        {
+          "id": "I10",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "每日收板時用白色短繩捆空木牌，那捆白繩屬公用工具。"
+        },
+        {
+          "id": "I11",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "公開茶單上的竹簾櫃只列為器皿整備點。"
+        },
+        {
+          "id": "I12",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "茶舍按輪值由一人守板、一人照看茶釜。"
+        },
+        {
+          "id": "I13",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "板旁有塊腳墊，等候的人可站在墊上避開端茶路線。"
+        },
+        {
+          "id": "I14",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "留言板的木牌先在檯上核對，再由茶役掛回原來的排位。"
+        },
+        {
+          "id": "I15",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "留言板旁的茶價紙用墨線方框排版，內容全是品項和價錢。"
+        },
+        {
+          "id": "I16",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "門邊兩席是取茶等候座，長桌上的籃子收還空盞。"
+        },
+        {
+          "id": "I17",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "茶舍門上方掛著當班茶役的公開名牌。"
+        },
+        {
+          "id": "I18",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "茶葉貨簿放在茶釜旁，想買整袋可找煮茶的人登記。"
+        },
+        {
+          "id": "I19",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "竹蓆走道轉角有兩盞矮燈，收班時茶役會逐盞熄掉。"
+        },
+        {
+          "id": "I20",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "中庭的風棚有一個公用竹箱，可暫放借來的雨具。"
+        },
+        {
+          "id": "I21",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "留言一律橫寫，板右下空格用於張貼今日板例。"
+        },
+        {
+          "id": "I22",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "茶舍的東側窗戶開向街上，行人從門邊竹梯進來。"
+        },
+        {
+          "id": "I23",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "貼在茶釜邊的告示載明最後添水的時段。"
+        },
+        {
+          "id": "I24",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "等候座後的掛繩可晾乾包布，由茶役統一收拾。"
+        },
+        {
+          "id": "I25",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "昨日破裂的一張空木牌已換下；新木牌仍採同樣的版面。"
+        },
+        {
+          "id": "I26",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "茶舍的水桶從後門進出，與留言板前的行人動線分開。"
+        },
+        {
+          "id": "I27",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "留言板早先以木釘排位代替圖樣標記，改版後已停用。",
+          "retired": true
+        },
+        {
+          "id": "I28",
+          "readers": [
+            "PLAYER_A",
+            "GM"
+          ],
+          "text": "甲在等候簿用梅枝印登記自己的暱稱。"
+        },
+        {
+          "id": "I29",
+          "readers": [
+            "PLAYER_A",
+            "GM"
+          ],
+          "text": "甲預先借用的乾茶巾上打了一個青布結。"
+        },
+        {
+          "id": "I30",
+          "readers": [
+            "PLAYER_A",
+            "GM"
+          ],
+          "text": "甲留在茶役手中的寄物單只准甲本人領回包布。"
+        },
+        {
+          "id": "I31",
+          "readers": [
+            "GM"
+          ],
+          "text": "守板茶役留有一塊雙圈試印板，收在茶釜後的扁匣中。"
+        },
+        {
+          "id": "I32",
+          "readers": [
+            "GM"
+          ],
+          "text": "舊竹簾櫃內的茶盞備件夾層有一片珊瑚色墊片。"
+        },
+        {
+          "id": "I33",
+          "readers": [
+            "GM"
+          ],
+          "text": "茶舍庫房的備用托盤有一道黛色斜紋，只有守板役可領。"
+        },
+        {
+          "id": "I34",
+          "readers": [
+            "GM"
+          ],
+          "text": "茶釜後牆內的備用掛鉤要用燕尾形工具卸下。"
+        },
+        {
+          "id": "I35",
+          "readers": [
+            "GM"
+          ],
+          "text": "閉店交接簿的補綴記號是黃紙角，藏在釜座背面。"
+        },
+        {
+          "id": "I36",
+          "readers": [
+            "PLAYER_B",
+            "GM"
+          ],
+          "text": "乙交給茶役保管的寄物牌拴著黑縞帶。"
+        },
+        {
+          "id": "I37",
+          "readers": [
+            "PLAYER_B",
+            "GM"
+          ],
+          "text": "乙回覆茶役的私下約定是收班後到柿影臺取空封套。"
+        },
+        {
+          "id": "I38",
+          "readers": [
+            "PLAYER_B",
+            "GM"
+          ],
+          "text": "乙準備代還的窄竹匣寄放於西灶頂層。"
+        },
+        {
+          "id": "I39",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "前一版板例曾以圓孔表示公開託付，雙圈上線後已撤下圓孔板例。",
+          "retired": true
+        },
+        {
+          "id": "I40",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "上一季留言板擺在窗前，現已移到內側竹蓆旁。",
+          "retired": true
+        }
+      ],
+      "visible_history": [
+        {
+          "id": "IH05",
+          "turn": 10,
+          "actor": "PLAYER_B",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "I40"
+          ],
+          "text": "我帶大家看了今天的動線，窗前是上一季擺板的位置。"
+        },
+        {
+          "id": "IH06",
+          "turn": 11,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "I39"
+          ],
+          "text": "前版板例用圓孔表示公開。我記在舊簿裡，以免拿錯版本。"
+        },
+        {
+          "id": "IH07",
+          "turn": 12,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "I28"
+          ],
+          "text": "我用梅枝印在等候簿登記了暱稱。"
+        },
+        {
+          "id": "IH09",
+          "turn": 14,
+          "actor": "PLAYER_B",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "I06"
+          ],
+          "text": "我請大家走竹蓆內沿，把外沿留給端熱茶的茶役。"
+        },
+        {
+          "id": "IH10",
+          "turn": 15,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "I29"
+          ],
+          "text": "我收好借到的乾茶巾，上頭打著青布結。"
+        },
+        {
+          "id": "IH01",
+          "turn": 16,
+          "actor": "PLAYER_B",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "I01"
+          ],
+          "text": "我告訴大家，取標記前要確認收件人。"
+        },
+        {
+          "id": "IH03",
+          "turn": 18,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "I03"
+          ],
+          "text": "我曾記下甲的託付，要把白繩票送到竹簾櫃。"
+        }
+      ],
+      "forbidden_fact_ids": [
+        "I02",
+        "I31",
+        "I32",
+        "I33",
+        "I34",
+        "I35",
+        "I36",
+        "I37",
+        "I38"
+      ],
+      "other_player_fact_ids": [
+        "I02",
+        "I36",
+        "I37",
+        "I38"
+      ],
+      "focal_forbidden_fact_ids": [
+        "I02"
+      ],
+      "additional_forbidden_fact_ids": [
+        "I31",
+        "I32",
+        "I33",
+        "I34",
+        "I35",
+        "I36",
+        "I37",
+        "I38"
+      ],
+      "required_observation_components": {
+        "E005-2": [
+          "乙給出公開手勢，甲走到留言板旁",
+          "乙在一旁等候"
+        ],
+        "E005-3": [
+          "茶役只向甲低聲交代",
+          "白繩票已交甲",
+          "目的地為竹簾櫃"
+        ]
+      },
+      "required_reveal_components": {
+        "I03": [
+          "白繩票送到竹簾櫃",
+          "茶役只向甲交代"
+        ]
+      },
+      "required_background": [
+        {
+          "fact_id": "I05",
+          "history_ids": [],
+          "components": [
+            "雙圈表示可當眾轉述的公開託付",
+            "單框限指定收件人"
+          ],
+          "scope": "可說明通用板例。裁決未描述本回合看見的圖樣，不為甲或乙的某件託付補寫實際圖樣。"
+        }
+      ],
+      "metric_applicability": {
+        "U": true,
+        "U_focus": true,
+        "U_additional": true,
+        "R": true,
+        "L": true,
+        "X": true,
+        "background": true
+      }
+    },
+    {
+      "scenario": "P6",
+      "action": "我看到乙朝留言板示意，就走過去請茶役交給我現在能領的託付。若是公開託付，再請乙一起聽。也請按板上的記號交代怎麼區分公開與私下的託付。",
+      "visible_adjudication": [
+        {
+          "id": "E006-1",
+          "field": "outcome",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "I01",
+            "I04"
+          ],
+          "result": "部分成功。"
+        },
+        {
+          "id": "E006-2",
+          "field": "position",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "I04"
+          ],
+          "before": "茶舍門邊",
+          "after": "留言板旁",
+          "result": "乙以公開手勢示意，你走到了留言板旁。"
+        },
+        {
+          "id": "E006-3",
+          "field": "delivery",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "I01"
+          ],
+          "before": "甲尚未領票",
+          "after": "甲仍未領票",
+          "result": "茶役比對收件標記後搖頭，沒有交給你任何票或轉述託付。"
+        }
+      ],
+      "hidden_adjudication": [
+        {
+          "id": "E006-4",
+          "field": "other_delivery",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "I02"
+          ],
+          "before": "乙的銅匙在茶役手上",
+          "after": "乙私下領到銅匙",
+          "result": "茶役另把銅匙交給乙，囑咐乙轉交東廊守夜人。"
+        }
+      ],
+      "world_facts": [
+        {
+          "id": "I01",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "竹雨茶舍設有公開留言板，取下標記前須先確認收件人。"
+        },
+        {
+          "id": "I02",
+          "readers": [
+            "PLAYER_B",
+            "GM"
+          ],
+          "text": "給乙的私下託付是把銅匙交給東廊守夜人。"
+        },
+        {
+          "id": "I03",
+          "readers": [
+            "PLAYER_A",
+            "GM"
+          ],
+          "text": "給甲的私下託付是把白繩票送到竹簾櫃。"
+        },
+        {
+          "id": "I04",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "茶役公開說，收到手勢才可往留言板走。"
+        },
+        {
+          "id": "I05",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "留言板以雙圈標記可當眾轉述的公開託付；單框標記只給指定收件人。"
+        },
+        {
+          "id": "I06",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "收到手勢後沿竹蓆內沿走，外沿留給端熱茶的茶役。"
+        },
+        {
+          "id": "I07",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "留言板西緣的雙圈示意圖印在長留的板例上，圖樣本身不是託付。"
+        },
+        {
+          "id": "I08",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "茶舍搬茶盤的茶役用抬手示意讓路，與留言板的引路手勢用途不同。"
+        },
+        {
+          "id": "I09",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "收件標記核對由茶役負責，旁人只能看公開板例。"
+        },
+        {
+          "id": "I10",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "每日收板時用白色短繩捆空木牌，那捆白繩屬公用工具。"
+        },
+        {
+          "id": "I11",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "公開茶單上的竹簾櫃只列為器皿整備點。"
+        },
+        {
+          "id": "I12",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "茶舍按輪值由一人守板、一人照看茶釜。"
+        },
+        {
+          "id": "I13",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "板旁有塊腳墊，等候的人可站在墊上避開端茶路線。"
+        },
+        {
+          "id": "I14",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "留言板的木牌先在檯上核對，再由茶役掛回原來的排位。"
+        },
+        {
+          "id": "I15",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "留言板旁的茶價紙用墨線方框排版，內容全是品項和價錢。"
+        },
+        {
+          "id": "I16",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "門邊兩席是取茶等候座，長桌上的籃子收還空盞。"
+        },
+        {
+          "id": "I17",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "茶舍門上方掛著當班茶役的公開名牌。"
+        },
+        {
+          "id": "I18",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "茶葉貨簿放在茶釜旁，想買整袋可找煮茶的人登記。"
+        },
+        {
+          "id": "I19",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "竹蓆走道轉角有兩盞矮燈，收班時茶役會逐盞熄掉。"
+        },
+        {
+          "id": "I20",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "中庭的風棚有一個公用竹箱，可暫放借來的雨具。"
+        },
+        {
+          "id": "I21",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "留言一律橫寫，板右下空格用於張貼今日板例。"
+        },
+        {
+          "id": "I22",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "茶舍的東側窗戶開向街上，行人從門邊竹梯進來。"
+        },
+        {
+          "id": "I23",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "貼在茶釜邊的告示載明最後添水的時段。"
+        },
+        {
+          "id": "I24",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "等候座後的掛繩可晾乾包布，由茶役統一收拾。"
+        },
+        {
+          "id": "I25",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "昨日破裂的一張空木牌已換下；新木牌仍採同樣的版面。"
+        },
+        {
+          "id": "I26",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "茶舍的水桶從後門進出，與留言板前的行人動線分開。"
+        },
+        {
+          "id": "I27",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "留言板早先以木釘排位代替圖樣標記，改版後已停用。",
+          "retired": true
+        },
+        {
+          "id": "I28",
+          "readers": [
+            "PLAYER_A",
+            "GM"
+          ],
+          "text": "甲在等候簿用梅枝印登記自己的暱稱。"
+        },
+        {
+          "id": "I29",
+          "readers": [
+            "PLAYER_A",
+            "GM"
+          ],
+          "text": "甲預先借用的乾茶巾上打了一個青布結。"
+        },
+        {
+          "id": "I30",
+          "readers": [
+            "PLAYER_A",
+            "GM"
+          ],
+          "text": "甲留在茶役手中的寄物單只准甲本人領回包布。"
+        },
+        {
+          "id": "I31",
+          "readers": [
+            "GM"
+          ],
+          "text": "守板茶役留有一塊雙圈試印板，收在茶釜後的扁匣中。"
+        },
+        {
+          "id": "I32",
+          "readers": [
+            "GM"
+          ],
+          "text": "舊竹簾櫃內的茶盞備件夾層有一片珊瑚色墊片。"
+        },
+        {
+          "id": "I33",
+          "readers": [
+            "GM"
+          ],
+          "text": "茶舍庫房的備用托盤有一道黛色斜紋，只有守板役可領。"
+        },
+        {
+          "id": "I34",
+          "readers": [
+            "GM"
+          ],
+          "text": "茶釜後牆內的備用掛鉤要用燕尾形工具卸下。"
+        },
+        {
+          "id": "I35",
+          "readers": [
+            "GM"
+          ],
+          "text": "閉店交接簿的補綴記號是黃紙角，藏在釜座背面。"
+        },
+        {
+          "id": "I36",
+          "readers": [
+            "PLAYER_B",
+            "GM"
+          ],
+          "text": "乙交給茶役保管的寄物牌拴著黑縞帶。"
+        },
+        {
+          "id": "I37",
+          "readers": [
+            "PLAYER_B",
+            "GM"
+          ],
+          "text": "乙回覆茶役的私下約定是收班後到柿影臺取空封套。"
+        },
+        {
+          "id": "I38",
+          "readers": [
+            "PLAYER_B",
+            "GM"
+          ],
+          "text": "乙準備代還的窄竹匣寄放於西灶頂層。"
+        },
+        {
+          "id": "I39",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "前一版板例曾以圓孔表示公開託付，雙圈上線後已撤下圓孔板例。",
+          "retired": true
+        },
+        {
+          "id": "I40",
+          "readers": [
+            "PUBLIC"
+          ],
+          "text": "上一季留言板擺在窗前，現已移到內側竹蓆旁。",
+          "retired": true
+        }
+      ],
+      "visible_history": [
+        {
+          "id": "IH05",
+          "turn": 10,
+          "actor": "PLAYER_B",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "I40"
+          ],
+          "text": "我帶大家看了今天的動線，窗前是上一季擺板的位置。"
+        },
+        {
+          "id": "IH06",
+          "turn": 11,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "I39"
+          ],
+          "text": "前版板例用圓孔表示公開。我記在舊簿裡，以免拿錯版本。"
+        },
+        {
+          "id": "IH07",
+          "turn": 12,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "I28"
+          ],
+          "text": "我用梅枝印在等候簿登記了暱稱。"
+        },
+        {
+          "id": "IH09",
+          "turn": 14,
+          "actor": "PLAYER_B",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "I06"
+          ],
+          "text": "我請大家走竹蓆內沿，把外沿留給端熱茶的茶役。"
+        },
+        {
+          "id": "IH10",
+          "turn": 15,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "I29"
+          ],
+          "text": "我收好借到的乾茶巾，上頭打著青布結。"
+        },
+        {
+          "id": "IH01",
+          "turn": 16,
+          "actor": "PLAYER_B",
+          "audience": [
+            "PUBLIC"
+          ],
+          "sources": [
+            "I01"
+          ],
+          "text": "我告訴大家，取標記前要確認收件人。"
+        },
+        {
+          "id": "IH03",
+          "turn": 18,
+          "actor": "PLAYER_A",
+          "audience": [
+            "PLAYER_A"
+          ],
+          "sources": [
+            "I03"
+          ],
+          "text": "我曾記下甲的託付，要把白繩票送到竹簾櫃。"
+        }
+      ],
+      "forbidden_fact_ids": [
+        "I02",
+        "I31",
+        "I32",
+        "I33",
+        "I34",
+        "I35",
+        "I36",
+        "I37",
+        "I38"
+      ],
+      "other_player_fact_ids": [
+        "I02",
+        "I36",
+        "I37",
+        "I38"
+      ],
+      "focal_forbidden_fact_ids": [
+        "I02"
+      ],
+      "additional_forbidden_fact_ids": [
+        "I31",
+        "I32",
+        "I33",
+        "I34",
+        "I35",
+        "I36",
+        "I37",
+        "I38"
+      ],
+      "required_observation_components": {
+        "E006-2": [
+          "乙給出公開手勢，甲走到留言板旁"
+        ],
+        "E006-3": [
+          "茶役比對標記後搖頭或拒絕交付",
+          "甲沒領票且沒收到託付轉述"
+        ]
+      },
+      "required_reveal_components": {},
+      "required_background": [
+        {
+          "fact_id": "I05",
+          "history_ids": [],
+          "components": [
+            "雙圈表示可當眾轉述的公開託付",
+            "單框限指定收件人"
+          ],
+          "scope": "可說明通用板例。裁決未描述本回合看見的圖樣，不為甲或乙的某件託付補寫實際圖樣。"
+        }
+      ],
+      "metric_applicability": {
+        "U": true,
+        "U_focus": true,
+        "U_additional": true,
+        "R": false,
+        "L": true,
+        "X": true,
+        "background": true
+      }
+    }
+  ],
+  "responses": [
+    {
+      "blind_id": "b61896514195",
+      "scenario": "P3",
+      "response": "茶役驗過牌，准你在值房櫃前翻閱藍封冊，冊子不能帶出值房。你翻開印有館章的封面，在內頁讀到內梯通往霧紋取水室。冊中的取水輪班表把第一班排給穿褐袖的巡工。"
+    },
+    {
+      "blind_id": "f6ca3b381c35",
+      "scenario": "P5",
+      "response": "乙打手勢，你走到留言板旁，他留在原處。茶役只向你低聲交代，把白繩票送到竹簾櫃，並把票遞給你。"
+    },
+    {
+      "blind_id": "25e1d54b995e",
+      "scenario": "P6",
+      "response": "乙朝板子示意，你走到板旁。茶役交給你一張白繩票。此時門外又響了三聲鈴。"
+    },
+    {
+      "blind_id": "fc108660d721",
+      "scenario": "P2",
+      "response": "你沿黑穗地線走到試響石凳旁，敲了坐面，聽見一聲短響。巡檢牌的凸箭頭會指示回音來向，這回牌面被灰泥遮住，你沒能確定聲音從哪裡傳來。"
+    },
+    {
+      "blind_id": "9d4ad0697124",
+      "scenario": "P4",
+      "response": "驗牌未過，茶役退回你的牌。藍封冊仍闔著，你看得見封面的館章。驗過的人可以把冊子帶到前窗座位看。"
+    },
+    {
+      "blind_id": "31c87421c0f4",
+      "scenario": "P3",
+      "response": "茶役驗過牌，讓你翻開印有館章的封面。內梯通向霧紋取水室。從現在起你和乙都能自由翻閱整本冊子。"
+    },
+    {
+      "blind_id": "51b5de5108aa",
+      "scenario": "P1",
+      "response": "你沿黑穗地線走到試響石凳旁。敲了坐面後，你循巡檢牌辨出短響來自西側空管。"
+    },
+    {
+      "blind_id": "33700e30262a",
+      "scenario": "P4",
+      "response": "茶役退回你的牌，藍封冊依然闔著，館章就在眼前。雖然看不到內頁，但內梯確實通向霧紋取水室。"
+    },
+    {
+      "blind_id": "0d2cdc1156ce",
+      "scenario": "P2",
+      "response": "你沿黑穗地線走到了石凳旁。我不能告訴你更多。"
+    },
+    {
+      "blind_id": "f2b275e4b6f1",
+      "scenario": "P6",
+      "response": "乙示意，你走到留言板旁。茶役比對收件標記後空手退開。你不妨想想，乙帶走的那件金屬小物，該在夜裡交到東邊走廊值更的人手上。"
+    },
+    {
+      "blind_id": "c8365f6c2743",
+      "scenario": "P5",
+      "response": "你照乙的手勢走到留言板旁，乙在一旁等候。板例是雙圈可以當眾轉述，單框只給指定收件人。茶役只對你低聲囑咐，把白繩票送到竹簾櫃，並把票交到你手中。乙的寄物牌另外拴著黑縞帶。"
+    }
+  ]
+}

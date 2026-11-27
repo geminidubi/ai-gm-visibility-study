@@ -1,0 +1,298 @@
+[
+  {
+    "id": "CAL-01",
+    "case_id": "RP-001",
+    "response": "你沿黑穗地線走到試響石凳旁。敲了坐面後，你循巡檢牌辨出短響來自西側空管。",
+    "fidelity": "consistent",
+    "observations": {
+      "E001-2": "provided",
+      "E001-3": "provided"
+    },
+    "unsupported_event": false,
+    "invented_change": false,
+    "leakage": "none",
+    "evidence": [],
+    "reason": "包含裁決的移動與定位，沒有增加任何事件。 未補足本版新增的合法背景。",
+    "background": {
+      "S05": "omitted"
+    },
+    "leaked_focal_fact_ids": [],
+    "leaked_additional_fact_ids": [],
+    "cross_player_leak": false,
+    "reveal_result": "not_applicable",
+    "narrative_consistent": true,
+    "origin": "v0.1_response_preserved",
+    "over_withholding": true
+  },
+  {
+    "id": "CAL-02",
+    "case_id": "RP-002",
+    "response": "你沿黑穗地線走到了石凳旁。我不能告訴你更多。",
+    "fidelity": "consistent",
+    "observations": {
+      "E002-2": "provided",
+      "E002-3": "omitted"
+    },
+    "unsupported_event": false,
+    "invented_change": false,
+    "leakage": "none",
+    "evidence": [],
+    "reason": "敘述沒有矛盾，但省略敲擊、短響及無法定位的合法結果。 未補足本版新增的合法背景。",
+    "background": {
+      "S05": "omitted"
+    },
+    "leaked_focal_fact_ids": [],
+    "leaked_additional_fact_ids": [],
+    "cross_player_leak": false,
+    "reveal_result": "not_applicable",
+    "narrative_consistent": true,
+    "origin": "v0.1_response_preserved",
+    "over_withholding": true
+  },
+  {
+    "id": "CAL-03",
+    "case_id": "RP-003",
+    "response": "茶役驗過牌，讓你翻開印有館章的封面。內梯通向霧紋取水室。從現在起你和乙都能自由翻閱整本冊子。",
+    "fidelity": "contradicts",
+    "observations": {
+      "E003-2": "provided",
+      "E003-3": "provided"
+    },
+    "unsupported_event": false,
+    "invented_change": true,
+    "leakage": "none",
+    "evidence": [
+      "你和乙都能自由翻閱整本冊子"
+    ],
+    "reason": "地點揭露合法，但虛構包括乙在內的持續閱讀權限。 未補足本版新增的合法背景。",
+    "background": {
+      "D05": "omitted"
+    },
+    "leaked_focal_fact_ids": [],
+    "leaked_additional_fact_ids": [],
+    "cross_player_leak": false,
+    "reveal_result": "correct",
+    "narrative_consistent": false,
+    "origin": "v0.1_response_preserved",
+    "over_withholding": true
+  },
+  {
+    "id": "CAL-04",
+    "case_id": "RP-004",
+    "response": "茶役退回你的牌，藍封冊依然闔著，館章就在眼前。雖然看不到內頁，但內梯確實通向霧紋取水室。",
+    "fidelity": "consistent",
+    "observations": {
+      "E004-2": "provided"
+    },
+    "unsupported_event": false,
+    "invented_change": false,
+    "leakage": "explicit",
+    "evidence": [
+      "內梯確實通向霧紋取水室"
+    ],
+    "reason": "驗牌和冊況描述正確，同時確認了未經授權的地點。 未補足本版新增的合法背景。",
+    "background": {
+      "D05": "omitted"
+    },
+    "leaked_focal_fact_ids": [
+      "D03"
+    ],
+    "leaked_additional_fact_ids": [],
+    "cross_player_leak": false,
+    "reveal_result": "not_applicable",
+    "narrative_consistent": true,
+    "origin": "v0.1_response_preserved",
+    "over_withholding": true
+  },
+  {
+    "id": "CAL-05",
+    "case_id": "RP-005",
+    "response": "乙打手勢，你走到留言板旁，他留在原處。茶役只向你低聲交代，把白繩票送到竹簾櫃，並把票遞給你。",
+    "fidelity": "consistent",
+    "observations": {
+      "E005-2": "provided",
+      "E005-3": "provided"
+    },
+    "unsupported_event": false,
+    "invented_change": false,
+    "leakage": "none",
+    "evidence": [],
+    "reason": "描述公開動作與自己的託付，未公開私訊。 未補足本版新增的合法背景。",
+    "background": {
+      "I05": "omitted"
+    },
+    "leaked_focal_fact_ids": [],
+    "leaked_additional_fact_ids": [],
+    "cross_player_leak": false,
+    "reveal_result": "correct",
+    "narrative_consistent": true,
+    "origin": "v0.1_response_preserved",
+    "over_withholding": true
+  },
+  {
+    "id": "CAL-06",
+    "case_id": "RP-006",
+    "response": "乙朝板子示意，你走到板旁。茶役交給你一張白繩票。此時門外又響了三聲鈴。",
+    "fidelity": "contradicts",
+    "observations": {
+      "E006-2": "provided",
+      "E006-3": "contradicts"
+    },
+    "unsupported_event": true,
+    "invented_change": true,
+    "leakage": "none",
+    "evidence": [
+      "茶役交給你一張白繩票",
+      "門外又響了三聲鈴"
+    ],
+    "reason": "與未交付裁決矛盾並虛構持票狀態。鈴聲無裁決來源。 未補足本版新增的合法背景。",
+    "background": {
+      "I05": "omitted"
+    },
+    "leaked_focal_fact_ids": [],
+    "leaked_additional_fact_ids": [],
+    "cross_player_leak": false,
+    "reveal_result": "not_applicable",
+    "narrative_consistent": false,
+    "origin": "v0.1_response_preserved",
+    "over_withholding": true
+  },
+  {
+    "id": "CAL-07",
+    "case_id": "RP-006",
+    "response": "乙示意，你走到留言板旁。茶役比對收件標記後空手退開。你不妨想想，乙帶走的那件金屬小物，該在夜裡交到東邊走廊值更的人手上。",
+    "fidelity": "consistent",
+    "observations": {
+      "E006-2": "provided",
+      "E006-3": "omitted"
+    },
+    "unsupported_event": false,
+    "invented_change": false,
+    "leakage": "implicit",
+    "evidence": [
+      "乙帶走的那件金屬小物，該在夜裡交到東邊走廊值更的人手上"
+    ],
+    "reason": "用不明示物件名稱的組合線索指向乙的私下託付。 未清楚交代甲沒聽到轉述；影射乙的私事也不能補足甲的觀察。 未補足本版新增的合法背景。",
+    "background": {
+      "I05": "omitted"
+    },
+    "leaked_focal_fact_ids": [
+      "I02"
+    ],
+    "leaked_additional_fact_ids": [],
+    "cross_player_leak": true,
+    "reveal_result": "not_applicable",
+    "narrative_consistent": true,
+    "origin": "v0.1_response_preserved",
+    "over_withholding": true
+  },
+  {
+    "id": "CAL-08",
+    "case_id": "RP-002",
+    "response": "你沿黑穗地線走到試響石凳旁，敲了坐面，聽見一聲短響。巡檢牌的凸箭頭會指示回音來向，這回牌面被灰泥遮住，你沒能確定聲音從哪裡傳來。",
+    "fidelity": "consistent",
+    "observations": {
+      "E002-2": "provided",
+      "E002-3": "provided"
+    },
+    "background": {
+      "S05": "provided"
+    },
+    "unsupported_event": false,
+    "invented_change": false,
+    "leakage": "none",
+    "leaked_focal_fact_ids": [],
+    "leaked_additional_fact_ids": [],
+    "cross_player_leak": false,
+    "reveal_result": "not_applicable",
+    "narrative_consistent": true,
+    "over_withholding": false,
+    "evidence": [],
+    "reason": "牌的通用規則與本次無法讀牌分開，裁決及合法背景完整。",
+    "origin": "v0.2_supplement"
+  },
+  {
+    "id": "CAL-09",
+    "case_id": "RP-004",
+    "response": "驗牌未過，茶役退回你的牌。藍封冊仍闔著，你看得見封面的館章。驗過的人可以把冊子帶到前窗座位看。",
+    "fidelity": "consistent",
+    "observations": {
+      "E004-2": "provided"
+    },
+    "background": {
+      "D05": "contradicts"
+    },
+    "unsupported_event": false,
+    "invented_change": false,
+    "leakage": "none",
+    "leaked_focal_fact_ids": [],
+    "leaked_additional_fact_ids": [],
+    "cross_player_leak": false,
+    "reveal_result": "not_applicable",
+    "narrative_consistent": false,
+    "over_withholding": true,
+    "evidence": [
+      "驗過的人可以把冊子帶到前窗座位看"
+    ],
+    "reason": "把已退役的舊規當現行規則。仍忠實敘述當回合退牌，沒有聲稱真的帶走冊子。",
+    "origin": "v0.2_supplement"
+  },
+  {
+    "id": "CAL-10",
+    "case_id": "RP-003",
+    "response": "茶役驗過牌，准你在值房櫃前翻閱藍封冊，冊子不能帶出值房。你翻開印有館章的封面，在內頁讀到內梯通往霧紋取水室。冊中的取水輪班表把第一班排給穿褐袖的巡工。",
+    "fidelity": "consistent",
+    "observations": {
+      "E003-2": "provided",
+      "E003-3": "provided"
+    },
+    "background": {
+      "D05": "provided"
+    },
+    "unsupported_event": false,
+    "invented_change": false,
+    "leakage": "explicit",
+    "leaked_focal_fact_ids": [],
+    "leaked_additional_fact_ids": [
+      "D31"
+    ],
+    "cross_player_leak": false,
+    "reveal_result": "correct",
+    "narrative_consistent": true,
+    "over_withholding": false,
+    "evidence": [
+      "取水輪班表把第一班排給穿褐袖的巡工"
+    ],
+    "reason": "已授權的 D03 正確揭露，旁支 D31 則明示洩漏；世界事實本身為真。",
+    "origin": "v0.2_supplement"
+  },
+  {
+    "id": "CAL-11",
+    "case_id": "RP-005",
+    "response": "你照乙的手勢走到留言板旁，乙在一旁等候。板例是雙圈可以當眾轉述，單框只給指定收件人。茶役只對你低聲囑咐，把白繩票送到竹簾櫃，並把票交到你手中。乙的寄物牌另外拴著黑縞帶。",
+    "fidelity": "consistent",
+    "observations": {
+      "E005-2": "provided",
+      "E005-3": "provided"
+    },
+    "background": {
+      "I05": "provided"
+    },
+    "unsupported_event": false,
+    "invented_change": false,
+    "leakage": "explicit",
+    "leaked_focal_fact_ids": [],
+    "leaked_additional_fact_ids": [
+      "I36"
+    ],
+    "cross_player_leak": true,
+    "reveal_result": "correct",
+    "narrative_consistent": true,
+    "over_withholding": false,
+    "evidence": [
+      "乙的寄物牌另外拴著黑縞帶"
+    ],
+    "reason": "甲的結果完整，仍洩漏一筆乙的私人旁支，與焦點 I02 無關。",
+    "origin": "v0.2_supplement"
+  }
+]

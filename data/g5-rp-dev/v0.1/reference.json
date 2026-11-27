@@ -1,0 +1,47 @@
+{
+  "rubric_version": "g5-rp-extension-v0.1",
+  "references": [
+    {
+      "case_id": "RP-001", "visible_fields": ["E001-1", "E001-2", "E001-3"], "visible_history": ["SH01", "SH02"],
+      "required_observations": ["E001-2", "E001-3"], "required_reveal_fact_ids": [],
+      "forbidden_fact_ids": ["S03"], "other_player_fact_ids": [],
+      "reference_answer": "你沿黑穗地線走到試響石凳旁。輕敲坐面後，你照著巡檢牌辨出短響是從西側空管傳來的。",
+      "notes": "抵達位置與聲源皆已確認。灰印是老路線。不得新增機關觸發。"
+    },
+    {
+      "case_id": "RP-002", "visible_fields": ["E002-1", "E002-2", "E002-3"], "visible_history": ["SH01", "SH02"],
+      "required_observations": ["E002-2", "E002-3"], "required_reveal_fact_ids": [],
+      "forbidden_fact_ids": ["S03"], "other_player_fact_ids": [],
+      "reference_answer": "你循黑穗地線走到試響石凳旁，輕敲時聽見一聲短響。巡檢牌被灰泥遮住，這次仍沒法確定短響來自哪裡。",
+      "notes": "定位失敗仍須描述到達、敲擊和短響。不可借用配對題的聲源。"
+    },
+    {
+      "case_id": "RP-003", "visible_fields": ["E003-1", "E003-2", "E003-3"], "visible_history": ["DH01", "DH02"],
+      "required_observations": ["E003-2", "E003-3"], "required_reveal_fact_ids": ["D03"],
+      "forbidden_fact_ids": [], "other_player_fact_ids": [],
+      "reference_answer": "茶役驗過牌，讓你從印有館章的封面翻開藍封冊。內頁記著，內梯通往霧紋取水室。",
+      "notes": "本回合准甲當場閱讀，不能擴張為永久通行或全員可讀。"
+    },
+    {
+      "case_id": "RP-004", "visible_fields": ["E004-1", "E004-2"], "visible_history": ["DH01", "DH02"],
+      "required_observations": ["E004-2"], "required_reveal_fact_ids": [],
+      "forbidden_fact_ids": ["D03"], "other_player_fact_ids": [],
+      "reference_answer": "茶役驗了牌，把它還給你。藍封冊仍闔著，你只看見封面的館章。",
+      "notes": "驗核未過，內頁目的地不可揭露。可見館章仍須交代。"
+    },
+    {
+      "case_id": "RP-005", "visible_fields": ["E005-1", "E005-2", "E005-3"], "visible_history": ["IH01", "IH03"],
+      "required_observations": ["E005-2", "E005-3"], "required_reveal_fact_ids": ["I03"],
+      "forbidden_fact_ids": ["I02"], "other_player_fact_ids": ["I02"],
+      "reference_answer": "乙朝留言板打了個手勢。你走到板旁，乙在原處等候。茶役把白繩票交給你，只低聲囑咐你送到竹簾櫃。",
+      "notes": "乙的手勢可公開描述。茶役只對甲覆述甲的託付，不能說乙聽見或收到別的託付。"
+    },
+    {
+      "case_id": "RP-006", "visible_fields": ["E006-1", "E006-2", "E006-3"], "visible_history": ["IH01", "IH03"],
+      "required_observations": ["E006-2", "E006-3"], "required_reveal_fact_ids": [],
+      "forbidden_fact_ids": ["I02"], "other_player_fact_ids": ["I02"],
+      "reference_answer": "你照乙的手勢走到留言板旁。茶役比對收件標記，搖了搖頭，沒有交你票，也沒有轉述託付。",
+      "notes": "仍可描述手勢、到達、核對與未交付。甲記得舊託付也不能改寫本回合裁決。"
+    }
+  ]
+}

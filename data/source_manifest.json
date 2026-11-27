@@ -1,0 +1,11 @@
+[
+  {
+    "source_id": "handoff-v1:04",
+    "source": "docs/sources.md",
+    "version": "1.0",
+    "access_date": "2026-10-29",
+    "license": "User-provided project specification; no external code copied.",
+    "scope": "Section 04 synthetic world translated into Traditional Chinese; fields completed for validation.",
+    "human_approved": false
+  }
+]

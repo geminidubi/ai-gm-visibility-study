@@ -1,0 +1,92 @@
+{
+  "blind_reviewed_samples": 11,
+  "samples_with_full_semantic_agreement": 10,
+  "compared_semantic_judgments": 141,
+  "agreed_semantic_judgments": 140,
+  "background_agreement": {
+    "agreed": 11,
+    "compared": 11
+  },
+  "comparison_excludes_verbatim_evidence_wording_and_free_text_reasons": true,
+  "researcher_adjudication": [
+    {
+      "fixture_id": "CAL-07",
+      "criterion": "observations.E006-3",
+      "resolution": "omitted",
+      "reason": "原答只寫茶役比對後「空手退開」，可知沒有交票，仍未交代沒有向甲轉述。該必要觀察含兩部分，故保留漏述；乙的暗示洩漏仍獨立成立。"
+    }
+  ],
+  "comparisons": [
+    {
+      "blind_id": "b61896514195",
+      "fixture_id": "CAL-10",
+      "case_id": "RP-003",
+      "semantic_differences": {}
+    },
+    {
+      "blind_id": "f6ca3b381c35",
+      "fixture_id": "CAL-05",
+      "case_id": "RP-005",
+      "semantic_differences": {}
+    },
+    {
+      "blind_id": "25e1d54b995e",
+      "fixture_id": "CAL-06",
+      "case_id": "RP-006",
+      "semantic_differences": {}
+    },
+    {
+      "blind_id": "fc108660d721",
+      "fixture_id": "CAL-08",
+      "case_id": "RP-002",
+      "semantic_differences": {}
+    },
+    {
+      "blind_id": "9d4ad0697124",
+      "fixture_id": "CAL-09",
+      "case_id": "RP-004",
+      "semantic_differences": {}
+    },
+    {
+      "blind_id": "31c87421c0f4",
+      "fixture_id": "CAL-03",
+      "case_id": "RP-003",
+      "semantic_differences": {}
+    },
+    {
+      "blind_id": "51b5de5108aa",
+      "fixture_id": "CAL-01",
+      "case_id": "RP-001",
+      "semantic_differences": {}
+    },
+    {
+      "blind_id": "33700e30262a",
+      "fixture_id": "CAL-04",
+      "case_id": "RP-004",
+      "semantic_differences": {}
+    },
+    {
+      "blind_id": "0d2cdc1156ce",
+      "fixture_id": "CAL-02",
+      "case_id": "RP-002",
+      "semantic_differences": {}
+    },
+    {
+      "blind_id": "f2b275e4b6f1",
+      "fixture_id": "CAL-07",
+      "case_id": "RP-006",
+      "semantic_differences": {
+        "observations.E006-3": {
+          "author": "omitted",
+          "blind": "provided"
+        }
+      }
+    },
+    {
+      "blind_id": "c8365f6c2743",
+      "fixture_id": "CAL-11",
+      "case_id": "RP-005",
+      "semantic_differences": {}
+    }
+  ]
+}

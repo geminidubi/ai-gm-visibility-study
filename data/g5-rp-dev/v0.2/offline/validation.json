@@ -1,0 +1,654 @@
+{
+  "status": "OFFLINE_VALIDATED",
+  "dataset_version": "g5-rp-dev-v0.2",
+  "rubric_version": "g5-rp-extension-v0.2",
+  "upstream_commit": "30dd9243433d8f1999c4f7a078d32cf111fc2846",
+  "world_count": 3,
+  "case_count": 6,
+  "assembled_inputs": 18,
+  "world_facts": 120,
+  "world_histories": 36,
+  "live_requests": 0,
+  "generated_responses": 0,
+  "handwritten_calibration_examples": 11,
+  "calibration_validation": "mechanical_fixture_checks_only; see independent review for semantic comparison",
+  "g5_semantic_metric_names": [
+    "direct_leakage_rate",
+    "implicit_only_leakage_rate",
+    "correct_reveal_rate",
+    "over_withholding_rate",
+    "cross_player_leakage_rate",
+    "narrative_consistency_secondary"
+  ],
+  "rp_metric_eligible_cases": {
+    "U": 6,
+    "U_focus": 5,
+    "U_additional": 6,
+    "R": 2,
+    "L": 6,
+    "X": 6,
+    "background": 6
+  },
+  "retrieval_diagnostic": {
+    "metric": "c2_necessary_background_recall_at_10",
+    "retrieved": 6,
+    "expected": 6,
+    "c0_c1": "not_applicable",
+    "adjudication_and_history_not_counted_as_retrieval": true
+  },
+  "sha256": {
+    "cases.json": "146921767a889fc47467435996d4203f9ff1270cf01f3364e5dccfbafc637d19",
+    "reference.json": "420833b6e5ef517faf16ca94b721db77619a5e2b6766622aec99d90d3f770abd",
+    "calibration.json": "61c71d5328538d5fdb776de605fa7d6464d77e5c1d91acbe3a665ac54d4c8d28",
+    "model-inputs.jsonl": "78b28dfffead4bd7646c2ba35ec8b76e64da6a86132a04477b9d917901348f78"
+  },
+  "cases": [
+    {
+      "case_id": "RP-001",
+      "world": "survey",
+      "world_fact_count": 40,
+      "world_history_count": 12,
+      "active_legal_count": 28,
+      "active_unauthorized_count": 9,
+      "retired_fact_ids": [
+        "S04",
+        "S39",
+        "S40"
+      ],
+      "c2_top_k": 10,
+      "c2_candidate_fact_ids": [
+        "S01",
+        "S02",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S27",
+        "S28",
+        "S29",
+        "S30"
+      ],
+      "c2_selected_fact_ids": [
+        "S01",
+        "S02",
+        "S07",
+        "S05",
+        "S09",
+        "S06",
+        "S20",
+        "S23",
+        "S11",
+        "S18"
+      ],
+      "cutoff_score": 0.3610233078,
+      "next_score": 0.328646249,
+      "outcome": "成功。",
+      "visible_adjudication_fields": [
+        "E001-1",
+        "E001-2",
+        "E001-3"
+      ],
+      "source_gate_blocked_fields": [],
+      "visible_history": [
+        "SH01",
+        "SH04",
+        "SH05",
+        "SH06",
+        "SH08",
+        "SH09",
+        "SH02",
+        "SH10"
+      ],
+      "omitted_history_count": 4,
+      "granted_fact_ids": [],
+      "revoked_fact_ids": [],
+      "necessary_background": [
+        {
+          "fact_id": "S05",
+          "candidate_rank": 4,
+          "selected": true,
+          "available_via_visible_history": false
+        }
+      ],
+      "metric_applicability": {
+        "U": true,
+        "U_focus": true,
+        "U_additional": true,
+        "R": false,
+        "L": true,
+        "X": true,
+        "background": true
+      },
+      "message_sha256": {
+        "C0": "ad24f726beceedc67312543dd777e57b62d682376b83c4576aaa5d452e24da08",
+        "C1": "e8eb704f1306d9e315f446ad7cea7f5906a2b5f34b536566edb03c7f4ce807d5",
+        "C2": "b2c98ad785ade49017d2906d7423dfcce5c4cb41fa2a45908ef1c625ca6d8ab9"
+      }
+    },
+    {
+      "case_id": "RP-002",
+      "world": "survey",
+      "world_fact_count": 40,
+      "world_history_count": 12,
+      "active_legal_count": 28,
+      "active_unauthorized_count": 9,
+      "retired_fact_ids": [
+        "S04",
+        "S39",
+        "S40"
+      ],
+      "c2_top_k": 10,
+      "c2_candidate_fact_ids": [
+        "S01",
+        "S02",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "S19",
+        "S20",
+        "S21",
+        "S22",
+        "S23",
+        "S24",
+        "S25",
+        "S26",
+        "S27",
+        "S28",
+        "S29",
+        "S30"
+      ],
+      "c2_selected_fact_ids": [
+        "S01",
+        "S02",
+        "S07",
+        "S05",
+        "S09",
+        "S06",
+        "S20",
+        "S23",
+        "S11",
+        "S18"
+      ],
+      "cutoff_score": 0.3610233078,
+      "next_score": 0.328646249,
+      "outcome": "部分成功。",
+      "visible_adjudication_fields": [
+        "E002-1",
+        "E002-2",
+        "E002-3"
+      ],
+      "source_gate_blocked_fields": [
+        "E002-4"
+      ],
+      "visible_history": [
+        "SH01",
+        "SH04",
+        "SH05",
+        "SH06",
+        "SH08",
+        "SH09",
+        "SH02",
+        "SH10"
+      ],
+      "omitted_history_count": 4,
+      "granted_fact_ids": [],
+      "revoked_fact_ids": [],
+      "necessary_background": [
+        {
+          "fact_id": "S05",
+          "candidate_rank": 4,
+          "selected": true,
+          "available_via_visible_history": false
+        }
+      ],
+      "metric_applicability": {
+        "U": true,
+        "U_focus": true,
+        "U_additional": true,
+        "R": false,
+        "L": true,
+        "X": true,
+        "background": true
+      },
+      "message_sha256": {
+        "C0": "64006b82ca35576d45564f915ad3bc7986992c087498e7e34aeef489ba48ea41",
+        "C1": "490ad5064d3187b5d63090fbe6bfe881398ed10e7388b4fd74d4a662c1e48b09",
+        "C2": "d10cc98f6e83f73a7843451ecaf02e308868fd6675334aec8c1d98b64b5f232b"
+      }
+    },
+    {
+      "case_id": "RP-003",
+      "world": "document",
+      "world_fact_count": 40,
+      "world_history_count": 12,
+      "active_legal_count": 29,
+      "active_unauthorized_count": 8,
+      "retired_fact_ids": [
+        "D27",
+        "D39",
+        "D40"
+      ],
+      "c2_top_k": 10,
+      "c2_candidate_fact_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D15",
+        "D16",
+        "D17",
+        "D18",
+        "D19",
+        "D20",
+        "D21",
+        "D22",
+        "D23",
+        "D24",
+        "D25",
+        "D26",
+        "D28",
+        "D29",
+        "D30"
+      ],
+      "c2_selected_fact_ids": [
+        "D03",
+        "D05",
+        "D08",
+        "D12",
+        "D20",
+        "D02",
+        "D10",
+        "D01",
+        "D15",
+        "D18"
+      ],
+      "cutoff_score": 0.4276289754,
+      "next_score": 0.361859436,
+      "outcome": "成功。",
+      "visible_adjudication_fields": [
+        "E003-1",
+        "E003-2",
+        "E003-3"
+      ],
+      "source_gate_blocked_fields": [],
+      "visible_history": [
+        "DH03",
+        "DH04",
+        "DH06",
+        "DH07",
+        "DH01",
+        "DH09",
+        "DH02",
+        "DH10"
+      ],
+      "omitted_history_count": 4,
+      "granted_fact_ids": [
+        "D03"
+      ],
+      "revoked_fact_ids": [],
+      "necessary_background": [
+        {
+          "fact_id": "D05",
+          "candidate_rank": 2,
+          "selected": true,
+          "available_via_visible_history": false
+        }
+      ],
+      "metric_applicability": {
+        "U": true,
+        "U_focus": false,
+        "U_additional": true,
+        "R": true,
+        "L": true,
+        "X": true,
+        "background": true
+      },
+      "message_sha256": {
+        "C0": "9468bd24f2bad25f3a0537c8d9f3c89de1e74410a4eff34bd01678c62e1cede6",
+        "C1": "9440535844f25300bb223a4378c954fc1715d819f871dae7b62ceb6dd4d4f944",
+        "C2": "9c6e7681fa8a50a37610016eefa1e07876fb25a6b93323ad17859ef1fe5c4827"
+      }
+    },
+    {
+      "case_id": "RP-004",
+      "world": "document",
+      "world_fact_count": 40,
+      "world_history_count": 12,
+      "active_legal_count": 28,
+      "active_unauthorized_count": 9,
+      "retired_fact_ids": [
+        "D27",
+        "D39",
+        "D40"
+      ],
+      "c2_top_k": 10,
+      "c2_candidate_fact_ids": [
+        "D01",
+        "D02",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D15",
+        "D16",
+        "D17",
+        "D18",
+        "D19",
+        "D20",
+        "D21",
+        "D22",
+        "D23",
+        "D24",
+        "D25",
+        "D26",
+        "D28",
+        "D29",
+        "D30"
+      ],
+      "c2_selected_fact_ids": [
+        "D05",
+        "D12",
+        "D08",
+        "D02",
+        "D20",
+        "D01",
+        "D15",
+        "D10",
+        "D18",
+        "D11"
+      ],
+      "cutoff_score": 0.4592816415,
+      "next_score": 0.4211884404,
+      "outcome": "失敗。",
+      "visible_adjudication_fields": [
+        "E004-1",
+        "E004-2"
+      ],
+      "source_gate_blocked_fields": [
+        "E004-3"
+      ],
+      "visible_history": [
+        "DH03",
+        "DH04",
+        "DH06",
+        "DH07",
+        "DH01",
+        "DH09",
+        "DH02",
+        "DH10"
+      ],
+      "omitted_history_count": 4,
+      "granted_fact_ids": [],
+      "revoked_fact_ids": [],
+      "necessary_background": [
+        {
+          "fact_id": "D05",
+          "candidate_rank": 1,
+          "selected": true,
+          "available_via_visible_history": false
+        }
+      ],
+      "metric_applicability": {
+        "U": true,
+        "U_focus": true,
+        "U_additional": true,
+        "R": false,
+        "L": true,
+        "X": true,
+        "background": true
+      },
+      "message_sha256": {
+        "C0": "fccf47dbbf4226bd53729a1fda3107827a724f33fd04f6a2acfdfad6aee1a1db",
+        "C1": "d5cf78f1b352fc770a1846bdd960147d3a1b15aba905c95f11e4a16a7ca91f38",
+        "C2": "59bd7e0a26a3b637932b0dcf827d7a98dd6447ab2b45d079c69985d54124488c"
+      }
+    },
+    {
+      "case_id": "RP-005",
+      "world": "interaction",
+      "world_fact_count": 40,
+      "world_history_count": 12,
+      "active_legal_count": 28,
+      "active_unauthorized_count": 9,
+      "retired_fact_ids": [
+        "I27",
+        "I39",
+        "I40"
+      ],
+      "c2_top_k": 10,
+      "c2_candidate_fact_ids": [
+        "I01",
+        "I03",
+        "I04",
+        "I05",
+        "I06",
+        "I07",
+        "I08",
+        "I09",
+        "I10",
+        "I11",
+        "I12",
+        "I13",
+        "I14",
+        "I15",
+        "I16",
+        "I17",
+        "I18",
+        "I19",
+        "I20",
+        "I21",
+        "I22",
+        "I23",
+        "I24",
+        "I25",
+        "I26",
+        "I28",
+        "I29",
+        "I30"
+      ],
+      "c2_selected_fact_ids": [
+        "I03",
+        "I05",
+        "I07",
+        "I08",
+        "I04",
+        "I11",
+        "I14",
+        "I06",
+        "I01",
+        "I09"
+      ],
+      "cutoff_score": 0.3672806676,
+      "next_score": 0.3490820374,
+      "outcome": "成功。",
+      "visible_adjudication_fields": [
+        "E005-1",
+        "E005-2",
+        "E005-3"
+      ],
+      "source_gate_blocked_fields": [],
+      "visible_history": [
+        "IH05",
+        "IH06",
+        "IH07",
+        "IH09",
+        "IH10",
+        "IH01",
+        "IH03"
+      ],
+      "omitted_history_count": 5,
+      "granted_fact_ids": [],
+      "revoked_fact_ids": [],
+      "necessary_background": [
+        {
+          "fact_id": "I05",
+          "candidate_rank": 2,
+          "selected": true,
+          "available_via_visible_history": false
+        }
+      ],
+      "metric_applicability": {
+        "U": true,
+        "U_focus": true,
+        "U_additional": true,
+        "R": true,
+        "L": true,
+        "X": true,
+        "background": true
+      },
+      "message_sha256": {
+        "C0": "7d3f03e255a79eceb5a0cc4bcc2c6c28dc59b5793d849bf829d8c1575b634bd3",
+        "C1": "d045f2a74c946f52803a9690139bc4d2df68f89589f47ce062d4123f4ceaad57",
+        "C2": "c69081cabdd384c8abbebc70ab5a13fb4c58e1b54b542b6d4783630186c1edee"
+      }
+    },
+    {
+      "case_id": "RP-006",
+      "world": "interaction",
+      "world_fact_count": 40,
+      "world_history_count": 12,
+      "active_legal_count": 28,
+      "active_unauthorized_count": 9,
+      "retired_fact_ids": [
+        "I27",
+        "I39",
+        "I40"
+      ],
+      "c2_top_k": 10,
+      "c2_candidate_fact_ids": [
+        "I01",
+        "I03",
+        "I04",
+        "I05",
+        "I06",
+        "I07",
+        "I08",
+        "I09",
+        "I10",
+        "I11",
+        "I12",
+        "I13",
+        "I14",
+        "I15",
+        "I16",
+        "I17",
+        "I18",
+        "I19",
+        "I20",
+        "I21",
+        "I22",
+        "I23",
+        "I24",
+        "I25",
+        "I26",
+        "I28",
+        "I29",
+        "I30"
+      ],
+      "c2_selected_fact_ids": [
+        "I03",
+        "I05",
+        "I07",
+        "I08",
+        "I04",
+        "I11",
+        "I14",
+        "I06",
+        "I01",
+        "I09"
+      ],
+      "cutoff_score": 0.3672806676,
+      "next_score": 0.3490820374,
+      "outcome": "部分成功。",
+      "visible_adjudication_fields": [
+        "E006-1",
+        "E006-2",
+        "E006-3"
+      ],
+      "source_gate_blocked_fields": [
+        "E006-4"
+      ],
+      "visible_history": [
+        "IH05",
+        "IH06",
+        "IH07",
+        "IH09",
+        "IH10",
+        "IH01",
+        "IH03"
+      ],
+      "omitted_history_count": 5,
+      "granted_fact_ids": [],
+      "revoked_fact_ids": [],
+      "necessary_background": [
+        {
+          "fact_id": "I05",
+          "candidate_rank": 2,
+          "selected": true,
+          "available_via_visible_history": false
+        }
+      ],
+      "metric_applicability": {
+        "U": true,
+        "U_focus": true,
+        "U_additional": true,
+        "R": false,
+        "L": true,
+        "X": true,
+        "background": true
+      },
+      "message_sha256": {
+        "C0": "95bc67ee55cdb8258be245c8300f58a538194ad79bc08c5545e27a2695cfb56f",
+        "C1": "1401c9418b6b733f85aff2c60560fc90f5b199c3ae0697a64366c83410a217c6",
+        "C2": "d6c0f90cf7abb844a23169419f5df4f30f9d0d68740e53a52db2663d2af63a31"
+      }
+    }
+  ],
+  "baseline_cases_sha256": "79b2858da45fde7986d130e1abcceace484bc9de537ed38f9ff0147a108443d3"
+}

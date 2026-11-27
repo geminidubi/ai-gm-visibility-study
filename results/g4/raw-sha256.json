@@ -1,0 +1,18 @@
+{
+  "20261124T200154Z-b6f043b4": {
+    "records.jsonl": "8fefc5c2419c619bf1abce6cca24665f296a314cd332c58fe83b483665dbd482",
+    "comparison.md": "61c1c4a37d1cae64a3206bd71b0d3956b5959c7beba4585b80bb346666d64fc5",
+    "events.jsonl": "630ad0377b8ef3d27ddabec59dc43fde528bb938080cb1b326c91a54f7a81121",
+    "run_manifest.json": "17b138055677b63e92b91a5a5e1ec6058d153e24f217a6f52d1002d175c48618",
+    "summary.json": "a17f1d61ce6678c5d88829a8ad853c4581e3672aab25a35ab04b22fc011e707a",
+    "automatic-cefa1678.json": "880723dd33fc39671b0e4defe9c163f160b736c141bac29788e104b05b629829"
+  },
+  "20261124T200304Z-b87d5232": {
+    "records.jsonl": "6164df87b4e1a0cda3e9ca7e755359aae511fc980dfebb76d3e77e1ef1a77cff",
+    "comparison.md": "542533a06e8a45e1ff53e9f400d2d2d3daec5e5d641d622c9343997ba39120aa",
+    "events.jsonl": "630ad0377b8ef3d27ddabec59dc43fde528bb938080cb1b326c91a54f7a81121",
+    "run_manifest.json": "60096ca5934de04c258a9d19187f87aa9ece5bb834f125fbaf8545d450c21641",
+    "summary.json": "c5d7b56d99a42b6704452a03f692729afe935fbee4eead2d690c5d73e30cfede",
+    "automatic-ba94fec0.json": "880723dd33fc39671b0e4defe9c163f160b736c141bac29788e104b05b629829"
+  }
+}

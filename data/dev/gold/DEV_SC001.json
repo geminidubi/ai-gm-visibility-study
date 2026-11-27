@@ -1,0 +1,214 @@
+[
+  {
+    "case_id": "DEV_T01",
+    "expected_visible_ids": [
+      "F001",
+      "F002"
+    ],
+    "forbidden_fact_ids": [
+      "F003"
+    ],
+    "required_fact_ids": [
+      "F001"
+    ],
+    "relevant_visible_ids": [
+      "F001"
+    ],
+    "expected_reveal_time": 3,
+    "allowed_inferences": [
+      "信件存在本身不證明寄件者或人物身分。"
+    ],
+    "scoring_notes": "開發候選答案，尚待人工核定；不納入正式實驗。",
+    "eligibility": {
+      "U": true,
+      "R": false,
+      "L": true,
+      "X": false
+    }
+  },
+  {
+    "case_id": "DEV_T02",
+    "expected_visible_ids": [
+      "F001",
+      "F002"
+    ],
+    "forbidden_fact_ids": [
+      "F003"
+    ],
+    "required_fact_ids": [
+      "F002"
+    ],
+    "relevant_visible_ids": [
+      "F002"
+    ],
+    "expected_reveal_time": 3,
+    "allowed_inferences": [
+      "信件存在本身不證明寄件者或人物身分。"
+    ],
+    "scoring_notes": "開發候選答案，尚待人工核定；不納入正式實驗。",
+    "eligibility": {
+      "U": true,
+      "R": false,
+      "L": true,
+      "X": false
+    }
+  },
+  {
+    "case_id": "DEV_T03",
+    "expected_visible_ids": [
+      "F001",
+      "F002",
+      "F003"
+    ],
+    "forbidden_fact_ids": [],
+    "required_fact_ids": [
+      "F003"
+    ],
+    "relevant_visible_ids": [
+      "F003"
+    ],
+    "expected_reveal_time": 3,
+    "allowed_inferences": [
+      "信件存在本身不證明寄件者或人物身分。"
+    ],
+    "scoring_notes": "開發候選答案，尚待人工核定；不納入正式實驗。",
+    "eligibility": {
+      "U": false,
+      "R": true,
+      "L": true,
+      "X": false
+    }
+  },
+  {
+    "case_id": "DEV_T04",
+    "expected_visible_ids": [
+      "F001",
+      "F002",
+      "F003"
+    ],
+    "forbidden_fact_ids": [],
+    "required_fact_ids": [
+      "F003"
+    ],
+    "relevant_visible_ids": [
+      "F003"
+    ],
+    "expected_reveal_time": 3,
+    "allowed_inferences": [
+      "信件存在本身不證明寄件者或人物身分。"
+    ],
+    "scoring_notes": "開發候選答案，尚待人工核定；不納入正式實驗。",
+    "eligibility": {
+      "U": false,
+      "R": true,
+      "L": true,
+      "X": false
+    }
+  },
+  {
+    "case_id": "DEV_T05",
+    "expected_visible_ids": [
+      "F001",
+      "F002"
+    ],
+    "forbidden_fact_ids": [
+      "F003"
+    ],
+    "required_fact_ids": [
+      "F001"
+    ],
+    "relevant_visible_ids": [
+      "F001"
+    ],
+    "expected_reveal_time": 7,
+    "allowed_inferences": [
+      "信件存在本身不證明寄件者或人物身分。"
+    ],
+    "scoring_notes": "開發候選答案，尚待人工核定；不納入正式實驗。",
+    "eligibility": {
+      "U": true,
+      "R": false,
+      "L": true,
+      "X": true
+    }
+  },
+  {
+    "case_id": "DEV_T06",
+    "expected_visible_ids": [
+      "F001",
+      "F002"
+    ],
+    "forbidden_fact_ids": [
+      "F003"
+    ],
+    "required_fact_ids": [
+      "F001"
+    ],
+    "relevant_visible_ids": [
+      "F001"
+    ],
+    "expected_reveal_time": 7,
+    "allowed_inferences": [
+      "信件存在本身不證明寄件者或人物身分。"
+    ],
+    "scoring_notes": "開發候選答案，尚待人工核定；不納入正式實驗。",
+    "eligibility": {
+      "U": true,
+      "R": false,
+      "L": true,
+      "X": true
+    }
+  },
+  {
+    "case_id": "DEV_T07",
+    "expected_visible_ids": [
+      "F001",
+      "F002",
+      "F003"
+    ],
+    "forbidden_fact_ids": [],
+    "required_fact_ids": [
+      "F003"
+    ],
+    "relevant_visible_ids": [
+      "F003"
+    ],
+    "expected_reveal_time": 7,
+    "allowed_inferences": [
+      "信件存在本身不證明寄件者或人物身分。"
+    ],
+    "scoring_notes": "開發候選答案，尚待人工核定；不納入正式實驗。",
+    "eligibility": {
+      "U": false,
+      "R": true,
+      "L": true,
+      "X": false
+    }
+  },
+  {
+    "case_id": "DEV_T08",
+    "expected_visible_ids": [
+      "F001",
+      "F002",
+      "F003"
+    ],
+    "forbidden_fact_ids": [],
+    "required_fact_ids": [
+      "F003"
+    ],
+    "relevant_visible_ids": [
+      "F003"
+    ],
+    "expected_reveal_time": 7,
+    "allowed_inferences": [
+      "信件存在本身不證明寄件者或人物身分。"
+    ],
+    "scoring_notes": "開發候選答案，尚待人工核定；不納入正式實驗。",
+    "eligibility": {
+      "U": false,
+      "R": true,
+      "L": true,
+      "X": false
+    }
+  }
+]

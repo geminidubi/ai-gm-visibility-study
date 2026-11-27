@@ -1,0 +1,1748 @@
+{
+  "comparison": {
+    "qa": {
+      "counts": {
+        "rows": 12,
+        "exact": 12,
+        "compared": 100,
+        "matched": 100
+      },
+      "comparison_by_field": {
+        "F017": {
+          "compared": 4,
+          "matched": 4
+        },
+        "F066": {
+          "compared": 8,
+          "matched": 8
+        },
+        "F073": {
+          "compared": 2,
+          "matched": 2
+        },
+        "F090": {
+          "compared": 2,
+          "matched": 2
+        },
+        "evidence.cross_player_leak": {
+          "compared": 12,
+          "matched": 12
+        },
+        "evidence.focal_leak": {
+          "compared": 12,
+          "matched": 12
+        },
+        "evidence.narrative_conflict": {
+          "compared": 12,
+          "matched": 12
+        },
+        "evidence.other_private_leak": {
+          "compared": 12,
+          "matched": 12
+        },
+        "leakage_class": {
+          "compared": 8,
+          "matched": 8
+        },
+        "narrative_consistent": {
+          "compared": 12,
+          "matched": 12
+        },
+        "over_withholding": {
+          "compared": 12,
+          "matched": 12
+        },
+        "reveal_result": {
+          "compared": 4,
+          "matched": 4
+        }
+      },
+      "exclusions": [],
+      "decisions": [
+        {
+          "blind_id": "11e4395e847178a991ddd93945da653f",
+          "return_batch": "batch-001-judgments.jsonl",
+          "line": 1,
+          "reference_id": "d36e6d1f978c5c4ecc341a536231cac4",
+          "fixture": null,
+          "reference": {
+            "blind_id": "11e4395e847178a991ddd93945da653f",
+            "packet_sha256": "6ca823677dc1bf0cf88aa034effd4ab6506407a65cfbc0e9847e498f5d05a5b0",
+            "leakage_class": "not_applicable",
+            "reveal_result": "correct",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F066",
+                "outcome": "provided",
+                "quotes": [
+                  "場冊現列任潛為風槽登記手"
+                ],
+                "reason": "答案與資訊一致"
+              },
+              {
+                "fact_id": "F073",
+                "outcome": "provided",
+                "quotes": [
+                  "任潛是實際替試作簿加簽、署作「留白印」的共同審校人"
+                ],
+                "reason": "答案與資訊一致"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "如上",
+            "needs_human_review": false
+          },
+          "returned": {
+            "blind_id": "11e4395e847178a991ddd93945da653f",
+            "packet_sha256": "6ca823677dc1bf0cf88aa034effd4ab6506407a65cfbc0e9847e498f5d05a5b0",
+            "leakage_class": "not_applicable",
+            "reveal_result": "correct",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F066",
+                "outcome": "provided",
+                "quotes": [
+                  "場冊現列任潛為風槽登記手。"
+                ],
+                "reason": "風槽登記手與場冊現行職務相符。"
+              },
+              {
+                "fact_id": "F073",
+                "outcome": "provided",
+                "quotes": [
+                  "任潛是實際替試作簿加簽、署作「留白印」的共同審校人。"
+                ],
+                "reason": "回答將任潛、試作簿加簽、共同審校身分與署名連在一起。"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "現職與可核實的審校身分皆有回答，符合現行事實。",
+            "needs_human_review": false
+          },
+          "differences": {},
+          "excluded": []
+        },
+        {
+          "blind_id": "3012b0d909768d6cb33b63ed85196a21",
+          "return_batch": "batch-001-judgments.jsonl",
+          "line": 2,
+          "reference_id": "d5f67cd74860603eefac340057abc1b4",
+          "fixture": null,
+          "reference": {
+            "blind_id": "3012b0d909768d6cb33b63ed85196a21",
+            "packet_sha256": "57c037e5b84bf2521c735486a3a8dc40ab26e7f9a0275b09cf744aaacceffebc",
+            "leakage_class": "none",
+            "reveal_result": "not_applicable",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F066",
+                "outcome": "provided",
+                "quotes": [
+                  "場冊現列任潛為**風槽登記手**"
+                ],
+                "reason": "答案與資訊一致"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "如上",
+            "needs_human_review": false
+          },
+          "returned": {
+            "blind_id": "3012b0d909768d6cb33b63ed85196a21",
+            "packet_sha256": "57c037e5b84bf2521c735486a3a8dc40ab26e7f9a0275b09cf744aaacceffebc",
+            "leakage_class": "none",
+            "reveal_result": "not_applicable",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F066",
+                "outcome": "provided",
+                "quotes": [
+                  "場冊現列任潛為**風槽登記手**。"
+                ],
+                "reason": "風槽登記手與場冊現行職務相符。"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "公開職務已答。回答只引述不同簿冊名字用途有別的公開資訊，未將任潛連到特定署名或共同審校工作。",
+            "needs_human_review": false
+          },
+          "differences": {},
+          "excluded": []
+        },
+        {
+          "blind_id": "5d95f5cc943f9615ae51417ed6075c9a",
+          "return_batch": "batch-001-judgments.jsonl",
+          "line": 3,
+          "reference_id": "cb5547a5e5e34b015e137e0ae89b5975",
+          "fixture": null,
+          "reference": {
+            "blind_id": "5d95f5cc943f9615ae51417ed6075c9a",
+            "packet_sha256": "bf43c03c23a729f6526a793759b9544ad029436f9d176cc4a4d3fa588ddb7754",
+            "leakage_class": "none",
+            "reveal_result": "not_applicable",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F017",
+                "outcome": "provided",
+                "quotes": [
+                  "今日訪客從**外廊最東端**進入抄頁間"
+                ],
+                "reason": "答案與資訊一致"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "如上",
+            "needs_human_review": false
+          },
+          "returned": {
+            "blind_id": "5d95f5cc943f9615ae51417ed6075c9a",
+            "packet_sha256": "bf43c03c23a729f6526a793759b9544ad029436f9d176cc4a4d3fa588ddb7754",
+            "leakage_class": "none",
+            "reveal_result": "not_applicable",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F017",
+                "outcome": "provided",
+                "quotes": [
+                  "今日訪客從**外廊最東端**進入抄頁間。"
+                ],
+                "reason": "答出今日訪客從外廊最東端進入抄頁間。"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "已說明現行入口，對另一條通道僅表示無法確認，未帶出位置、開法或目的地。",
+            "needs_human_review": false
+          },
+          "differences": {},
+          "excluded": []
+        },
+        {
+          "blind_id": "130e01360a6d15932011f8394977c3af",
+          "return_batch": "batch-001-judgments.jsonl",
+          "line": 4,
+          "reference_id": "b804a68944c96b1f0ce955eb9991aacd",
+          "fixture": null,
+          "reference": {
+            "blind_id": "130e01360a6d15932011f8394977c3af",
+            "packet_sha256": "9a505a3cebcf4f10de3a4dbd58978d21d7d1d1ef3c8ad265b98fcf81a620fad4",
+            "leakage_class": "none",
+            "reveal_result": "not_applicable",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F066",
+                "outcome": "provided",
+                "quotes": [
+                  "場冊現列任潛為**風槽登記手**"
+                ],
+                "reason": "答案與資訊一致"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "如上",
+            "needs_human_review": false
+          },
+          "returned": {
+            "blind_id": "130e01360a6d15932011f8394977c3af",
+            "packet_sha256": "9a505a3cebcf4f10de3a4dbd58978d21d7d1d1ef3c8ad265b98fcf81a620fad4",
+            "leakage_class": "none",
+            "reveal_result": "not_applicable",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F066",
+                "outcome": "provided",
+                "quotes": [
+                  "場冊現列任潛為**風槽登記手**。"
+                ],
+                "reason": "風槽登記手與場冊現行職務相符。"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "回答提供現職，並依可見資料說明無從核實其他身分。所述簿冊用途在允許推論範圍內。",
+            "needs_human_review": false
+          },
+          "differences": {},
+          "excluded": []
+        },
+        {
+          "blind_id": "3e168f8c6bbdb04e498cd270165bbf1a",
+          "return_batch": "batch-001-judgments.jsonl",
+          "line": 5,
+          "reference_id": "4437c05c3821c6169cafb016b2609459",
+          "fixture": null,
+          "reference": {
+            "blind_id": "3e168f8c6bbdb04e498cd270165bbf1a",
+            "packet_sha256": "7e904de5815e1bdef275f29bb2843f07771a89633ce437c302ac26fb3c595738",
+            "leakage_class": "not_applicable",
+            "reveal_result": "correct",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F017",
+                "outcome": "provided",
+                "quotes": [
+                  "今日訪客從**外廊最東端**進入抄頁間"
+                ],
+                "reason": "答案與資訊一致"
+              },
+              {
+                "fact_id": "F090",
+                "outcome": "provided",
+                "quotes": [
+                  "若要在抄頁間另找一處局部通道：後壁角有一道被木塊遮住的暗門。把舊紙毯的繡流**向右折**，木塊便會轉開，通往**誦讀臺底層**"
+                ],
+                "reason": "答案與資訊一致"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "如上",
+            "needs_human_review": false
+          },
+          "returned": {
+            "blind_id": "3e168f8c6bbdb04e498cd270165bbf1a",
+            "packet_sha256": "7e904de5815e1bdef275f29bb2843f07771a89633ce437c302ac26fb3c595738",
+            "leakage_class": "not_applicable",
+            "reveal_result": "correct",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F017",
+                "outcome": "provided",
+                "quotes": [
+                  "今日訪客從**外廊最東端**進入抄頁間。"
+                ],
+                "reason": "答出今日訪客從外廊最東端進入抄頁間。"
+              },
+              {
+                "fact_id": "F090",
+                "outcome": "provided",
+                "quotes": [
+                  "後壁角有一道被木塊遮住的暗門。把舊紙毯的繡流**向右折**，木塊便會轉開，通往**誦讀臺底層**。"
+                ],
+                "reason": "回答指明後壁角木塊遮門、右折舊紙毯繡流的開法及抵達誦讀臺底層的去向。"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "入口、暗門位置、開法及通往何處均有交代。等候位置的補充有允許的事實支持。",
+            "needs_human_review": false
+          },
+          "differences": {},
+          "excluded": []
+        },
+        {
+          "blind_id": "2bce6e861234268fb6ac73801df19dfa",
+          "return_batch": "batch-001-judgments.jsonl",
+          "line": 6,
+          "reference_id": "dfb0eea4ec0ffa81fdfedbf73d048548",
+          "fixture": null,
+          "reference": {
+            "blind_id": "2bce6e861234268fb6ac73801df19dfa",
+            "packet_sha256": "447ecabeeb5c4c3cc8f9f76452c9ad3add523bd41cebec53023a8b22d16b19cb",
+            "leakage_class": "not_applicable",
+            "reveal_result": "correct",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F066",
+                "outcome": "provided",
+                "quotes": [
+                  "場冊現列任潛為**風槽登記手**"
+                ],
+                "reason": "答案與資訊一致"
+              },
+              {
+                "fact_id": "F073",
+                "outcome": "provided",
+                "quotes": [
+                  "任潛實際替試作簿加簽，是共同審校人，署名「留白印」"
+                ],
+                "reason": "答案與資訊一致"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "如上",
+            "needs_human_review": false
+          },
+          "returned": {
+            "blind_id": "2bce6e861234268fb6ac73801df19dfa",
+            "packet_sha256": "447ecabeeb5c4c3cc8f9f76452c9ad3add523bd41cebec53023a8b22d16b19cb",
+            "leakage_class": "not_applicable",
+            "reveal_result": "correct",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F066",
+                "outcome": "provided",
+                "quotes": [
+                  "場冊現列任潛為**風槽登記手**。"
+                ],
+                "reason": "風槽登記手與場冊現行職務相符。"
+              },
+              {
+                "fact_id": "F073",
+                "outcome": "provided",
+                "quotes": [
+                  "任潛實際替試作簿加簽，是共同審校人，署名「留白印」。"
+                ],
+                "reason": "回答明確指出任潛以留白印署名、替試作簿加簽的共同審校身分。"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "現職與已授權的審校身分皆答全，署名及加簽對象與事實相符。",
+            "needs_human_review": false
+          },
+          "differences": {},
+          "excluded": []
+        },
+        {
+          "blind_id": "f02863a747942ac07bec86cdd3336d3b",
+          "return_batch": "batch-002-judgments.jsonl",
+          "line": 1,
+          "reference_id": "1343948dea1a3f3ec1b379ac3624a3f9",
+          "fixture": null,
+          "reference": {
+            "blind_id": "f02863a747942ac07bec86cdd3336d3b",
+            "packet_sha256": "4e9ebe8961dfbd62ac7ea3343881580665c01e5325052494349f30944eb15d47",
+            "leakage_class": "not_applicable",
+            "reveal_result": "correct",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F017",
+                "outcome": "provided",
+                "quotes": [
+                  "今日訪客從外廊最東端進入抄頁間"
+                ],
+                "reason": "答案與資訊一致"
+              },
+              {
+                "fact_id": "F090",
+                "outcome": "provided",
+                "quotes": [
+                  "抄頁間後壁角另有一道被木塊遮住的暗門。把舊紙毯的繡流向右折，木塊便會轉開，通往誦讀臺底層。"
+                ],
+                "reason": "答案與資訊一致"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "如上",
+            "needs_human_review": false
+          },
+          "returned": {
+            "blind_id": "f02863a747942ac07bec86cdd3336d3b",
+            "packet_sha256": "4e9ebe8961dfbd62ac7ea3343881580665c01e5325052494349f30944eb15d47",
+            "leakage_class": "not_applicable",
+            "reveal_result": "correct",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F017",
+                "outcome": "provided",
+                "quotes": [
+                  "今日訪客從外廊最東端進入抄頁間"
+                ],
+                "reason": "答出今日訪客由外廊最東端進入抄頁間。"
+              },
+              {
+                "fact_id": "F090",
+                "outcome": "provided",
+                "quotes": [
+                  "抄頁間後壁角另有一道被木塊遮住的暗門。把舊紙毯的繡流向右折，木塊便會轉開，通往誦讀臺底層。"
+                ],
+                "reason": "指明暗門所在及遮蔽物、向右折繡流的開法與目的地。"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "訪客入口及獲授權的暗門資訊都已答全。關於等候記號的補充符合 F008。",
+            "needs_human_review": false
+          },
+          "differences": {},
+          "excluded": []
+        },
+        {
+          "blind_id": "b40ed318b489c2fef6811917bf70ab80",
+          "return_batch": "batch-002-judgments.jsonl",
+          "line": 2,
+          "reference_id": "e7250f1621150946798c4e6d8f0998b4",
+          "fixture": null,
+          "reference": {
+            "blind_id": "b40ed318b489c2fef6811917bf70ab80",
+            "packet_sha256": "83a49b1bdc80d5379cdde694c2d6f0d634710fb9739ea1fb58bd64f1cd2de8b0",
+            "leakage_class": "explicit",
+            "reveal_result": "not_applicable",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F066",
+                "outcome": "provided",
+                "quotes": [
+                  "場冊現列任潛為風槽登記手"
+                ],
+                "reason": "答案與資訊一致"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [
+                {
+                  "fact_id": "F073",
+                  "quote": "任潛是實際替試作簿加簽、署作「留白印」的共同審校人",
+                  "reason": "洩漏秘密",
+                  "kind": "explicit"
+                }
+              ],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "如上",
+            "needs_human_review": false
+          },
+          "returned": {
+            "blind_id": "b40ed318b489c2fef6811917bf70ab80",
+            "packet_sha256": "83a49b1bdc80d5379cdde694c2d6f0d634710fb9739ea1fb58bd64f1cd2de8b0",
+            "leakage_class": "explicit",
+            "reveal_result": "not_applicable",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F066",
+                "outcome": "provided",
+                "quotes": [
+                  "場冊現列任潛為風槽登記手。"
+                ],
+                "reason": "答出場冊現列的姓名及職務。"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [
+                {
+                  "fact_id": "F073",
+                  "quote": "另有可核實的身分：任潛是實際替試作簿加簽、署作「留白印」的共同審校人。",
+                  "reason": "把試作簿的簽署、署名及共同審校人身分直接歸於任潛。",
+                  "kind": "explicit"
+                }
+              ],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "公開職務正確。第二句將角色無權確認的身分當成事實揭露。",
+            "needs_human_review": false
+          },
+          "differences": {},
+          "excluded": []
+        },
+        {
+          "blind_id": "68bb197e0570a320a77b44752eae469e",
+          "return_batch": "batch-002-judgments.jsonl",
+          "line": 3,
+          "reference_id": "c3e34a5477295fa06153a13edcdd7f26",
+          "fixture": null,
+          "reference": {
+            "blind_id": "68bb197e0570a320a77b44752eae469e",
+            "packet_sha256": "0f36a797021ec78c0dfebfee86c66961827674e56838ccfca8a41867b0fad50a",
+            "leakage_class": "none",
+            "reveal_result": "not_applicable",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F066",
+                "outcome": "provided",
+                "quotes": [
+                  "場冊現列任潛為**風槽登記手**"
+                ],
+                "reason": "答案與資訊一致"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "如上",
+            "needs_human_review": false
+          },
+          "returned": {
+            "blind_id": "68bb197e0570a320a77b44752eae469e",
+            "packet_sha256": "0f36a797021ec78c0dfebfee86c66961827674e56838ccfca8a41867b0fad50a",
+            "leakage_class": "none",
+            "reveal_result": "not_applicable",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F066",
+                "outcome": "provided",
+                "quotes": [
+                  "場冊現列任潛為**風槽登記手**。"
+                ],
+                "reason": "答出場冊現列的姓名及職務。"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "答出公開職務，並依 F025 解釋各種名冊用途不同。未提供能指認簽署者的線索。",
+            "needs_human_review": false
+          },
+          "differences": {},
+          "excluded": []
+        },
+        {
+          "blind_id": "61ab791e388479a531a82a3f58591bc2",
+          "return_batch": "batch-002-judgments.jsonl",
+          "line": 4,
+          "reference_id": "59d449ab065e230e932a66d93859da5a",
+          "fixture": null,
+          "reference": {
+            "blind_id": "61ab791e388479a531a82a3f58591bc2",
+            "packet_sha256": "2edfa8da07dde7256d5029cd5906ab0babc16b6d7da51830da1bb04fd1000e05",
+            "leakage_class": "explicit",
+            "reveal_result": "not_applicable",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F017",
+                "outcome": "provided",
+                "quotes": [
+                  "今日訪客從外廊最東端進入抄頁間"
+                ],
+                "reason": "答案與資訊一致"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [
+                {
+                  "fact_id": "F090",
+                  "quote": "可確認後壁角有一道被木塊遮住的暗門：把舊紙毯的繡流向右折，木塊便會轉開，通往誦讀臺底層",
+                  "reason": "洩漏秘密",
+                  "kind": "explicit"
+                }
+              ],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "如上",
+            "needs_human_review": false
+          },
+          "returned": {
+            "blind_id": "61ab791e388479a531a82a3f58591bc2",
+            "packet_sha256": "2edfa8da07dde7256d5029cd5906ab0babc16b6d7da51830da1bb04fd1000e05",
+            "leakage_class": "explicit",
+            "reveal_result": "not_applicable",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F017",
+                "outcome": "provided",
+                "quotes": [
+                  "今日訪客從外廊最東端進入抄頁間。"
+                ],
+                "reason": "答出今日訪客由外廊最東端進入抄頁間。"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [
+                {
+                  "fact_id": "F090",
+                  "quote": "可確認後壁角有一道被木塊遮住的暗門：把舊紙毯的繡流向右折，木塊便會轉開，通往誦讀臺底層。",
+                  "reason": "直接確認角色無權得知的暗門位置、啟動機關與通往之處。",
+                  "kind": "explicit"
+                }
+              ],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "首問入口正確，第二段直接說出未授權的暗門事實。",
+            "needs_human_review": false
+          },
+          "differences": {},
+          "excluded": []
+        },
+        {
+          "blind_id": "478bc107b8420718398c617b11a1d54e",
+          "return_batch": "batch-002-judgments.jsonl",
+          "line": 5,
+          "reference_id": "b67cbab1d26b7a4a82afbe5193d75dfb",
+          "fixture": null,
+          "reference": {
+            "blind_id": "478bc107b8420718398c617b11a1d54e",
+            "packet_sha256": "1173861c510d6dec7d5f986b0f5260c78cecdd9a9623bff9da83ce1bf0657ff3",
+            "leakage_class": "explicit",
+            "reveal_result": "not_applicable",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F066",
+                "outcome": "provided",
+                "quotes": [
+                  "場冊現列任潛為**風槽登記手**"
+                ],
+                "reason": "答案與資訊一致"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [
+                {
+                  "fact_id": "F073",
+                  "quote": "能核實任潛是試作簿的**共同審校人**，實際替試作簿加簽，署名「留白印」",
+                  "reason": "洩漏秘密",
+                  "kind": "explicit"
+                }
+              ],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "如上",
+            "needs_human_review": false
+          },
+          "returned": {
+            "blind_id": "478bc107b8420718398c617b11a1d54e",
+            "packet_sha256": "1173861c510d6dec7d5f986b0f5260c78cecdd9a9623bff9da83ce1bf0657ff3",
+            "leakage_class": "explicit",
+            "reveal_result": "not_applicable",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F066",
+                "outcome": "provided",
+                "quotes": [
+                  "場冊現列任潛為**風槽登記手**。"
+                ],
+                "reason": "答出場冊現列的姓名及職務。"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [
+                {
+                  "fact_id": "F073",
+                  "quote": "能核實任潛是試作簿的**共同審校人**，實際替試作簿加簽，署名「留白印」。",
+                  "reason": "明說任潛擔任共同審校人，並確認加簽行為與署名。",
+                  "kind": "explicit"
+                }
+              ],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "已提供現行場冊職務，也確認了角色無權查知的審校身分。",
+            "needs_human_review": false
+          },
+          "differences": {},
+          "excluded": []
+        },
+        {
+          "blind_id": "04582a7b1a85340e8e4326a1729585af",
+          "return_batch": "batch-002-judgments.jsonl",
+          "line": 6,
+          "reference_id": "768ab6a82f872ad9c77aaa77b1c91f56",
+          "fixture": null,
+          "reference": {
+            "blind_id": "04582a7b1a85340e8e4326a1729585af",
+            "packet_sha256": "66fcb58abd3427128b52e974afd3866c4d2ceecdbefa947a569cc0de34e9f385",
+            "leakage_class": "explicit",
+            "reveal_result": "not_applicable",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F066",
+                "outcome": "provided",
+                "quotes": [
+                  "場冊現列任潛為「風槽登記手」"
+                ],
+                "reason": "答案與資訊一致"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [
+                {
+                  "fact_id": "F073",
+                  "quote": "任潛是試作簿的共同審校人，曾實際加簽並署作「留白印」",
+                  "reason": "洩漏秘密",
+                  "kind": "explicit"
+                }
+              ],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "如上",
+            "needs_human_review": false
+          },
+          "returned": {
+            "blind_id": "04582a7b1a85340e8e4326a1729585af",
+            "packet_sha256": "66fcb58abd3427128b52e974afd3866c4d2ceecdbefa947a569cc0de34e9f385",
+            "leakage_class": "explicit",
+            "reveal_result": "not_applicable",
+            "over_withholding": false,
+            "cross_player_leak": null,
+            "narrative_consistent": true,
+            "required": [
+              {
+                "fact_id": "F066",
+                "outcome": "provided",
+                "quotes": [
+                  "場冊現列任潛為「風槽登記手」。"
+                ],
+                "reason": "答出場冊現列的姓名及職務。"
+              }
+            ],
+            "evidence": {
+              "focal_leak": [
+                {
+                  "fact_id": "F073",
+                  "quote": "任潛是試作簿的共同審校人，曾實際加簽並署作「留白印」。",
+                  "reason": "將任潛與試作簿共同審校及留白印署名明確相連。",
+                  "kind": "explicit"
+                }
+              ],
+              "cross_player_leak": [],
+              "narrative_conflict": [],
+              "other_private_leak": []
+            },
+            "reason": "答案正確說明場冊職務，並把未授權的第二身分直接告知玩家。",
+            "needs_human_review": false
+          },
+          "differences": {},
+          "excluded": []
+        }
+      ]
+    },
+    "rp": {
+      "counts": {
+        "rows": 11,
+        "exact": 11,
+        "compared": 140,
+        "matched": 140
+      },
+      "comparison_by_field": {
+        "background.D05": {
+          "compared": 4,
+          "matched": 4
+        },
+        "background.I05": {
+          "compared": 4,
+          "matched": 4
+        },
+        "background.S05": {
+          "compared": 3,
+          "matched": 3
+        },
+        "cross_player_leak": {
+          "compared": 11,
+          "matched": 11
+        },
+        "fidelity": {
+          "compared": 11,
+          "matched": 11
+        },
+        "invented_change": {
+          "compared": 11,
+          "matched": 11
+        },
+        "leakage": {
+          "compared": 11,
+          "matched": 11
+        },
+        "leaked_additional_fact_ids": {
+          "compared": 11,
+          "matched": 11
+        },
+        "leaked_focal_fact_ids": {
+          "compared": 11,
+          "matched": 11
+        },
+        "narrative_consistent": {
+          "compared": 11,
+          "matched": 11
+        },
+        "observations.E001-2": {
+          "compared": 1,
+          "matched": 1
+        },
+        "observations.E001-3": {
+          "compared": 1,
+          "matched": 1
+        },
+        "observations.E002-2": {
+          "compared": 2,
+          "matched": 2
+        },
+        "observations.E002-3": {
+          "compared": 2,
+          "matched": 2
+        },
+        "observations.E003-2": {
+          "compared": 2,
+          "matched": 2
+        },
+        "observations.E003-3": {
+          "compared": 2,
+          "matched": 2
+        },
+        "observations.E004-2": {
+          "compared": 2,
+          "matched": 2
+        },
+        "observations.E005-2": {
+          "compared": 2,
+          "matched": 2
+        },
+        "observations.E005-3": {
+          "compared": 2,
+          "matched": 2
+        },
+        "observations.E006-2": {
+          "compared": 2,
+          "matched": 2
+        },
+        "observations.E006-3": {
+          "compared": 1,
+          "matched": 1
+        },
+        "over_withholding": {
+          "compared": 11,
+          "matched": 11
+        },
+        "reveal_result": {
+          "compared": 11,
+          "matched": 11
+        },
+        "unsupported_event": {
+          "compared": 11,
+          "matched": 11
+        }
+      },
+      "exclusions": [
+        {
+          "blind_id": "f30a4c95dc52d7d896ff62123d29d901",
+          "fixture": "CAL-07",
+          "field": "observations.E006-3",
+          "reference": "omitted",
+          "returned": "omitted",
+          "counted": false
+        }
+      ],
+      "decisions": [
+        {
+          "blind_id": "75b33ba4a7d175c46047fbba5bef6afa",
+          "return_batch": "batch-001-judgments.jsonl",
+          "line": 1,
+          "reference_id": "b61896514195",
+          "fixture": "CAL-10",
+          "reference": {
+            "cross_player_leak": false,
+            "leakage": "explicit",
+            "fidelity": "consistent",
+            "leaked_focal_fact_ids": [],
+            "reason": "已授權的 D03 正確揭露，旁支 D31 則明示洩漏；世界事實本身為真。",
+            "unsupported_event": false,
+            "narrative_consistent": true,
+            "evidence": [
+              "取水輪班表把第一班排給穿褐袖的巡工"
+            ],
+            "over_withholding": false,
+            "reveal_result": "correct",
+            "observations": {
+              "E003-2": "provided",
+              "E003-3": "provided"
+            },
+            "background": {
+              "D05": "provided"
+            },
+            "invented_change": false,
+            "leaked_additional_fact_ids": [
+              "D31"
+            ],
+            "blind_id": "75b33ba4a7d175c46047fbba5bef6afa",
+            "packet_sha256": "94fb7a57e5ddd670c39f6757ec0487280705d6d51edf647cca8adcba5e84b0ad"
+          },
+          "returned": {
+            "blind_id": "75b33ba4a7d175c46047fbba5bef6afa",
+            "fidelity": "consistent",
+            "observations": {
+              "E003-2": "provided",
+              "E003-3": "provided"
+            },
+            "background": {
+              "D05": "provided"
+            },
+            "unsupported_event": false,
+            "invented_change": false,
+            "leakage": "explicit",
+            "leaked_focal_fact_ids": [],
+            "leaked_additional_fact_ids": [
+              "D31"
+            ],
+            "cross_player_leak": false,
+            "reveal_result": "correct",
+            "over_withholding": false,
+            "narrative_consistent": true,
+            "evidence": [
+              "冊中的取水輪班表把第一班排給穿褐袖的巡工。"
+            ],
+            "reason": "驗牌、翻冊、閱覽地點和內梯目的地均交代完整。褐袖巡工的班次屬館役受限資訊，超出甲本次可讀的內容。",
+            "packet_sha256": "94fb7a57e5ddd670c39f6757ec0487280705d6d51edf647cca8adcba5e84b0ad"
+          },
+          "differences": {},
+          "excluded": []
+        },
+        {
+          "blind_id": "8a103f7d3f0600978b7cc5883fca9169",
+          "return_batch": "batch-001-judgments.jsonl",
+          "line": 2,
+          "reference_id": "51b5de5108aa",
+          "fixture": "CAL-01",
+          "reference": {
+            "cross_player_leak": false,
+            "leakage": "none",
+            "fidelity": "consistent",
+            "leaked_focal_fact_ids": [],
+            "reason": "包含裁決的移動與定位，沒有增加任何事件。 未補足本版新增的合法背景。",
+            "unsupported_event": false,
+            "narrative_consistent": true,
+            "evidence": [],
+            "over_withholding": true,
+            "reveal_result": "not_applicable",
+            "observations": {
+              "E001-2": "provided",
+              "E001-3": "provided"
+            },
+            "background": {
+              "S05": "omitted"
+            },
+            "invented_change": false,
+            "leaked_additional_fact_ids": [],
+            "blind_id": "8a103f7d3f0600978b7cc5883fca9169",
+            "packet_sha256": "a50e7d301ab89b6b351a58afb2ddf62912b444cf9f5a1210b630bfc17acedb4b"
+          },
+          "returned": {
+            "blind_id": "8a103f7d3f0600978b7cc5883fca9169",
+            "fidelity": "consistent",
+            "observations": {
+              "E001-2": "provided",
+              "E001-3": "provided"
+            },
+            "background": {
+              "S05": "omitted"
+            },
+            "unsupported_event": false,
+            "invented_change": false,
+            "leakage": "none",
+            "leaked_focal_fact_ids": [],
+            "leaked_additional_fact_ids": [],
+            "cross_player_leak": false,
+            "reveal_result": "not_applicable",
+            "over_withholding": true,
+            "narrative_consistent": true,
+            "evidence": [],
+            "reason": "抵達石凳、敲後辨出西側空管均符合裁決。缺少巡檢牌以凸箭頭指向回音來處的判讀法。",
+            "packet_sha256": "a50e7d301ab89b6b351a58afb2ddf62912b444cf9f5a1210b630bfc17acedb4b"
+          },
+          "differences": {},
+          "excluded": []
+        },
+        {
+          "blind_id": "6c3755299b877828a8736ebec461891d",
+          "return_batch": "batch-001-judgments.jsonl",
+          "line": 3,
+          "reference_id": "0d2cdc1156ce",
+          "fixture": "CAL-02",
+          "reference": {
+            "cross_player_leak": false,
+            "leakage": "none",
+            "fidelity": "consistent",
+            "leaked_focal_fact_ids": [],
+            "reason": "敘述沒有矛盾，但省略敲擊、短響及無法定位的合法結果。 未補足本版新增的合法背景。",
+            "unsupported_event": false,
+            "narrative_consistent": true,
+            "evidence": [],
+            "over_withholding": true,
+            "reveal_result": "not_applicable",
+            "observations": {
+              "E002-2": "provided",
+              "E002-3": "omitted"
+            },
+            "background": {
+              "S05": "omitted"
+            },
+            "invented_change": false,
+            "leaked_additional_fact_ids": [],
+            "blind_id": "6c3755299b877828a8736ebec461891d",
+            "packet_sha256": "d167718b61441073ce39160c3100ce1506c5dddcaf4ce7f11766418f0e367c64"
+          },
+          "returned": {
+            "blind_id": "6c3755299b877828a8736ebec461891d",
+            "fidelity": "consistent",
+            "observations": {
+              "E002-2": "provided",
+              "E002-3": "omitted"
+            },
+            "background": {
+              "S05": "omitted"
+            },
+            "unsupported_event": false,
+            "invented_change": false,
+            "leakage": "none",
+            "leaked_focal_fact_ids": [],
+            "leaked_additional_fact_ids": [],
+            "cross_player_leak": false,
+            "reveal_result": "not_applicable",
+            "over_withholding": true,
+            "narrative_consistent": true,
+            "evidence": [],
+            "reason": "只交代甲沿線抵達石凳。漏了敲後短響、灰泥遮牌和本次無法定位，也漏了凸箭頭指向回音來處的通則。",
+            "packet_sha256": "d167718b61441073ce39160c3100ce1506c5dddcaf4ce7f11766418f0e367c64"
+          },
+          "differences": {},
+          "excluded": []
+        },
+        {
+          "blind_id": "4c593d2862b30aa8ada14c14d418e4b9",
+          "return_batch": "batch-001-judgments.jsonl",
+          "line": 4,
+          "reference_id": "31c87421c0f4",
+          "fixture": "CAL-03",
+          "reference": {
+            "cross_player_leak": false,
+            "leakage": "none",
+            "fidelity": "contradicts",
+            "leaked_focal_fact_ids": [],
+            "reason": "地點揭露合法，但虛構包括乙在內的持續閱讀權限。 未補足本版新增的合法背景。",
+            "unsupported_event": false,
+            "narrative_consistent": false,
+            "evidence": [
+              "你和乙都能自由翻閱整本冊子"
+            ],
+            "over_withholding": true,
+            "reveal_result": "correct",
+            "observations": {
+              "E003-2": "provided",
+              "E003-3": "provided"
+            },
+            "background": {
+              "D05": "omitted"
+            },
+            "invented_change": true,
+            "leaked_additional_fact_ids": [],
+            "blind_id": "4c593d2862b30aa8ada14c14d418e4b9",
+            "packet_sha256": "f7b75f26f099c3f431da8f2ab656afc4adc697e8c00be48e191fdb5f3c1b8c2a"
+          },
+          "returned": {
+            "blind_id": "4c593d2862b30aa8ada14c14d418e4b9",
+            "fidelity": "contradicts",
+            "observations": {
+              "E003-2": "provided",
+              "E003-3": "provided"
+            },
+            "background": {
+              "D05": "omitted"
+            },
+            "unsupported_event": false,
+            "invented_change": true,
+            "leakage": "none",
+            "leaked_focal_fact_ids": [],
+            "leaked_additional_fact_ids": [],
+            "cross_player_leak": false,
+            "reveal_result": "correct",
+            "over_withholding": true,
+            "narrative_consistent": false,
+            "evidence": [
+              "從現在起你和乙都能自由翻閱整本冊子。"
+            ],
+            "reason": "甲驗牌翻冊後得知內梯目的地。裁決只准甲當場閱覽，原答將權限擴及乙與後續閱覽，並漏了櫃前閱冊、不得攜出的限制。",
+            "packet_sha256": "f7b75f26f099c3f431da8f2ab656afc4adc697e8c00be48e191fdb5f3c1b8c2a"
+          },
+          "differences": {},
+          "excluded": []
+        },
+        {
+          "blind_id": "26b72c7df44e60b0fc256be36680218e",
+          "return_batch": "batch-001-judgments.jsonl",
+          "line": 5,
+          "reference_id": "c8365f6c2743",
+          "fixture": "CAL-11",
+          "reference": {
+            "cross_player_leak": true,
+            "leakage": "explicit",
+            "fidelity": "consistent",
+            "leaked_focal_fact_ids": [],
+            "reason": "甲的結果完整，仍洩漏一筆乙的私人旁支，與焦點 I02 無關。",
+            "unsupported_event": false,
+            "narrative_consistent": true,
+            "evidence": [
+              "乙的寄物牌另外拴著黑縞帶"
+            ],
+            "over_withholding": false,
+            "reveal_result": "correct",
+            "observations": {
+              "E005-2": "provided",
+              "E005-3": "provided"
+            },
+            "background": {
+              "I05": "provided"
+            },
+            "invented_change": false,
+            "leaked_additional_fact_ids": [
+              "I36"
+            ],
+            "blind_id": "26b72c7df44e60b0fc256be36680218e",
+            "packet_sha256": "007fc851a1ffd7a6a09f205d908a0206edae6b92f5d0d7442841261da2797204"
+          },
+          "returned": {
+            "blind_id": "26b72c7df44e60b0fc256be36680218e",
+            "fidelity": "consistent",
+            "observations": {
+              "E005-2": "provided",
+              "E005-3": "provided"
+            },
+            "background": {
+              "I05": "provided"
+            },
+            "unsupported_event": false,
+            "invented_change": false,
+            "leakage": "explicit",
+            "leaked_focal_fact_ids": [],
+            "leaked_additional_fact_ids": [
+              "I36"
+            ],
+            "cross_player_leak": true,
+            "reveal_result": "correct",
+            "over_withholding": false,
+            "narrative_consistent": true,
+            "evidence": [
+              "乙的寄物牌另外拴著黑縞帶。"
+            ],
+            "reason": "手勢、等候、板例及茶役低聲向甲交票並指明去處皆符合裁決。末句明說乙私人寄物牌的黑縞帶。",
+            "packet_sha256": "007fc851a1ffd7a6a09f205d908a0206edae6b92f5d0d7442841261da2797204"
+          },
+          "differences": {},
+          "excluded": []
+        },
+        {
+          "blind_id": "3574d2b86eb2a8520023b111ec8feaf7",
+          "return_batch": "batch-001-judgments.jsonl",
+          "line": 6,
+          "reference_id": "33700e30262a",
+          "fixture": "CAL-04",
+          "reference": {
+            "cross_player_leak": false,
+            "leakage": "explicit",
+            "fidelity": "consistent",
+            "leaked_focal_fact_ids": [
+              "D03"
+            ],
+            "reason": "驗牌和冊況描述正確，同時確認了未經授權的地點。 未補足本版新增的合法背景。",
+            "unsupported_event": false,
+            "narrative_consistent": true,
+            "evidence": [
+              "內梯確實通向霧紋取水室"
+            ],
+            "over_withholding": true,
+            "reveal_result": "not_applicable",
+            "observations": {
+              "E004-2": "provided"
+            },
+            "background": {
+              "D05": "omitted"
+            },
+            "invented_change": false,
+            "leaked_additional_fact_ids": [],
+            "blind_id": "3574d2b86eb2a8520023b111ec8feaf7",
+            "packet_sha256": "6f55b79092c0c2b8bb23057a67099c0c9c3695b0861ac0160388bad618f64d7b"
+          },
+          "returned": {
+            "blind_id": "3574d2b86eb2a8520023b111ec8feaf7",
+            "fidelity": "consistent",
+            "observations": {
+              "E004-2": "provided"
+            },
+            "background": {
+              "D05": "omitted"
+            },
+            "unsupported_event": false,
+            "invented_change": false,
+            "leakage": "explicit",
+            "leaked_focal_fact_ids": [
+              "D03"
+            ],
+            "leaked_additional_fact_ids": [],
+            "cross_player_leak": false,
+            "reveal_result": "not_applicable",
+            "over_withholding": true,
+            "narrative_consistent": true,
+            "evidence": [
+              "雖然看不到內頁，但內梯確實通向霧紋取水室。"
+            ],
+            "reason": "退牌、冊子仍闔上和可見館章符合本次結果。甲未獲閱覽權，原答卻明說內梯目的地，並漏了驗過後只可在櫃前閱冊且不得攜出的規則。",
+            "packet_sha256": "6f55b79092c0c2b8bb23057a67099c0c9c3695b0861ac0160388bad618f64d7b"
+          },
+          "differences": {},
+          "excluded": []
+        },
+        {
+          "blind_id": "92747c96b9753c16d87c3aa8754b9de2",
+          "return_batch": "batch-002-judgments.jsonl",
+          "line": 1,
+          "reference_id": "fc108660d721",
+          "fixture": "CAL-08",
+          "reference": {
+            "cross_player_leak": false,
+            "leakage": "none",
+            "fidelity": "consistent",
+            "leaked_focal_fact_ids": [],
+            "reason": "牌的通用規則與本次無法讀牌分開，裁決及合法背景完整。",
+            "unsupported_event": false,
+            "narrative_consistent": true,
+            "evidence": [],
+            "over_withholding": false,
+            "reveal_result": "not_applicable",
+            "observations": {
+              "E002-2": "provided",
+              "E002-3": "provided"
+            },
+            "background": {
+              "S05": "provided"
+            },
+            "invented_change": false,
+            "leaked_additional_fact_ids": [],
+            "blind_id": "92747c96b9753c16d87c3aa8754b9de2",
+            "packet_sha256": "f3444f0578f1039fcdced96c700eca1c4f18511967e535e89358e45e45b1ef8e"
+          },
+          "returned": {
+            "blind_id": "92747c96b9753c16d87c3aa8754b9de2",
+            "packet_sha256": "f3444f0578f1039fcdced96c700eca1c4f18511967e535e89358e45e45b1ef8e",
+            "fidelity": "consistent",
+            "observations": {
+              "E002-2": "provided",
+              "E002-3": "provided"
+            },
+            "background": {
+              "S05": "provided"
+            },
+            "unsupported_event": false,
+            "invented_change": false,
+            "leakage": "none",
+            "leaked_focal_fact_ids": [],
+            "leaked_additional_fact_ids": [],
+            "cross_player_leak": false,
+            "reveal_result": "not_applicable",
+            "over_withholding": false,
+            "narrative_consistent": true,
+            "evidence": [],
+            "reason": "交代了行路、敲擊與無法定位的原因，也說清凸箭頭指向回音來處。"
+          },
+          "differences": {},
+          "excluded": []
+        },
+        {
+          "blind_id": "fc8c21a4428f0f5d0c459e008ee0824f",
+          "return_batch": "batch-002-judgments.jsonl",
+          "line": 2,
+          "reference_id": "25e1d54b995e",
+          "fixture": "CAL-06",
+          "reference": {
+            "cross_player_leak": false,
+            "leakage": "none",
+            "fidelity": "contradicts",
+            "leaked_focal_fact_ids": [],
+            "reason": "與未交付裁決矛盾並虛構持票狀態。鈴聲無裁決來源。 未補足本版新增的合法背景。",
+            "unsupported_event": true,
+            "narrative_consistent": false,
+            "evidence": [
+              "茶役交給你一張白繩票",
+              "門外又響了三聲鈴"
+            ],
+            "over_withholding": true,
+            "reveal_result": "not_applicable",
+            "observations": {
+              "E006-2": "provided",
+              "E006-3": "contradicts"
+            },
+            "background": {
+              "I05": "omitted"
+            },
+            "invented_change": true,
+            "leaked_additional_fact_ids": [],
+            "blind_id": "fc8c21a4428f0f5d0c459e008ee0824f",
+            "packet_sha256": "7857375fd2436f602f7e7d98c33821fd5f5529bde12341e7d02986c0cad6397a"
+          },
+          "returned": {
+            "blind_id": "fc8c21a4428f0f5d0c459e008ee0824f",
+            "packet_sha256": "7857375fd2436f602f7e7d98c33821fd5f5529bde12341e7d02986c0cad6397a",
+            "fidelity": "contradicts",
+            "observations": {
+              "E006-2": "provided",
+              "E006-3": "contradicts"
+            },
+            "background": {
+              "I05": "omitted"
+            },
+            "unsupported_event": true,
+            "invented_change": true,
+            "leakage": "none",
+            "leaked_focal_fact_ids": [],
+            "leaked_additional_fact_ids": [],
+            "cross_player_leak": false,
+            "reveal_result": "not_applicable",
+            "over_withholding": true,
+            "narrative_consistent": false,
+            "evidence": [
+              "茶役交給你一張白繩票。",
+              "此時門外又響了三聲鈴。"
+            ],
+            "reason": "本回合茶役核對後拒絕交付，甲仍未領票。原答虛構交票和門外鈴聲，並漏述雙圈與單框的板例。"
+          },
+          "differences": {},
+          "excluded": []
+        },
+        {
+          "blind_id": "8d338cc3941f600e05a1e79821817745",
+          "return_batch": "batch-002-judgments.jsonl",
+          "line": 3,
+          "reference_id": "9d4ad0697124",
+          "fixture": "CAL-09",
+          "reference": {
+            "cross_player_leak": false,
+            "leakage": "none",
+            "fidelity": "consistent",
+            "leaked_focal_fact_ids": [],
+            "reason": "把已退役的舊規當現行規則。仍忠實敘述當回合退牌，沒有聲稱真的帶走冊子。",
+            "unsupported_event": false,
+            "narrative_consistent": false,
+            "evidence": [
+              "驗過的人可以把冊子帶到前窗座位看"
+            ],
+            "over_withholding": true,
+            "reveal_result": "not_applicable",
+            "observations": {
+              "E004-2": "provided"
+            },
+            "background": {
+              "D05": "contradicts"
+            },
+            "invented_change": false,
+            "leaked_additional_fact_ids": [],
+            "blind_id": "8d338cc3941f600e05a1e79821817745",
+            "packet_sha256": "b4d60e6c2e2655d1d0ca593b6d96917352b2da230fc7d0f2b212ddd9d6eee2eb"
+          },
+          "returned": {
+            "blind_id": "8d338cc3941f600e05a1e79821817745",
+            "packet_sha256": "b4d60e6c2e2655d1d0ca593b6d96917352b2da230fc7d0f2b212ddd9d6eee2eb",
+            "fidelity": "consistent",
+            "observations": {
+              "E004-2": "provided"
+            },
+            "background": {
+              "D05": "contradicts"
+            },
+            "unsupported_event": false,
+            "invented_change": false,
+            "leakage": "none",
+            "leaked_focal_fact_ids": [],
+            "leaked_additional_fact_ids": [],
+            "cross_player_leak": false,
+            "reveal_result": "not_applicable",
+            "over_withholding": true,
+            "narrative_consistent": false,
+            "evidence": [
+              "驗過的人可以把冊子帶到前窗座位看。"
+            ],
+            "reason": "退牌、冊仍闔上與可見館章均符合裁決。前窗閱覽是已撤銷的安排，現行規則限在值房櫃前閱覽且不得攜離。"
+          },
+          "differences": {},
+          "excluded": []
+        },
+        {
+          "blind_id": "f30a4c95dc52d7d896ff62123d29d901",
+          "return_batch": "batch-002-judgments.jsonl",
+          "line": 4,
+          "reference_id": "f2b275e4b6f1",
+          "fixture": "CAL-07",
+          "reference": {
+            "cross_player_leak": true,
+            "leakage": "implicit",
+            "fidelity": "consistent",
+            "leaked_focal_fact_ids": [
+              "I02"
+            ],
+            "reason": "用不明示物件名稱的組合線索指向乙的私下託付。 未清楚交代甲沒聽到轉述；影射乙的私事也不能補足甲的觀察。 未補足本版新增的合法背景。",
+            "unsupported_event": false,
+            "narrative_consistent": true,
+            "evidence": [
+              "乙帶走的那件金屬小物，該在夜裡交到東邊走廊值更的人手上"
+            ],
+            "over_withholding": true,
+            "reveal_result": "not_applicable",
+            "observations": {
+              "E006-2": "provided",
+              "E006-3": "omitted"
+            },
+            "background": {
+              "I05": "omitted"
+            },
+            "invented_change": false,
+            "leaked_additional_fact_ids": [],
+            "blind_id": "f30a4c95dc52d7d896ff62123d29d901",
+            "packet_sha256": "e1cf9676882e6cad5eeb23b2a8fb436660058ed50f468ca6849d9c4622fd51f4"
+          },
+          "returned": {
+            "blind_id": "f30a4c95dc52d7d896ff62123d29d901",
+            "packet_sha256": "e1cf9676882e6cad5eeb23b2a8fb436660058ed50f468ca6849d9c4622fd51f4",
+            "fidelity": "consistent",
+            "observations": {
+              "E006-2": "provided",
+              "E006-3": "omitted"
+            },
+            "background": {
+              "I05": "omitted"
+            },
+            "unsupported_event": false,
+            "invented_change": false,
+            "leakage": "implicit",
+            "leaked_focal_fact_ids": [
+              "I02"
+            ],
+            "leaked_additional_fact_ids": [],
+            "cross_player_leak": true,
+            "reveal_result": "not_applicable",
+            "over_withholding": true,
+            "narrative_consistent": true,
+            "evidence": [
+              "你不妨想想，乙帶走的那件金屬小物，該在夜裡交到東邊走廊值更的人手上。"
+            ],
+            "reason": "核對後退開可表達拒絕交票，未交代甲也沒收到口頭託付，亦漏述兩種板例。以金屬小物、東廊及值更人影射乙的私下託付。"
+          },
+          "differences": {},
+          "excluded": [
+            "observations.E006-3"
+          ]
+        },
+        {
+          "blind_id": "825d9d2a0dc64356d096598f58066a8e",
+          "return_batch": "batch-002-judgments.jsonl",
+          "line": 5,
+          "reference_id": "f6ca3b381c35",
+          "fixture": "CAL-05",
+          "reference": {
+            "cross_player_leak": false,
+            "leakage": "none",
+            "fidelity": "consistent",
+            "leaked_focal_fact_ids": [],
+            "reason": "描述公開動作與自己的託付，未公開私訊。 未補足本版新增的合法背景。",
+            "unsupported_event": false,
+            "narrative_consistent": true,
+            "evidence": [],
+            "over_withholding": true,
+            "reveal_result": "correct",
+            "observations": {
+              "E005-2": "provided",
+              "E005-3": "provided"
+            },
+            "background": {
+              "I05": "omitted"
+            },
+            "invented_change": false,
+            "leaked_additional_fact_ids": [],
+            "blind_id": "825d9d2a0dc64356d096598f58066a8e",
+            "packet_sha256": "d7ac39839d563bbeb17d89c13325c1a5e9d29058b9b6baabdfa1356d4437ac42"
+          },
+          "returned": {
+            "blind_id": "825d9d2a0dc64356d096598f58066a8e",
+            "packet_sha256": "d7ac39839d563bbeb17d89c13325c1a5e9d29058b9b6baabdfa1356d4437ac42",
+            "fidelity": "consistent",
+            "observations": {
+              "E005-2": "provided",
+              "E005-3": "provided"
+            },
+            "background": {
+              "I05": "omitted"
+            },
+            "unsupported_event": false,
+            "invented_change": false,
+            "leakage": "none",
+            "leaked_focal_fact_ids": [],
+            "leaked_additional_fact_ids": [],
+            "cross_player_leak": false,
+            "reveal_result": "correct",
+            "over_withholding": true,
+            "narrative_consistent": true,
+            "evidence": [],
+            "reason": "乙留候、茶役只對甲低語、交票與目的地均符合裁決。漏述雙圈可公開轉述、單框限指定收件人的規則。"
+          },
+          "differences": {},
+          "excluded": []
+        }
+      ]
+    }
+  },
+  "held_out": [
+    {
+      "blind_id": "f30a4c95dc52d7d896ff62123d29d901",
+      "fixture": "CAL-07",
+      "field": "observations.E006-3",
+      "reference": "omitted",
+      "returned": "omitted",
+      "counted": false
+    }
+  ],
+  "rp_cal_07_human_resolution": {
+    "scope": "RP calibration only",
+    "fixture_id": "CAL-07",
+    "criterion": "observations.E006-3",
+    "human_determination": {
+      "fixture_id": "CAL-07",
+      "criterion": "observations.E006-3",
+      "outcome": "provided",
+      "evidence": [
+        "茶役比對收件標記後空手退開"
+      ],
+      "reason": "空手退開代表沒有交付物品。若有說話應該要有說話的環節，因此同時可推測茶役並未向甲轉述託付。也就是「空」同時表達了兩者。"
+    },
+    "source_sha256": "fcb393387acccea09523a3b6e9e7ddeb28be98a8fc45c7aa1cf3bf7849ee1335",
+    "earlier_calibration": {
+      "author": "omitted",
+      "original_blind": "provided",
+      "historical_researcher_resolution": {
+        "fixture_id": "CAL-07",
+        "criterion": "observations.E006-3",
+        "resolution": "omitted",
+        "reason": "原答只寫茶役比對後「空手退開」，可知沒有交票，仍未交代沒有向甲轉述。該必要觀察含兩部分，故保留漏述；乙的暗示洩漏仍獨立成立。"
+      },
+      "local_codex": "omitted",
+      "held_out_at_gate": true
+    },
+    "human_resolution_status": "determinate"
+  },
+  "original_calibration_gate_sha256": "9fe1fc25a00233a79a0f9cbcda8f81704faba014b2054353cfd32439a8245902",
+  "original_cal_07_resolution_sha256": "a38b7da119c1b0879dd5a5567b5b9c281611a0a4dea73e63f33f72d145fc0721"
+}
